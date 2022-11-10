@@ -2,7 +2,6 @@ import React, {useEffect, useState} from 'react';
 import '../App.css';
 import Table from './Table';
 import Categories from './Categories';
-import Equation from './Equation';
 import ElementCard from './ElementCard';
 
 function App() {
@@ -11,10 +10,11 @@ function App() {
   const [tagState, setTagState] = useState([]);
   const [tagCardElements, setTagCardElements] = useState([]);
   const [selectedCategory, setSelectedCategory] = useState('');
+  console.log(tagCardElements)
 
   useEffect(() => {
     const fetchData = async () => {
-      const data = await fetch("http://localhost:3000/idioms");
+      const data = await fetch("http://localhost:8008/idioms");
       const response = await data.json()
       setElements(response)
       let x = response.map((idiom) => {
@@ -28,13 +28,23 @@ function App() {
     
   }, []);
 
+  function filterElementsAndPopulateElementCard(selectedTag)
+{
+    setTagCardElements((elements.filter((el)=>{
+        return (
+          el.tags.includes(selectedTag)
+    )
+  })))
+    
+}
+
+
 
 
   return (
     <div>
       <Table elements={elements}/>
-      <Categories elements={elements} tagState={tagState}/>
-      <Equation/>
+      <Categories elements={elements} tagState={tagState} filterElementsAndPopulateElementCard={filterElementsAndPopulateElementCard}/>
       <ElementCard tagCardElements={tagCardElements}/>
     </div>
   );

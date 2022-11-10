@@ -45,13 +45,14 @@ body {
 
 .categorySmall {
   padding: 2% 2.5%;
-  border: 1px solid #ccc;
+  border: 1px solid rgb(234, 154, 154);
   border-radius: 5px;
   margin: 0 1.5%;
+  background-color: rgb(46, 243, 177);
 
 }
 
 .categorySmall:hover {
-  background-color: rgb(234, 75, 75);
+  background-color: rgb(234, 98, 98);
   transition: all 0.2s ease-in-out;
 }
