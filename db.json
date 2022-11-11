@@ -1,32 +1,70 @@
 {
-    "idioms": [
-      {
-        "id": 1,
-        "abbr": "Bl",
-        "phrase": "A blessing in disguise",
-        "meaning": "a good thing that seemed bad at first",
-        "usage": "as part of a sentence",
-        "tags": ["verb", "happy", "advice"],
-        "elNum": 1
-      },
-      {
-        "id": 2,
-        "abbr": "Ir",
-        "phrase": "Iridiom",
-        "meaning": "A periodic table of Idioms",
-        "usage": "as part of a sentence",
-        "tags": ["here"],
-        "elNum": 77
-      },
-      {
-        "id": 3,
-        "abbr": "Di",
-        "phrase": "A dime a dozen",
-        "meaning": "Something common",
-        "usage": "as part of a sentence",
-        "tags": ["noun", "advice"],
-        "elNum": 2
-      }
-      
-    ]
-  }
+  "idioms": [
+    {
+      "id": 1,
+      "abbr": "Bl",
+      "phrase": "A blessing in disguise",
+      "meaning": "a good thing that seemed bad at first",
+      "usage": "as part of a sentence",
+      "tags": [
+        "verb",
+        "happy",
+        "advice"
+      ],
+      "elNum": 1
+    },
+    {
+      "id": 2,
+      "abbr": "Ir",
+      "phrase": "Iridiom",
+      "meaning": "A periodic table of Idioms",
+      "usage": "as part of a sentence",
+      "tags": [
+        "here"
+      ],
+      "elNum": 77
+    },
+    {
+      "id": 3,
+      "abbr": "Di",
+      "phrase": "A dime a dozen",
+      "meaning": "Something common",
+      "usage": "as part of a sentence",
+      "tags": [
+        "noun",
+        "advice"
+      ],
+      "elNum": 2
+    },
+    {
+      "id": 4,
+      "abbr": "Sd",
+      "phrase": "Spitting distance",
+      "meaning": "A short distance",
+      "usage": "as part of a sentence",
+      "tags": [
+        "noun",
+        "informal"
+      ],
+      "elNum": 3
+    },
+    {
+      "abbr": "St",
+      "phrase": "A stone's throw (away)",
+      "meaning": "a short distance",
+      "usage": "as part of a sentence",
+      "tags": "noun",
+      "elNum": 4,
+      "id": 5
+    },
+    {
+      "abbr": "Bh",
+      "phrase": "A bird in the hand is worth two in the bush",
+      "meaning": "What you have now is worth more than what you might have later",
+      "usage": "by itself",
+      "tags": "advice",
+      "elNum": "5",
+      "id": 6
+    }
+  ]
+}
