@@ -1,20 +1,19 @@
-import React, {useState} from "react";
+import React from "react";
 
+export default function TagCard({tagName, handleTagCardClick}){
 
-export default function TagCard({tagName, filterElementsAndPopulateElementCard}){
-
-    const [tagCardBoolean, setTagCardBoolean] = useState(true)
-
-    function handleTagCardClick(e){
-        //call a function here that passes the tagname up
-        setTagCardBoolean(!tagCardBoolean)
-        return filterElementsAndPopulateElementCard(e.target.value)
+    function handleClick(e){
         
+        //call a function here that passes the tagname up
+        handleTagCardClick(e.target.value);
     }
 
     return(
-        <button className={tagCardBoolean ? "categorySmall" : "blue"} value={tagName} onClick={handleTagCardClick}>
+        <button className="categorySmall" value={tagName} onClick={handleClick}>
             {tagName}
         </button>
     )
 }
+
+
+// {tagCardBoolean ? "categorySmall" : "inEquation"}

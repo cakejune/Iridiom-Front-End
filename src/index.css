@@ -22,40 +22,6 @@
   align-items: center;
 }
 
-.first-row {
-  cursor: pointer;
-  width: 5vw;
-  height: 5vw;
-  padding: 2px;
-  border: 1px solid #333;
-  border-collapse: collapse;
-  overflow: hidden;
-  transition: all 0.2s ease-in-out;
-}
 
-.first-row:hover {
-  background-color: aqua;
 
-}
 
-table {
-  border: 2px solid forestgreen;
-  width: 800px;
-  height: 200px;
-}
-  
-th {
-  border-bottom: 1px solid black;
-}
-  
-td {
-  text-align: center;
-}
-
-.elNumber {
-  text-align: left;
-}
-
-.elName{
-  text-align:center;
-}

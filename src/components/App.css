@@ -52,7 +52,130 @@ body {
 
 }
 
+.inEquation {
+  padding: 2% 2%;
+  border: 1px solid rgb(234, 154, 154);
+  border-radius: 50px;
+  margin: 0 1.5%;
+
+}
+
+sub {
+  pointer-events: none
+}
+
+.inEquation:hover {
+  background-color: rgb(234, 98, 98);
+  transition: all 0.2s ease-in-out;
+}
 .categorySmall:hover {
   background-color: rgb(234, 98, 98);
   transition: all 0.2s ease-in-out;
+}
+
+button .inEquation{
+  background-color: rgb(75, 27, 233);
+}
+/*ADD-ELEMENT */
+#add-Idiom {
+  display: flex;
+  border: 1px solid rgb(234, 154, 154);
+  border-radius: 50px;
+  margin: 0 1.5%;
+  align-items: center;
+  flex-direction: column-reverse;
+}
+
+/* ELEMENTS IN TABLE*/
+table {
+  border: 2px solid rgba(116, 116, 116, 0.429);
+  border-radius: 30px;
+  width: 800px;
+  height: 200px;
+}
+  
+th {
+  border-bottom: 1px solid black;
+}
+  
+td {
+  text-align: center;
+}
+
+.elNumber {
+  text-align: left;
+}
+
+.elName{
+  text-align:center;
+}
+
+/*ELEMENT CATEGORIES*/
+.elementCategorymoney {
+  cursor: pointer;
+  width: 5vw;
+  height: 5vw;
+  padding: 2px;
+  background-color: rgb(244, 241, 89);
+  border: 1px solid #333;
+  border-collapse: collapse;
+  overflow: hidden;
+  transition: all 0.2s ease-in-out;
+}
+
+.elementCategorymoney:hover {
+  background-color: rgb(244, 241, 29);
+  transform: scale(1.5);
+
+}
+.elementCategoryadvice {
+  cursor: pointer;
+  width: 5vw;
+  height: 5vw;
+  padding: 2px;
+  background-color: rgb(212, 233, 180);
+  border: 1px solid #333;
+  border-collapse: collapse;
+  overflow: hidden;
+  transition: all 0.2s ease-in-out;
+}
+
+.elementCategoryadvice:hover {
+  background-color: rgb(86, 233, 51);
+  transform: scale(1.5);
+
+}
+.elementCategoryaction {
+  cursor: pointer;
+  width: 5vw;
+  height: 5vw;
+  padding: 2px;
+  background-color: rgb(245, 189, 106);
+  border: 1px solid #333;
+  border-collapse: collapse;
+  overflow: hidden;
+  transition: all 0.2s ease-in-out;
+}
+
+.elementCategoryaction:hover {
+  background-color: rgb(245, 189, 41);
+  transform: scale(1.5);
+
+}
+.elementCategorywebsite-name {
+  cursor: pointer;
+  width: 5vw;
+  height: 5vw;
+  padding: 2px;
+  background-color: rgb(242, 138, 246);
+  border: 1px solid #333;
+  border-collapse: collapse;
+  overflow: hidden;
+  transition: all 0.2s ease-in-out;
+}
+
+.elementCategorywebsite-name:hover {
+  background-color: rgb(242, 25, 246);
+  transform: scale(1.5);
+
 }

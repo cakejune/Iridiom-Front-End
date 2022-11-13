@@ -11,7 +11,8 @@
         "happy",
         "advice"
       ],
-      "elNum": 1
+      "elNum": 1,
+      "category": "advice"
     },
     {
       "id": 2,
@@ -22,7 +23,8 @@
       "tags": [
         "here"
       ],
-      "elNum": 77
+      "elNum": 77,
+      "category": "website-name"
     },
     {
       "id": 3,
@@ -34,7 +36,8 @@
         "noun",
         "advice"
       ],
-      "elNum": 2
+      "elNum": 2,
+      "category": "money"
     },
     {
       "id": 4,
@@ -46,15 +49,17 @@
         "noun",
         "informal"
       ],
-      "elNum": 3
+      "elNum": 3,
+      "category": "action"
     },
     {
       "abbr": "St",
       "phrase": "A stone's throw (away)",
       "meaning": "a short distance",
       "usage": "as part of a sentence",
-      "tags": "noun",
+      "tags": ["noun"],
       "elNum": 4,
+      "category": "action",
       "id": 5
     },
     {
@@ -62,8 +67,9 @@
       "phrase": "A bird in the hand is worth two in the bush",
       "meaning": "What you have now is worth more than what you might have later",
       "usage": "by itself",
-      "tags": "advice",
+      "tags": ["advice"],
       "elNum": "5",
+      "category": "advice",
       "id": 6
     }
   ]

@@ -169,3 +169,6 @@ When it rains it pours	Everything is going wrong at once	by itself
 You can catch more flies with honey than you can with vinegar	You'll get what you want by being nice	by itself
 You can lead a horse to water, but you can't make him drink	You can't force someone to make the right decision	by itself
 You can't make an omelet without breaking some eggs	There's always a cost to doing something	by itself
+Better Safe than Sorry
+A diamond in the rough
+A stone's throw away CHECK
