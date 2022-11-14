@@ -3,10 +3,6 @@ import Element from "./Element";
 
 export default function Table({ elements }) {
 
-  // const eAdvice = [...elements].filter((e) => {
-  //   e.category === "advice"
-  // });
-
   return (
     <div className="App">
       <table>

@@ -111,71 +111,81 @@ td {
 }
 
 /*ELEMENT CATEGORIES*/
-.elementCategorymoney {
+.elementCategory{
   cursor: pointer;
   width: 5vw;
   height: 5vw;
   padding: 2px;
-  background-color: rgb(244, 241, 89);
   border: 1px solid #333;
   border-collapse: collapse;
   overflow: hidden;
   transition: all 0.2s ease-in-out;
 }
+.elementCategory.money {
+  background-color: rgb(244, 241, 89);
+}
 
-.elementCategorymoney:hover {
+.elementCategory.money:hover {
   background-color: rgb(244, 241, 29);
   transform: scale(1.5);
 
 }
-.elementCategoryadvice {
-  cursor: pointer;
-  width: 5vw;
-  height: 5vw;
-  padding: 2px;
+.elementCategory.advice {
   background-color: rgb(212, 233, 180);
-  border: 1px solid #333;
-  border-collapse: collapse;
-  overflow: hidden;
-  transition: all 0.2s ease-in-out;
 }
 
-.elementCategoryadvice:hover {
+.elementCategory.advice:hover {
   background-color: rgb(86, 233, 51);
   transform: scale(1.5);
-
 }
-.elementCategoryaction {
+.elementCategory.action {
+  background-color: rgb(245, 189, 106);
+}
+
+.elementCategory.action:hover {
+  background-color: rgb(245, 189, 41);
+  transform: scale(1.5);
+}
+.elementCategory.website-name {
+  background-color: rgb(242, 138, 246);
+}
+
+.elementCategory.website-name:hover {
+  background-color: rgb(242, 25, 246);
+  transform: scale(1.5);
+}
+
+/*table grid
+*/
+/* .row{
   cursor: pointer;
-  width: 5vw;
-  height: 5vw;
+  width: 30px;
+  height: 30px;
   padding: 2px;
   background-color: rgb(245, 189, 106);
   border: 1px solid #333;
   border-collapse: collapse;
   overflow: hidden;
   transition: all 0.2s ease-in-out;
-}
-
-.elementCategoryaction:hover {
-  background-color: rgb(245, 189, 41);
-  transform: scale(1.5);
-
-}
-.elementCategorywebsite-name {
+  display: inline-block;
+  width:100%;
+} */
+.notRow{
   cursor: pointer;
   width: 5vw;
   height: 5vw;
   padding: 2px;
-  background-color: rgb(242, 138, 246);
-  border: 1px solid #333;
+  background-color: transparent;
+  border: 1px transparent;
   border-collapse: collapse;
   overflow: hidden;
   transition: all 0.2s ease-in-out;
+  display: inline-block;
+  width:100%; 
 }
 
-.elementCategorywebsite-name:hover {
-  background-color: rgb(242, 25, 246);
-  transform: scale(1.5);
+.tableGrid{
+  display:grid;
+  grid-template-columns: repeat(18, 1fr);
 
 }

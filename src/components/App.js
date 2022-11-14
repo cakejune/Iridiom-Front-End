@@ -3,6 +3,7 @@ import "./App.css";
 import Table from "./TableF/Table";
 import Categories from "./CategoriesF/Categories";
 import ElementCard from "./ElementCardF/ElementCard";
+import TableGrid from "./TableF/TableGrid";
 
 function App() {
   const [elements, setElements] = useState([]);
@@ -41,7 +42,7 @@ function App() {
       body: JSON.stringify(newIdiomObject),
     });
     const data = response.json();
-    setElements([...elements], data);
+    setElements([...elements, data]);
   }
 
   function filterElementsByTags(tagsInEquationArray) {
@@ -62,7 +63,8 @@ function App() {
 
   return (
     <div>
-      <Table elements={elements} />
+      {/* <Table elements={elements} /> */}
+      <TableGrid elements={elements}/>
       <AddElement postIdiom={postIdiom} />
       <Categories
         elements={elements}

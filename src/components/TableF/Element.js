@@ -3,7 +3,6 @@ import React from "react";
 export default function Element({element}) {
     function handleClick(){
         console.log(element)
-
     }
 
     return(
