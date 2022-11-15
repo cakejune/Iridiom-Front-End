@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./App.css";
 import Table from "./TableF/Table";
 import Categories from "./CategoriesF/Categories";
-import ElementCard from "./ElementCardF/ElementCard";
+import SearchResults from "./SearchResults/SearchResults";
 import TableGrid from "./TableF/TableGrid";
 
 function App() {
@@ -57,21 +57,20 @@ function App() {
       });
     })
     setMatchedElementsWithTags(filteredElements);
-    console.log(filteredElements)
    
   }
 
   return (
-    <div>
+    <div className="appDiv">
       {/* <Table elements={elements} /> */}
       <TableGrid elements={elements}/>
-      <AddElement postIdiom={postIdiom} />
+      {/* <AddElement postIdiom={postIdiom} /> */}
       <Categories
         elements={elements}
         tagState={tagState}
         filterElementsByTags={filterElementsByTags}
       />
-      <ElementCard matchedElementsWithTags={matchedElementsWithTags} />
+      <SearchResults matchedElementsWithTags={matchedElementsWithTags} />
     </div>
   );
 

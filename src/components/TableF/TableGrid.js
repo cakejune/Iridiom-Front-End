@@ -1,6 +1,7 @@
 import { render } from "@testing-library/react";
 import React, { useEffect } from "react";
 import ElementGrid from "./ElementGrid";
+import IdiomInfoModal from "./IdiomInfoModal";
 
 export default function TableGrid({ elements }) {
   
@@ -10,7 +11,6 @@ export default function TableGrid({ elements }) {
     for (const el of elements) {
       newTable[el.xy] = el;
     }
-    console.log(newTable)
    return newTable;
   }
  

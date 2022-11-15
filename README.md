@@ -92,3 +92,8 @@ const table2 = {
   "0,18":{idiom: "idiom"},	"1,18":{idiom: "idiom"},	"2,18":{idiom: "idiom"},	"3,18":{idiom: "idiom"},	"4,18":{idiom: "idiom"},	"5,18":{idiom: "idiom"},	"6,18":{idiom: "idiom"},	"7,18":{idiom: "idiom"},	"8,18":{idiom: "idiom"},	"9,18":{idiom: "idiom"},	"10,18":{idiom: "idiom"},	"11,18":{idiom: "idiom"},	"12,18":{idiom: "idiom"},	"13,18":{idiom: "idiom"},	"14,18":{idiom: "idiom"},	"15,18":{idiom: "idiom"},	"16,18":{idiom: "idiom"},	"17,18":{idiom: "idiom"},	"18,18":{idiom: "idiom"}
   
 }
+
+//create a patch request to add tags
+
+EDIT IDIOM PAGE 
+little pencil icon with 🖉edit
