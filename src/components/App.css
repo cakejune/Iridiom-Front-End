@@ -1,5 +1,5 @@
 body {
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
 }
 
 .App {
@@ -14,7 +14,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
 }
 .Equation {
   width: 80%;
@@ -24,7 +24,7 @@ body {
   align-items: center;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
 
 .App {
   text-align: center;
@@ -65,15 +65,13 @@ body {
   }
 }
 
-
 .categorySmall {
   padding: 2% 2.5%;
   border: 1px solid rgb(234, 154, 154);
   border-radius: 5px;
   margin: 0 1.5%;
   background-color: rgb(46, 243, 177);
-  font-family: 'Roboto Mono', monospace;
-
+  font-family: "Roboto Mono", monospace;
 }
 
 .inEquation {
@@ -81,11 +79,12 @@ body {
   border: 1px solid rgb(234, 154, 154);
   border-radius: 50px;
   margin: 0 1.5%;
-
+  animation-name: animategrow;
+  animation-duration: 0.4s;
 }
 
 sub {
-  pointer-events: none
+  pointer-events: none;
 }
 
 .inEquation:hover {
@@ -97,7 +96,7 @@ sub {
   transition: all 0.2s ease-in-out;
 }
 
-button .inEquation{
+button .inEquation {
   background-color: rgb(75, 27, 233);
 }
 /*ADD-ELEMENT */
@@ -117,11 +116,11 @@ table {
   width: 800px;
   height: 200px;
 }
-  
+
 th {
   border-bottom: 1px solid black;
 }
-  
+
 td {
   text-align: center;
 }
@@ -130,12 +129,12 @@ td {
   text-align: left;
 }
 
-.elName{
-  text-align:center;
+.elName {
+  text-align: center;
 }
 
 /*ELEMENT CATEGORIES*/
-.elementCategory{
+.elementCategory {
   cursor: pointer;
   width: 4vw;
   height: 4vw;
@@ -154,7 +153,6 @@ td {
 .elementCategory.money:hover {
   background-color: rgb(244, 241, 29);
   transform: scale(1.5);
-
 }
 .elementCategory.advice {
   background-color: rgb(212, 233, 180);
@@ -196,7 +194,7 @@ td {
   display: inline-block;
   width:100%;
 } */
-.notRow{
+.notRow {
   cursor: pointer;
   width: 4vw;
   height: 4vw;
@@ -209,26 +207,24 @@ td {
   transition: all 0.2s ease-in-out;
   display: inline-block;
   pointer-events: none;
-
 }
 
-.tableGrid{
-  display:grid;
+.tableGrid {
+  display: grid;
   grid-template-columns: repeat(18, 4.5vw);
-  justify-content:center;
+  justify-content: center;
 }
 
 /*SearchResults
 */
 
-.SearchResults{
-  display:grid;
+.SearchResults {
+  display: grid;
   grid-column: auto;
   background-color: antiquewhite;
   min-height: 15vw;
 }
 .elementTag {
-
   cursor: pointer;
   width: 4vw;
   height: 4vw;
@@ -240,4 +236,77 @@ td {
   overflow: hidden;
   transition: all 0.2s ease-in-out;
   text-align: center;
+  animation-name: animategrow;
+  animation-duration: 0.4s;
 }
+
+/*MODALS*/
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 300px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: #6b6d6b45;
+  color: white;
+}
+.modal-body {
+  padding: 2px 16px;
+}
+
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #6b6d6b45;
+  color: white;
+}
+
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 30%;
+  height: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  animation-name: animategrow;
+  animation-duration: 0.4s;
+}
+@keyframes animategrow {
+  from {
+    opacity: 0;
+    transform: scale(0.8)
+  }
+  to {
+    opacity: 1;
+    transform: scale(1)
+  }
+}
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+
+
+
