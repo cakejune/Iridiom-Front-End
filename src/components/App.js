@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
-import Table from "./TableF/Table";
+import Navbar from "./Navbar";
 import Categories from "./CategoriesF/Categories";
 import SearchResults from "./SearchResults/SearchResults";
 import TableGrid from "./TableF/TableGrid";
@@ -62,6 +62,7 @@ function App() {
 
   return (
     <div className="appDiv">
+      <Navbar />
       {/* <Table elements={elements} /> */}
       <TableGrid elements={elements}/>
       {/* <AddElement postIdiom={postIdiom} /> */}

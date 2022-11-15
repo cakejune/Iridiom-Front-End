@@ -15,16 +15,21 @@ export default function ElementGrid({ element }) {
   return (
     <>
       <Modal className="modal" show={show} onHide={handleClose}>
+        <span className="cardAbbr">{element.abbr}</span>
         <Modal.Header className="modal-header" closeButton>
-          <Modal.Title>{element.abbr}</Modal.Title>
+          <Modal.Title>"{element.phrase}"</Modal.Title>
         </Modal.Header>
-        <Modal.Body className="modal-content">{element.phrase}</Modal.Body>
+        <Modal.Body className="modal-content">
+          Meaning: 
+          <p>"{element.meaning}"</p>
+        </Modal.Body>
         <Modal.Footer className="modal-footer">
+          <sub className="tagSub">Tags:</sub>
+          {element.tags.map((tag) => {
+            return <sub className="tagSub">| {tag} |</sub>;
+          })}
           <Button variant="secondary" className="close" onClick={handleClose}>
             Close
-          </Button>
-          <Button variant="primary" onClick={handleClose}>
-            Save Changes
           </Button>
         </Modal.Footer>
       </Modal>
