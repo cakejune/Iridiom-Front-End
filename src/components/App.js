@@ -49,22 +49,21 @@ function App() {
     //tagsInEquationArray = ['informal', 'here']
     const filteredElements = elements.filter((el) => {
       //use the smaller list of items with .every
-      if(tagsInEquationArray.length===0){
+      if (tagsInEquationArray.length === 0) {
         return false;
       }
       return tagsInEquationArray.every((tag) => {
         return el.tags.includes(tag);
       });
-    })
+    });
     setMatchedElementsWithTags(filteredElements);
-   
   }
 
   return (
     <div className="appDiv">
       <Navbar />
       {/* <Table elements={elements} /> */}
-      <TableGrid elements={elements}/>
+      <TableGrid elements={elements} />
       {/* <AddElement postIdiom={postIdiom} /> */}
       <Categories
         elements={elements}
