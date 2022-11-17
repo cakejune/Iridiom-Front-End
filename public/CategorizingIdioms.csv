@@ -1,0 +1,117 @@
+id,elNum,abbr,phrase,meaning,usage,tags,category
+4,4,St,A stone's throw (away),a short distance,as part of a sentence,noun,action
+1,1,Bl,A blessing in disguise,a good thing that seemed bad at first,as part of a sentence,"[""verb"", ""happy"", ""advice""]",advice
+6,6,,Don't give up your day job,You're not very good at this,by itself,,Advice
+7,7,,Don't judge a book by its cover,,by itself,Books,Advice
+8,8,,Don't put all your eggs in one basket,What you're doing is too risky,by itself,Animals,Advice
+9,9,,Good things come to those who wait,Be patient,by itself,,Advice
+10,10,,Slow and steady wins the race,Reliability is more important than speed,by itself,,Advice
+5,5,Bh,A bird in the hand is worth two in the bush,What you have is worth more than what you might have later,by itself,advice,Animals
+11,11,,Barking up the wrong tree,"To be mistaken, to be looking for solutions in the wrong place",as part of a sentence,,Animals
+12,12,,Beat a dead horse,"Move on, this subject is over",by itself,,Animals
+13,13,,Don't count your chickens before they hatch,Don't count on something good happening until it's happened.,by itself,Advice,Animals
+14,14,,Every dog has his day,Everyone gets a chance at least once,by itself,,Animals
+15,15,,Go on a wild goose chase,To do something pointless,as part of a sentence,,Animals
+16,16,,Hair of the dog,,as part of a sentence,Dogs,Animals
+17,17,,He has bigger fish to fry,He has bigger things to take care of than what we are talking about now,by itself,,Animals
+18,18,,Hear something straight from the horse's mouth,Hear something from the person involved,as part of a sentence,,Animals
+19,19,,It's raining cats and dogs,It's raining hard,by itself,,Animals
+20,20,,Kill two birds with one stone,Get two things done with a single action,by itself,,Animals
+21,21,,Let sleeping dogs lie,Stop discussing an issue,as part of a sentence,,Animals
+22,22,,There are many ways to skin a cat,,by itself,,Animals
+23,23,,Bite off more than you can chew,Take on a project that you cannot finish,as part of a sentence,,Body Parts
+24,24,,Bite the bullet,To get something over with because it is inevitable,as part of a sentence,,Body Parts
+25,25,,By the skin of your teeth,Just barely,as part of a sentence,,Body Parts
+26,26,,Costs an arm and a leg,Very expensive,as part of a sentence,,Body Parts
+27,27,,Get out of hand,Get out of control,as part of a sentence,,Body Parts
+28,28,,Get something out of your system,Do the thing you've been wanting to do so you can move on,as part of a sentence,,Body Parts
+29,29,,Give someone the cold shoulder,Ignore someone,as part of a sentence,,Body Parts
+30,30,,Cat got your tongue?,Can't think of anything to say?,by itself,Cats,Body Parts
+31,31,,Hit the nail on the head,Get something exactly right,by itself,,Body Parts
+32,32,,Pull someone's leg,To joke with someone,as part of a sentence,,Body Parts
+33,33,,A weight off your shoulders,,as part of a sentence,,Body Parts
+34,34,,Achilles heel,,as part of a sentence,,Body Parts
+35,35,,Beauty is in the eye of the beholder,,by itself,,Body Parts
+36,36,,break a leg,,by itself,,Body Parts
+37,37,,Gut feeling,,as part of a sentence,,Body Parts
+38,38,,My hands are tied,,by itself,,Body Parts
+39,39,,Head start,,as part of a sentence,,Body Parts
+40,40,,Joined at the hip,,as part of a sentence,,Body Parts
+41,41,,Pain in the neck/ass,,as part of a sentence,,Body Parts
+42,42,,to put your foot in your mouth,,as part of a sentence,,Body Parts
+43,43,,Sight for sore eyes,,as part of a sentence,,Body Parts
+44,44,,Weak at the knees,,as part of a sentence,,Body Parts
+45,45,,A picture is worth 1000 words,Better to show than tell,by itself,,Books
+46,46,,An open book,,as part of a sentence,Books,Books
+47,47,,Make a long story short,Tell something briefly,as part of a sentence,,Books
+48,48,,By the book,,as part of a sentence,,Books
+49,49,,Cook the books,,as part of a sentence,,Books
+50,50,,Read someone like a book,,by itself,,Books
+51,51,,Reading in between the lines,,as part of a sentence,,Books
+52,52,,The oldest trick in the book,,as part of a sentence,,Books
+53,53,,Curiosity killed the cat,Stop asking questions,by itself,,Cats
+54,54,,Let the cat out of the bag,Give away a secret,as part of a sentence,,Cats
+55,55,,Look what the cat dragged in,,by itself,,Cats
+56,56,,"When the cat’s away, the mice will play",,by itself,,Cats
+57,57,Numbers,Do something at the drop of a hat,Do something without having planned beforehand,as part of a sentence,,Clothing
+58,58,,A Mexican Standoff,,as part of a sentence,,Country
+59,59,,Irish Exit,,as part of a sentence,,Country
+60,60,,It’s all Greek to me,,by itself,,Country
+61,61,,When in rome,,by itself,,Country
+62,62,,Don't crying over spilt milk,There's no reason to complain about something that can't be fixed,by itself,,Food
+63,63,,Get a taste of your own medicine,Get treated the way you've been treating others (negative),as part of a sentence,,Food
+64,64,,It's a piece of cake,It's easy,by itself,,Food
+65,65,,Like two peas in a pod,They're always together,as part of a sentence,,Food
+66,66,,Out of the frying pan and into the fire,Things are going from bad to worse,by itself,Nature,Food
+67,67,,Spill the beans,Give away a secret,as part of a sentence,,Food
+68,68,,Take it with a grain of salt,Don’t take it too seriously,as part of a sentence,,Food
+69,69,,A bad apple,,as part of a sentence,,Fruits
+70,70,,A Bite at the cherry,,as part of a sentence,,Fruits
+71,71,,A plum job,,as part of a sentence,,Fruits
+72,72,,An apple a day keeps the doctor away,Apples are good for you,by itself,,Fruits
+73,73,,Comparing apples to oranges,Comparing two things that cannot be compared,as part of a sentence,,Fruits
+74,74,,Go Bananas,,as part of a sentence,,Fruits
+75,75,,Go pear-shaped,,as part of a sentence,,Fruits
+76,76,,Lemon,,as part of a sentence,,Fruits
+77,77,,Peach(y),,as part of a sentence,,Fruits
+78,78,,the apple doesn't fall far from the tree,,by itself,,Fruits
+79,79,,The apple of your eye,,as part of a sentence,,Fruits
+80,80,,Ball and Chain,,,,Love
+81,81,,Be An Item,,,,Love
+82,82,,Be Head Over Heels (In Love),,,Body Parts,Love
+83,83,,Be Lovey-Dovey,,,,Love
+84,84,,Birds of a feather flock together,"beings (typically humans) of similar type, interest, personality, character, or other distinctive attribute tend to mutually associate.",,Animals,Love
+85,85,,Blind Date,,,Body Parts,Love
+86,86,,Fall In Love With Somebody,,,,Love
+87,87,,Love At First Sight,,,,Love
+88,88,,Match Made In Heaven,,,,Love
+89,89,,Tie The Knot,,,,Love
+90,90,,A penny for your thoughts,Tell me what you're thinking,by itself,,Money
+91,91,,Buy Time,,,Time,Money
+92,92,,Beat around the bush,"Avoid saying what you mean, usually because it is uncomfortable",as part of a sentence,,Nature
+93,93,,Break the ice,Make people feel more comfortable,as part of a sentence,,Nature
+94,94,,Come rain or shine,No matter what,as part of a sentence,Nature,Nature
+95,95,,Every cloud has a silver lining,Good things come after bad things,by itself,,Nature
+96,96,,Fight fire with fire,,,Nature,Nature
+97,97,,Get a second wind,Have more energy after having been tired,as part of a sentence,Nature,Nature
+98,98,,Catch wind of something,Hear news of something secret,as part of a sentence,Nature,Nature
+99,99,,Go down in flames,Fail spectacularly,as part of a sentence,,Nature
+100,100,,Have your head in the clouds,Not be concentrating,as part of a sentence,Nature,Nature
+101,101,,In the dark,,,Nature,Nature
+102,102,,Know which way the wind is blowing,Understand the situation (usually negative),as part of a sentence,Nature,Nature
+103,103,,On cloud nine,Very happy,as part of a sentence,Nature,Nature
+104,104,,On thin ice,"On probation. If you make another mistake, there will be trouble.",as part of a sentence,Nature,Nature
+105,105,,Once in a blue moon,Rarely,as part of a sentence,,Nature
+106,106,,Put something on ice,Put a projet on hold,as part of a sentence,,Nature
+107,107,,Rain on someone's parade,To spoil something,as part of a sentence,Nature,Nature
+108,108,,Run like the wind,Run fast,as part of a sentence,Nature,Nature
+109,109,,Saving for a rainy day,Saving money for later,as part of a sentence,Nature,Nature
+110,110,,Shoot for the stars,,,Nature,Nature
+111,111,,Take a rain check,Postpone a plan,as part of a sentence,Nature,Nature
+112,112,,A snowball effect,Events have momentum and build upon each other,as part of a sentence,,Nature
+113,113,,A snowball's chance in hell,No chance at all,as part of a sentence,,Nature
+114,114,,As right as rain,Perfect,as part of a sentence,,Nature
+115,115,,Calm before the storm,"Something bad is coming, but right now it's calm",as part of a sentence,Nature,Nature
+116,116,,A rising tide lifts all ships,,,,Nature
+117,117,,Be/feel under the Nature,,,,Nature
+118,118,,Soak up the sun,,,,Nature

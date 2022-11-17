@@ -33,7 +33,11 @@ export default function Categories({
   return (
     <div className="categoryDiv">
       <div className="Categories">
-        {tagsInCard.map((tag) => {
+        <div className="categoryHeader">
+        <h2 id="idiomCategories">Idiom Categories</h2>
+        <h4 id="clickCategoryText">Click a category to find idioms that match!</h4>
+          <div className="categoryList">
+            {tagsInCard.map((tag) => {
           return (
             <TagCard
               filterElementsByTags={filterElementsByTags}
@@ -43,7 +47,10 @@ export default function Categories({
               handleTagCardClick={handleTagCardClick}
             />
           );
-        })}
+        })}</div>
+        
+        </div>
+        
       </div>
 
       <div>
@@ -55,7 +62,7 @@ export default function Categories({
   function Equation() {
     return (
       <div className="Equation">
-        <h3>Equation Div</h3>
+        <h3>Search Equation</h3>
 
         {tagsInEquation.map((tag, i) => {
           return (

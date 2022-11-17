@@ -4,6 +4,8 @@ import Navbar from "./Navbar";
 import Categories from "./CategoriesF/Categories";
 import SearchResults from "./SearchResults/SearchResults";
 import TableGrid from "./TableF/TableGrid";
+import { Route, Routes } from "react-router-dom";
+import SpecialThanks from "./SpecialThanks";
 
 function App() {
   const [elements, setElements] = useState([]);
@@ -59,18 +61,28 @@ function App() {
     setMatchedElementsWithTags(filteredElements);
   }
 
+
+
   return (
     <div className="appDiv">
       <Navbar />
-      {/* <Table elements={elements} /> */}
-      <TableGrid elements={elements} />
-      {/* <AddElement postIdiom={postIdiom} /> */}
-      <Categories
-        elements={elements}
-        tagState={tagState}
-        filterElementsByTags={filterElementsByTags}
-      />
-      <SearchResults matchedElementsWithTags={matchedElementsWithTags} />
+      <Routes>
+        <Route
+          
+          path="/"
+          element={[
+            <TableGrid elements={elements} key={1}/>,
+            <Categories
+              elements={elements}
+              tagState={tagState}
+              filterElementsByTags={filterElementsByTags}
+              key={2}
+            />,
+            <SearchResults matchedElementsWithTags={matchedElementsWithTags} key={3}/>,
+          ]}
+        ></Route>
+        <Route path="/special-thanks" element={<SpecialThanks key={4}/>}></Route>
+      </Routes>
     </div>
   );
 

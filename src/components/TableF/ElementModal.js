@@ -1,6 +1,7 @@
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import Cell from "./Cell";
+import Badge from 'react-bootstrap/Badge';
 
 export default function ElementModal({ element, show, handleClose }) {
   if (!element) {
@@ -11,22 +12,20 @@ export default function ElementModal({ element, show, handleClose }) {
     <Modal show={show} onHide={handleClose}>
       <Modal.Header closeButton>
         <Modal.Title className="idiomTitle">
-            <Cell element={element} handleClick={null}/>
-            <div className="idiomPhrase">{element.phrase}</div>
+          <Cell element={element} handleClick={null} />
+          <div className="idiomPhrase">{element.phrase}</div>
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        
-        Meaning:
-        {element.meaning}
-        <sub>Tags:</sub>
-        {element.tags.map((tag) => {
-          return (
-            <sub className="tagSub" key={tag}>
-              | {tag} |
-            </sub>
-          );
-        })}
+        <div className="modalBodyContent">
+          <div className="Meaning">Meaning: "{element.meaning}"</div>
+          <div className="tagContainer">
+            Tags:
+            {element.tags.map((tag) => {
+              return <Badge className="badgeTag" bg="secondary">{tag}</Badge>;
+            })}
+          </div>
+        </div>
       </Modal.Body>
       <Modal.Footer>
         <Button variant="secondary" className="close" onClick={handleClose}>

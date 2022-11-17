@@ -1,24 +1,27 @@
-body {
+#root {
   font-family: "Roboto Mono", monospace;
-  display: grid;
+  display: flex;
   justify-content: space-evenly;
+  background-image: linear-gradient(to bottom right, #ece9ee, #dfb8fe);
+}
+a:link {
+  text-decoration: none;
+  color: #fd0de2;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+a:visited {
+  text-decoration: none;
+  color: #fd0de2;
 }
 
-li {
-  float: left;
+a:hover {
+  text-decoration: none;
+  color: #fd0de2;
 }
 
-li a {
-  display: block;
-  padding: 8px;
-  background-color: #dddddd;
+a:active {
+  text-decoration: none;
+  color: #fd0de2;
 }
 
 .App {
@@ -28,19 +31,131 @@ li a {
   justify-content: center;
   align-items: center;
 }
+
+/*NavBar*/
+
+.navibar {
+  margin-bottom: 2%;
+  justify-content: space-between;
+  width: 100vw;
+  background-image: linear-gradient(to bottom right, #f2e6fb, #dfb8fe);
+  outline-style: double;
+  outline-color: #211c53;
+}
+.navibar-content {
+  align-items: center;
+  display: flex;
+  height: 3rem;
+  justify-content: space-between;
+}
+.leftlinks {
+  display: flex;
+  width: 150px;
+}
+.iridiomlink {
+  border: 2em;
+  border-radius: 10%;
+  width: 150px;
+  text-align: center;
+}
+
+/*Special Thanks Component*/
+
+.specialThanksContainer {
+  height: 100%;
+  height: 50vw;
+}
+.specialHeader {
+  color: rgb(0, 0, 0);
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff,
+    0 0 42px rgb(249, 54, 54), 0 0 82px rgb(249, 54, 54),
+    0 0 92px rgb(249, 54, 54), 0 0 102px rgb(249, 54, 54),
+    0 0 151px rgb(249, 54, 54);
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4em;
+  margin-top: 2em;
+}
+
+.specialThanksPeople {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.specialThanksCell {
+  cursor: pointer;
+  width: 15em;
+  height: 15em;
+  padding: 1px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 2em;
+  border: 1px solid #333;
+  border-radius: 20%;
+  border-collapse: collapse;
+  overflow: hidden;
+  transition: all 0.2s ease-in-out;
+  text-align: center;
+  background-image: linear-gradient(rgb(243, 193, 232), rgb(243, 5, 239));
+}
+.special-thanks {
+  width: 150px;
+}
+.personName {
+  display: flex;
+}
+.personAbbr {
+  display: flex;
+  flex-direction: column;
+  font-size: 1em;
+  margin: auto;
+}
+
+.personElementSquare {
+  display: flex;
+  flex-direction: column;
+  outline: blue;
+  width: 3.5em;
+  align-items: flex-start;
+  border-style: groove;
+  border-radius: 10px;
+  margin-left: 15px;
+  margin-top: 10px;
+  border-width: 1px;
+  height: 3.2em;
+}
+.personNumber {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 0.8em;
+}
+.peopleContent {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1em;
+  width: 90%;
+  margin: 0 auto;
+  align-items: stretch;
+  flex-wrap: wrap;
+  font-size: 0.9em;
+}
+
+/**/
 .Categories {
   height: 20vh;
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: "Roboto Mono", monospace;
+  margin-top: 3em;
 }
 .Equation {
-  width: 80%;
-  height: 20vh;
   display: flex;
-  justify-content: center;
   align-items: center;
+  margin-top: 2em;
+  justify-content: center;
+  margin-bottom: 2em;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
@@ -83,18 +198,35 @@ li a {
     transform: rotate(360deg);
   }
 }
+.categoryHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#idiomCategories {
+  font-size: medium;
+}
+#clickCategoryText {
+  font-size: small;
+}
 
+.categoryList {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 50em;
+  justify-content: center;
+}
 .categorySmall {
-  padding: 2% 2.5%;
   border: 1px solid rgb(234, 154, 154);
   border-radius: 5px;
   margin: 0 1.5%;
-  background-color: rgb(46, 243, 177);
+  background-color: antiquewhite;
   font-family: "Roboto Mono", monospace;
+  margin-bottom: 10px;
 }
 
 .inEquation {
-  padding: 2% 2%;
+  padding: 1% 0.7%;
   border: 1px solid rgb(234, 154, 154);
   border-radius: 50px;
   margin: 0 1.5%;
@@ -157,7 +289,7 @@ td {
   cursor: pointer;
   width: 4em;
   height: 4em;
-  padding: 2px;
+  padding: 1px;
   margin: 1px;
   border: 1px solid #333;
   border-radius: 20%;
@@ -165,40 +297,82 @@ td {
   overflow: hidden;
   transition: all 0.2s ease-in-out;
   text-align: center;
- 
 }
 
 .elementCategory.grow:hover {
   transform: scale(1.5);
 }
 
-.elementCategory.money {
+/*individual elements*/
+.elementCategory.Love {
+  background-color: rgb(247, 160, 238);
+}
+
+.elementCategory.Love:hover {
+  background-color: rgb(255, 70, 184);
+}
+.elementCategory.Books {
+  background-image: linear-gradient(rgb(255, 153, 0), rgb(255, 179, 0));
+}
+
+.elementCategory.Body-parts {
+  background-image: linear-gradient(rgb(221, 169, 90), rgb(231, 77, 77));
+}
+.elementCategory.Nature {
+  background-image: linear-gradient(rgb(104, 226, 104), rgb(15, 120, 32));
+}
+.elementCategory.Food {
+  background-color: rgb(255, 157, 0);
+}
+.elementCategory.Food:hover {
+  background-color: rgb(212, 48, 12);
+}
+
+.elementCategory.Animals {
+  background-color: rgb(127, 191, 255);
+}
+.elementCategory.Cats {
+  background-color: #8b7868;
+}
+.elementCategory.Animals:hover {
+  background-color: rgb(19, 138, 251);
+}
+
+.elementCategory.Clothing {
+  background-color: rgb(109, 7, 109);
+}
+
+.elementCategory.Fruits {
+  background-color: peachpuff;
+}
+
+.elementCategory.Money {
   background-color: rgb(244, 241, 89);
 }
 
-.elementCategory.money:hover {
+.elementCategory.Money:hover {
   background-color: rgb(244, 241, 29);
 }
-.elementCategory.advice {
+.elementCategory.Country {
+  background-color: #596ef7;
+}
+.elementCategory.Advice {
   background-color: rgb(212, 233, 180);
 }
-
-.elementCategory.advice:hover {
+.elementCategory.Advice:hover {
   background-color: rgb(86, 233, 51);
 }
 .elementCategory.action {
   background-color: rgb(245, 189, 106);
 }
-
 .elementCategory.action:hover {
   background-color: rgb(245, 189, 41);
 }
-.elementCategory.website-name {
-  background-color: rgb(242, 138, 246);
+.elementCategory.Website {
+  background-image: linear-gradient(rgb(243, 193, 232), rgb(243, 5, 239));
 }
-
-.elementCategory.website-name:hover {
-  background-color: rgb(242, 25, 246);
+.elementCategory.Website:hover {
+  background-color: rgb(6, 153, 190);
 }
 
 /*table grid
@@ -220,7 +394,7 @@ td {
   cursor: pointer;
   width: 4em;
   height: 4em;
-  padding: 2px;
+  padding: 1px;
   background-color: transparent;
   border: 1px transparent;
   border-radius: 40%;
@@ -233,7 +407,7 @@ td {
 
 .tableGrid {
   display: grid;
-  grid-template-columns: repeat(18, 4.5em);
+  grid-template-columns: repeat(18, 4em);
   justify-content: center;
 }
 
@@ -241,10 +415,23 @@ td {
 */
 
 .SearchResults {
-  display: grid;
+  display: flex;
   grid-column: auto;
   background-color: antiquewhite;
   min-height: 15vw;
+  flex-wrap: wrap;
+  max-width: 1152px;
+  margin: 0 auto;
+  align-items: center;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.searchResultsTitle {
+  margin-bottom: 1em;
+  margin-top: 1em;
+  margin-left: 1em;
+  width: 100%;
 }
 .elementTag {
   cursor: pointer;
@@ -262,13 +449,23 @@ td {
   animation-duration: 0.4s;
 }
 
-/*MODALS*/
-.idiomTitle{
-  display:flex;
+.idiomkey {
+  background-color: #596ef7;
+  width: 5em;
+  height: 2em;
 }
-.idiomPhrase{
-  margin-left:10px;
+
+/*MODALS*/
+.idiomTitle {
+  display: flex;
+}
+.idiomPhrase {
+  margin-left: 10px;
   max-width: 70%;
+}
+
+.badgeTag {
+  margin: 2px;
 }
 /*
 .modal-header {

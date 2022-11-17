@@ -3,13 +3,14 @@ import React, { useState } from "react";
 import Cell from "./Cell";
 import ElementModal from "./ElementModal";
 import { Spinner } from "react-bootstrap";
+import SearchResults from "../SearchResults/SearchResults";
+import IdiomCategoryKey from "./IdiomCategoryKey";
 
 export default function TableGrid({ elements }) {
-  const [show, setShow] = useState(true);
+  const [show, setShow] = useState(false);
   const [selectedElement, setSelectedElement] = useState(elements[0]);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
-  console.log(selectedElement);
 
   const getLookupTable = () => {
     let newTable = {};
@@ -67,8 +68,12 @@ export default function TableGrid({ elements }) {
         element={selectedElement}
         show={show}
         handleClose={handleClose}
+
       />
+     
       <div className="tableGrid">{render()}</div>
     </>
   );
 }
+
+// <IdiomCategoryKey/>

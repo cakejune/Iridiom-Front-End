@@ -1,20 +1,26 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 export default function Navbar() {
   return (
-    <ul>
-      <li>
-        <a href="#home">Home</a>
-      </li>
-      <li>
-        <a href="#news">News</a>
-      </li>
-      <li>
-        <a href="#contact">Contact</a>
-      </li>
-      <li>
-        <a href="#about">About</a>
-      </li>
-    </ul>
+    <div className="navibar">
+      <ul className="navibar-content">
+        <div className="leftlinks">
+            <div className="infolink">
+              <a href="#info">🛈</a>
+            </div>
+            <div className="heart">
+              <a href="#heart">❤</a>
+            </div>
+        </div>
+        <div className="iridiomlink">
+          <NavLink to="/">Ir<sub>i</sub>dᶦom</NavLink>
+        </div>
+        <div className="special-thanks">
+          <NavLink to="/special-thanks">Special Thanks</NavLink>
+        </div>
+      </ul>
+    </div>
   );
 }
+//NavLink className="nav-link" exact to="/">Special Thanks</NavLink>

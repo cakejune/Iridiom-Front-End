@@ -1,13 +1,20 @@
 import React from "react";
+import Cell from "../TableF/Cell";
+import ElementModal from "../TableF/ElementModal";
 
 
 export default function SearchResults({matchedElementsWithTags}){
+  
+
 
     return (
         <div className="SearchResults">
-            Search Results DIV
+            <h1 className="searchResultsTitle">Search Results</h1>
             {matchedElementsWithTags.map((elementWithTags)=>{
-            return <SearchedIdiom matchedElementsWithTags={matchedElementsWithTags} elementWithTags={elementWithTags} key={elementWithTags.id}/>
+                
+            return (
+            <Cell element={elementWithTags} key={elementWithTags.id}/>
+            )
             })}
         </div>
     )
