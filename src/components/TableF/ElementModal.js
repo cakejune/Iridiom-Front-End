@@ -9,7 +9,7 @@ export default function ElementModal({ element, show, handleClose }) {
   }
 
   return (
-    <Modal show={show} onHide={handleClose}>
+    <Modal show={show} onHide={handleClose} style={{fontFamily: "Roboto Mono, monospace"}}>
       <Modal.Header closeButton>
         <Modal.Title className="idiomTitle">
           <Cell element={element} handleClick={null} />

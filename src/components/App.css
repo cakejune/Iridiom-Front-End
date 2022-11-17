@@ -13,11 +13,10 @@ a:visited {
   text-decoration: none;
   color: #fd0de2;
 }
-
-a:hover {
-  text-decoration: none;
-  color: #fd0de2;
+a:hover{
+  color: #f71717;
 }
+
 
 a:active {
   text-decoration: none;
@@ -50,13 +49,15 @@ a:active {
 }
 .leftlinks {
   display: flex;
-  width: 150px;
+  margin-left:1.5em;
 }
 .iridiomlink {
   border: 2em;
   border-radius: 10%;
   width: 150px;
   text-align: center;
+  font-size: 1.5em;
+  font-weight: 600;
 }
 
 /*Special Thanks Component*/
@@ -99,7 +100,7 @@ a:active {
   background-image: linear-gradient(rgb(243, 193, 232), rgb(243, 5, 239));
 }
 .special-thanks {
-  width: 150px;
+  margin-right:1.5em
 }
 .personName {
   display: flex;
@@ -109,6 +110,7 @@ a:active {
   flex-direction: column;
   font-size: 1em;
   margin: auto;
+  margin-top: -0.3em;
 }
 
 .personElementSquare {
@@ -119,10 +121,11 @@ a:active {
   align-items: flex-start;
   border-style: groove;
   border-radius: 10px;
-  margin-left: 15px;
+  margin-left: 20px;
   margin-top: 10px;
   border-width: 1px;
   height: 3.2em;
+  background-color: #e9ecef;
 }
 .personNumber {
   display: flex;
@@ -339,7 +342,7 @@ td {
 }
 
 .elementCategory.Clothing {
-  background-color: rgb(109, 7, 109);
+  background-color: rgb(42, 104, 108);
 }
 
 .elementCategory.Fruits {

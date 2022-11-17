@@ -13,7 +13,7 @@ export default function SearchResults({matchedElementsWithTags}){
             {matchedElementsWithTags.map((elementWithTags)=>{
                 
             return (
-            <Cell element={elementWithTags} key={elementWithTags.id}/>
+            <Cell element={elementWithTags} key={elementWithTags.id} handleClick={null}/>
             )
             })}
         </div>

@@ -9,15 +9,12 @@ export default function Navbar() {
             <div className="infolink">
               <a href="#info">🛈</a>
             </div>
-            <div className="heart">
-              <a href="#heart">❤</a>
-            </div>
         </div>
         <div className="iridiomlink">
           <NavLink to="/">Ir<sub>i</sub>dᶦom</NavLink>
         </div>
         <div className="special-thanks">
-          <NavLink to="/special-thanks">Special Thanks</NavLink>
+          <NavLink to="/special-thanks">❤</NavLink>
         </div>
       </ul>
     </div>
