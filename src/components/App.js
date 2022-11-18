@@ -6,6 +6,7 @@ import SearchResults from "./SearchResults/SearchResults";
 import TableGrid from "./TableF/TableGrid";
 import { Route, Routes } from "react-router-dom";
 import SpecialThanks from "../Navbar Elements/SpecialThanks";
+import IdiomCategoryKey from "./TableF/IdiomCategoryKey";
 
 function App() {
   const [elements, setElements] = useState([]);
@@ -72,6 +73,7 @@ function App() {
           path="/"
           element={[
             <TableGrid elements={elements} key={1}/>,
+            <IdiomCategoryKey key={9}/>,
             <Categories
               elements={elements}
               tagState={tagState}

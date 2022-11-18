@@ -4,9 +4,9 @@
   justify-content: space-evenly;
   background-image: linear-gradient(to bottom right, #ece9ee, #dfb8fe);
 }
-body{
+body {
   overflow-x: hidden;
-    width: 100vw
+  width: 100vw;
 }
 a:link {
   text-decoration: none;
@@ -17,10 +17,9 @@ a:visited {
   text-decoration: none;
   color: #fd0de2;
 }
-a:hover{
+a:hover {
   color: #f71717;
 }
-
 
 a:active {
   text-decoration: none;
@@ -53,7 +52,7 @@ a:active {
 }
 .leftlinks {
   display: flex;
-  margin-left:1.5em;
+  margin-left: 1.5em;
 }
 .iridiomlink {
   border: 2em;
@@ -63,13 +62,13 @@ a:active {
   font-size: 1.5em;
   font-weight: 600;
 }
-.info-button{
+.info-button {
   background-color: #fd0de200;
   border-width: 0;
   color: #fd0de2;
 }
-.iridiom-description{
-  display:flex;
+.iridiom-description {
+  display: flex;
   justify-content: space-evenly;
   margin: 0 auto;
   font-weight: 700;
@@ -120,7 +119,7 @@ a:active {
   background-image: linear-gradient(rgb(243, 193, 232), rgb(243, 5, 239));
 }
 .special-thanks {
-  margin-right:1.5em
+  margin-right: 1.5em;
 }
 .personName {
   display: flex;
@@ -386,10 +385,10 @@ td {
 .elementCategory.Advice:hover {
   background-color: rgb(86, 233, 51);
 }
-.elementCategory.action {
+.elementCategory.Action {
   background-color: rgb(245, 189, 106);
 }
-.elementCategory.action:hover {
+.elementCategory.Action:hover {
   background-color: rgb(245, 189, 41);
 }
 .elementCategory.Website {
@@ -474,9 +473,23 @@ td {
 }
 
 .idiomkey {
-  background-color: #596ef7;
-  width: 5em;
-  height: 2em;
+  background-color: inherit;
+  display: grid;
+  height: 13em;
+  margin: 2% auto;
+  grid-template-columns: repeat(7, 1fr);
+  width: 33%;
+  font-size: small;
+}
+.idiomKeyTitle {
+  margin-bottom: -0.5em;
+  border-style: groove;
+}
+.idiomKeyContainer {
+  display: grid;
+  justify-items: center;
+  margin-top: 1em;
+  margin-bottom: -5em;
 }
 
 /*MODALS*/

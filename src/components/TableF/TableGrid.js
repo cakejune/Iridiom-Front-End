@@ -70,6 +70,7 @@ export default function TableGrid({ elements }) {
         handleClose={handleClose}
 
       />
+      {/* <IdiomCategoryKey/> */}
      
       <div className="tableGrid">{render()}</div>
     </>

@@ -30,7 +30,7 @@
       "meaning": "A short distance",
       "usage": "as part of a sentence",
       "tags": ["noun", "informal"],
-      "category": "action",
+      "category": "Action",
       "xy": "0,1"
     },
     {
@@ -41,7 +41,7 @@
       "meaning": "a short distance",
       "usage": "as part of a sentence",
       "tags": ["noun"],
-      "category": "action",
+      "category": "Action",
       "xy": "1,1"
     },
     {
