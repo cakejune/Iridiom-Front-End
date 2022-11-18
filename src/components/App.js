@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
-import Navbar from "./Navbar";
+import Navbar from "../Navbar Elements/Navbar";
 import Categories from "./CategoriesF/Categories";
 import SearchResults from "./SearchResults/SearchResults";
 import TableGrid from "./TableF/TableGrid";
 import { Route, Routes } from "react-router-dom";
-import SpecialThanks from "./SpecialThanks";
+import SpecialThanks from "../Navbar Elements/SpecialThanks";
 
 function App() {
   const [elements, setElements] = useState([]);

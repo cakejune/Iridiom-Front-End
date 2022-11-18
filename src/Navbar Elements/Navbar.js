@@ -1,13 +1,19 @@
-import React from "react";
+import React, {useState} from "react";
 import { NavLink } from "react-router-dom";
+import InfoModal from "./InfoModal";
 
 export default function Navbar() {
+  const [show, setShow] = useState(false);
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
   return (
+    <>
     <div className="navibar">
       <ul className="navibar-content">
         <div className="leftlinks">
             <div className="infolink">
-              <a href="#info">🛈</a>
+              <button className="info-button" onClick={handleShow}>🛈</button>
             </div>
         </div>
         <div className="iridiomlink">
@@ -17,7 +23,11 @@ export default function Navbar() {
           <NavLink to="/special-thanks">❤</NavLink>
         </div>
       </ul>
+      <InfoModal show={show}
+        handleClose={handleClose}/>
     </div>
+    <div className="iridiom-description">A Periodic Table of Idioms</div>
+    </>
   );
 }
 //NavLink className="nav-link" exact to="/">Special Thanks</NavLink>
