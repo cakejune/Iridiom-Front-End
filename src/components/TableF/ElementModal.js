@@ -19,12 +19,13 @@ export default function ElementModal({ element, show, handleClose }) {
       <Modal.Body>
         <div className="modalBodyContent">
           <div className="Meaning">Meaning: "{element.meaning}"</div>
-          <div className="tagContainer">
+          {/*This is part of the body of the modal that will show the tags, but tags aren't in the idiom objects atm */}
+          {/* <div className="tagContainer">
             Tags:
             {element.tags.map((tag) => {
               return <Badge className="badgeTag" bg="secondary">{tag}</Badge>;
             })}
-          </div>
+          </div> */}
         </div>
       </Modal.Body>
       <Modal.Footer>

@@ -2,15 +2,20 @@ import { render } from "@testing-library/react";
 import React, { useState } from "react";
 import Cell from "./Cell";
 import ElementModal from "./ElementModal";
-import { Spinner } from "react-bootstrap";
+import { Button, Spinner } from "react-bootstrap";
 import SearchResults from "../SearchResults/SearchResults";
 import IdiomCategoryKey from "./IdiomCategoryKey";
+//import constants from constants.js
+import {first_page, second_page, third_page} from "../../constants.js"
 
 export default function TableGrid({ elements }) {
   const [show, setShow] = useState(false);
   const [selectedElement, setSelectedElement] = useState(elements[0]);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+
+
+
 
   const getLookupTable = () => {
     let newTable = {};
@@ -19,6 +24,8 @@ export default function TableGrid({ elements }) {
     }
     return newTable;
   };
+
+  
 
   // const matchTableLocation = {
   //   '0,0':1,
@@ -35,8 +42,6 @@ export default function TableGrid({ elements }) {
           key={coordinate}
           handleClick={handleElementClick}
         />
-        
-        
       );
     }
   }
@@ -68,11 +73,23 @@ export default function TableGrid({ elements }) {
         element={selectedElement}
         show={show}
         handleClose={handleClose}
-
       />
       {/* <IdiomCategoryKey/> */}
-     
-      <div className="tableGrid">{render()}</div>
+      {/*make this div have a flex property */}
+      <div
+        className="tableGridContainer"
+        style={{
+          display: "flex",
+          flexDirection: "row",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        <div>X</div>
+        <div className="tableGrid">{render()}</div>
+        <div>Y</div>
+      </div>
+      <Button onClick={() => console.log(elements)}>See state</Button>
     </>
   );
 }

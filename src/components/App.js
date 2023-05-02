@@ -9,6 +9,9 @@ import SpecialThanks from "../Navbar Elements/SpecialThanks";
 import IdiomCategoryKey from "./TableF/IdiomCategoryKey";
 
 function App() {
+  // let page_1 = [];
+  // let page_2 = [];
+  const [selectedPage, setSelectedPage] = useState(1);
   const [elements, setElements] = useState([]);
   const [tagState, setTagState] = useState([]);
   const [matchedElementsWithTags, setMatchedElementsWithTags] = useState([]);
@@ -16,9 +19,19 @@ function App() {
 
   useEffect(() => {
     const fetchData = async () => {
-      const data = await fetch("http://localhost:8008/idioms");
+      const data = await fetch("/idioms");
       const response = await data.json();
-      setElements(response);
+      // only save idioms between 1 and 118
+      const page_1 = await response.filter((idiom) => {
+        return idiom.elNum > 0 && idiom.elNum < 119;
+      });
+      // only save idioms between 119 and 172
+      // There may be a case where page_1 and page_2 get duplicates of the same idioms
+      const page_2 = await response.filter((idiom) => {
+        return idiom.elNum > 118 && idiom.elNum < 173;
+      });
+      const pages = [page_1, page_2]
+      setElements(pages[selectedPage]);
       let x = response
         .map((idiom) => {
           return idiom.tags;
@@ -35,18 +48,18 @@ function App() {
   //   console.log(`matchedElementsWithTags: ${matchedElementsWithTags}`)
   // },[matchedElementsWithTags])
 
-  async function postIdiom(newIdiomObject) {
-    const response = await fetch("http://localhost:8008/idioms", {
-      method: "POST",
-      headers: {
-        Accept: "application/json",
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(newIdiomObject),
-    });
-    const data = response.json();
-    setElements([...elements, data]);
-  }
+  // async function postIdiom(newIdiomObject) {
+  //   const response = await fetch("http://localhost:8008/idioms", {
+  //     method: "POST",
+  //     headers: {
+  //       Accept: "application/json",
+  //       "Content-Type": "application/json",
+  //     },
+  //     body: JSON.stringify(newIdiomObject),
+  //   });
+  //   const data = response.json();
+  //   setElements([...elements, data]);
+  // }
 
   function filterElementsByTags(tagsInEquationArray) {
     //tagsInEquationArray = ['informal', 'here']
@@ -61,6 +74,22 @@ function App() {
     });
     setMatchedElementsWithTags(filteredElements);
   }
+
+  async function updateIdiom(idiomObject) {
+    const response = await fetch(
+      `idioms/${idiomObject._id}/update`,
+      {
+        method: "PATCH",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(idiomObject),
+      }
+    );
+    const data = await response.json();
+    console.log(data);
+  }
+
 
 
 
