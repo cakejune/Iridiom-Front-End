@@ -2,11 +2,14 @@ import React, {useState} from "react";
 import { NavLink } from "react-router-dom";
 import InfoModal from "./InfoModal";
 
-export default function Navbar() {
+export default function Navbar(refreshIdioms) {
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
-
+  const handleRefreshIdioms = () => {
+    refreshIdioms();
+  };
+  
   return (
     <>
     <div className="navibar">
@@ -17,7 +20,7 @@ export default function Navbar() {
             </div>
         </div>
         <div className="iridiomlink">
-          <NavLink to="/">Ir<sub>i</sub>dᶦom</NavLink>
+          <NavLink to="/" onClick={handleRefreshIdioms}>Ir<sub>i</sub>dᶦom</NavLink>
         </div>
         <div className="special-thanks">
           <NavLink to="/special-thanks">❤</NavLink>

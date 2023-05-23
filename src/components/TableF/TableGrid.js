@@ -1,5 +1,5 @@
 import { render } from "@testing-library/react";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Cell from "./Cell";
 import ElementModal from "./ElementModal";
 import { Button, Spinner } from "react-bootstrap";
@@ -9,17 +9,30 @@ import IdiomCategoryKey from "./IdiomCategoryKey";
 import {first_page, second_page, third_page} from "../../constants.js"
 
 export default function TableGrid({ elements }) {
+  
+  const [element_page, setElementPage] = useState(0);
   const [show, setShow] = useState(false);
-  const [selectedElement, setSelectedElement] = useState(elements[0]);
+  const page1 = elements?.slice(0, 118);
+  const page2 = elements?.slice(118, 172);
+  const pages = [page1, page2];
+  const increasePage = () => {
+      setElementPage(1);
+  }
+  const decreasePage = () => {
+      setElementPage(0);
+  }
+  // only save idioms between 119 and 172
+  // There may be a case where page_1 and page_2 get duplicates of the same idioms
+  const [selectedElement, setSelectedElement] = useState([]);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
 
 
 
-  const getLookupTable = () => {
+  const getLookupTable = (element_page) => {
     let newTable = {};
-    for (const el of elements) {
+    for (const el of pages[element_page]) {
       newTable[el.xy] = el;
     }
     return newTable;
@@ -46,13 +59,15 @@ export default function TableGrid({ elements }) {
     }
   }
 
-  function handleElementClick(element) {
-    setSelectedElement(element);
-    setShow(true);
+  async function handleElementClick(element) {
+      const data = await fetch(`/idioms/${element.id}`);
+      const response = await data.json();
+      setSelectedElement(response);
+      setShow(true);
   }
 
   function render() {
-    const table = getLookupTable();
+    const table = getLookupTable(element_page);
     const components = [];
     const width = 18;
     const height = 9;
@@ -81,13 +96,13 @@ export default function TableGrid({ elements }) {
         style={{
           display: "flex",
           flexDirection: "row",
-          justifyContent: "center",
+          justifyContent: "space-evenly",
           alignItems: "center",
         }}
       >
-        <div>X</div>
+        <p onClick={decreasePage}><i className="arrow left"></i></p>
         <div className="tableGrid">{render()}</div>
-        <div>Y</div>
+        <p onClick={increasePage}><i className="arrow right"></i></p>
       </div>
       <Button onClick={() => console.log(elements)}>See state</Button>
     </>

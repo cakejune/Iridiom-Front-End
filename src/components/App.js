@@ -7,31 +7,23 @@ import TableGrid from "./TableF/TableGrid";
 import { Route, Routes } from "react-router-dom";
 import SpecialThanks from "../Navbar Elements/SpecialThanks";
 import IdiomCategoryKey from "./TableF/IdiomCategoryKey";
+import EditIdiom from "./EditIdiom";
 
 function App() {
-  // let page_1 = [];
-  // let page_2 = [];
-  const [selectedPage, setSelectedPage] = useState(1);
   const [elements, setElements] = useState([]);
   const [tagState, setTagState] = useState([]);
   const [matchedElementsWithTags, setMatchedElementsWithTags] = useState([]);
   const [selectedCategory, setSelectedCategory] = useState("");
+  const [elementToEdit, setElementToEdit] = useState({});
+
 
   useEffect(() => {
     const fetchData = async () => {
       const data = await fetch("/idioms");
       const response = await data.json();
+      // console.log(response);
       // only save idioms between 1 and 118
-      const page_1 = await response.filter((idiom) => {
-        return idiom.elNum > 0 && idiom.elNum < 119;
-      });
-      // only save idioms between 119 and 172
-      // There may be a case where page_1 and page_2 get duplicates of the same idioms
-      const page_2 = await response.filter((idiom) => {
-        return idiom.elNum > 118 && idiom.elNum < 173;
-      });
-      const pages = [page_1, page_2]
-      setElements(pages[selectedPage]);
+      setElements(response);
       let x = response
         .map((idiom) => {
           return idiom.tags;
@@ -75,27 +67,29 @@ function App() {
     setMatchedElementsWithTags(filteredElements);
   }
 
-  async function updateIdiom(idiomObject) {
-    const response = await fetch(
-      `idioms/${idiomObject._id}/update`,
-      {
-        method: "PATCH",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(idiomObject),
-      }
-    );
-    const data = await response.json();
-    console.log(data);
+  function refreshIdioms(){
+    const fetchData = async () => {
+      const data = await fetch("/idioms");
+      const response = await data.json();
+      // only save idioms between 1 and 118
+      setElements(response);
+      let x = response
+        .map((idiom) => {
+          return idiom.tags;
+        })
+        .flat();
+      let y = new Set(x);
+      setTagState([...y]);
+    };
+
+    fetchData().catch(console.error);
   }
 
-
-
+ 
 
   return (
     <div className="appDiv">
-      <Navbar />
+      <Navbar refreshIdioms={refreshIdioms}/>
       <Routes>
         <Route
           
@@ -112,7 +106,9 @@ function App() {
             <SearchResults matchedElementsWithTags={matchedElementsWithTags} key={3}/>,
           ]}
         ></Route>
+        <Route path="/edit/:id" element={<EditIdiom key={5} />}></Route>
         <Route path="/special-thanks" element={<SpecialThanks key={4}/>}></Route>
+        
       </Routes>
     </div>
   );
@@ -129,7 +125,6 @@ function App() {
 
     function handleSubmit(e) {
       e.preventDefault();
-      // console.log(`new element before post: ${newE}`)
       postIdiom(newE);
     }
     function trackInput(e) {
