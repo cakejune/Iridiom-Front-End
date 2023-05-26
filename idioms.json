@@ -1,0 +1,1816 @@
+{
+    "idioms":
+[
+    {
+    "id": 1,
+    "abbr": "Bl",
+    "phrase": "A blessing in disguise",
+    "meaning": "a good thing that seemed bad at first",
+    "usage": "as part of a sentence",
+    "elNum": "1",
+    "category": "Advice",
+    "xy": "0,0"
+    },
+    {
+    "id": 2,
+    "abbr": "Di",
+    "phrase": "A dime a dozen",
+    "meaning": "Something common",
+    "usage": "as part of a sentence",
+    "elNum": "2",
+    "category": "Money",
+    "xy": "17,0"
+    },
+    {
+    "id": 3,
+    "abbr": "Sd",
+    "phrase": "Spitting distance",
+    "meaning": "A short distance",
+    "usage": "as part of a sentence",
+    "elNum": "3",
+    "category": "Action",
+    "xy": "0,1"
+    },
+    {
+    "id": 4,
+    "abbr": "St",
+    "phrase": "A stone's throw (away)",
+    "meaning": "a short distance",
+    "usage": "as part of a sentence",
+    "elNum": "4",
+    "category": "Action",
+    "xy": "1,1"
+    },
+    {
+    "id": 5,
+    "abbr": "Bh",
+    "phrase": "A bird in the hand is worth two in the bush",
+    "meaning": "What you have is worth more than what you might have later",
+    "usage": "by itself",
+    "elNum": "5",
+    "category": "Animals",
+    "xy": "12,1"
+    },
+    {
+    "id": 6,
+    "abbr": "Dg",
+    "phrase": "Don't give up your day job",
+    "meaning": "You're not very good at this",
+    "usage": "by itself",
+    "elNum": "6",
+    "category": "Advice",
+    "xy": "13,1"
+    },
+    {
+    "id": 7,
+    "abbr": "Dj",
+    "phrase": "Don't judge a book by its cover",
+    "meaning": "you shouldn't judge someone or something based only on what you see on the outside or only on what you perceive without knowing the full situation.",
+    "usage": "by itself",
+    "elNum": "7",
+    "category": "Advice",
+    "xy": "14,1"
+    },
+    {
+    "id": 8,
+    "abbr": "Dp",
+    "phrase": "Don't put all your eggs in one basket",
+    "meaning": "What you're doing is too risky",
+    "usage": "by itself",
+    "elNum": "8",
+    "category": "Advice",
+    "xy": "15,1"
+    },
+    {
+    "id": 9,
+    "abbr": "Gt",
+    "phrase": "Good things come to those who wait",
+    "meaning": "Be patient",
+    "usage": "by itself",
+    "elNum": "9",
+    "category": "Advice",
+    "xy": "16,1"
+    },
+    {
+    "id": 10,
+    "abbr": "Sy",
+    "phrase": "Slow and steady wins the race",
+    "meaning": "Reliability is more important than speed",
+    "usage": "by itself",
+    "elNum": "10",
+    "category": "Advice",
+    "xy": "17,1"
+    },
+    {
+    "id": 11,
+    "abbr": "Bk",
+    "phrase": "Barking up the wrong tree",
+    "meaning": "To be mistaken, to be looking for solutions in the wrong place",
+    "usage": "as part of a sentence",
+    "elNum": "11",
+    "category": "Animals",
+    "xy": "0,2"
+    },
+    {
+    "id": 12,
+    "abbr": "Dh",
+    "phrase": "Beat a dead horse",
+    "meaning": "Move on, this subject is over",
+    "usage": "by itself",
+    "elNum": "12",
+    "category": "Animals",
+    "xy": "1,2"
+    },
+    {
+    "id": 13,
+    "abbr": "Dc",
+    "phrase": "Don't count your chickens before they hatch",
+    "meaning": "Don't count on something good happening until it's happened.",
+    "usage": "by itself",
+    "elNum": "13",
+    "category": "Animals",
+    "xy": "12,2"
+    },
+    {
+    "id": 14,
+    "abbr": "Ed",
+    "phrase": "Every dog has his day",
+    "meaning": "Everyone gets a chance at least once",
+    "usage": "by itself",
+    "elNum": "14",
+    "category": "Animals",
+    "xy": "13,2"
+    },
+    {
+    "id": 15,
+    "abbr": "Gc",
+    "phrase": "Go on a wild goose chase",
+    "meaning": "To do something pointless",
+    "usage": "as part of a sentence",
+    "elNum": "15",
+    "category": "Animals",
+    "xy": "14,2"
+    },
+    {
+    "id": 16,
+    "abbr": "Hd",
+    "phrase": "Hair of the dog",
+    "meaning": "an alcoholic drink taken to cure a hangover.",
+    "usage": "as part of a sentence",
+    "elNum": "16",
+    "category": "Animals",
+    "xy": "15,2"
+    },
+    {
+    "id": 17,
+    "abbr": "Bf",
+    "phrase": "He has bigger fish to fry",
+    "meaning": "He has bigger things to take care of than what we are talking about now",
+    "usage": "by itself",
+    "elNum": "17",
+    "category": "Animals",
+    "xy": "16,2"
+    },
+    {
+    "id": 18,
+    "abbr": "Hm",
+    "phrase": "Hear something straight from the horse's mouth",
+    "meaning": "Hear something from the person involved",
+    "usage": "as part of a sentence",
+    "elNum": "18",
+    "category": "Animals",
+    "xy": "17,2"
+    },
+    {
+    "id": 19,
+    "abbr": "Rc",
+    "phrase": "It's raining cats and dogs",
+    "meaning": "It's raining hard",
+    "usage": "by itself",
+    "elNum": "19",
+    "category": "Animals",
+    "xy": "0,3"
+    },
+    {
+    "id": 20,
+    "abbr": "Bs",
+    "phrase": "Kill two birds with one stone",
+    "meaning": "Get two things done with a single action",
+    "usage": "by itself",
+    "elNum": "20",
+    "category": "Animals",
+    "xy": "1,3"
+    },
+    {
+    "id": 21,
+    "abbr": "Dl",
+    "phrase": "Let sleeping dogs lie",
+    "meaning": "Stop discussing an issue",
+    "usage": "as part of a sentence",
+    "elNum": "21",
+    "category": "Animals",
+    "xy": "2,3"
+    },
+    {
+    "id": 22,
+    "abbr": "Sc",
+    "phrase": "There's more than one way to skin a cat",
+    "meaning": "there is another way to get what you want",
+    "usage": "by itself",
+    "elNum": "22",
+    "category": "Animals",
+    "xy": "3,3"
+    },
+    {
+    "id": 23,
+    "abbr": "Bz",
+    "phrase": "Bite off more than you can chew",
+    "meaning": "Take on a project that you cannot finish",
+    "usage": "as part of a sentence",
+    "elNum": "23",
+    "category": "Body-parts",
+    "xy": "4,3"
+    },
+    {
+    "id": 24,
+    "abbr": "Bu",
+    "phrase": "Bite the bullet",
+    "meaning": "To get something over with because it is inevitable",
+    "usage": "as part of a sentence",
+    "elNum": "24",
+    "category": "Body-parts",
+    "xy": "5,3"
+    },
+    {
+    "id": 25,
+    "abbr": "By",
+    "phrase": "By the skin of your teeth",
+    "meaning": "Just barely",
+    "usage": "as part of a sentence",
+    "elNum": "25",
+    "category": "Body-parts",
+    "xy": "6,3"
+    },
+    {
+    "id": 26,
+    "abbr": "Al",
+    "phrase": "Costs an arm and a leg",
+    "meaning": "Very expensive",
+    "usage": "as part of a sentence",
+    "elNum": "26",
+    "category": "Body-parts",
+    "xy": "7,3"
+    },
+    {
+    "id": 27,
+    "abbr": "Oh",
+    "phrase": "Get out of hand",
+    "meaning": "Get out of control",
+    "usage": "as part of a sentence",
+    "elNum": "27",
+    "category": "Body-parts",
+    "xy": "8,3"
+    },
+    {
+    "id": 28,
+    "abbr": "Go",
+    "phrase": "Get something out of your system",
+    "meaning": "Do the thing you've been wanting to do so you can move on",
+    "usage": "as part of a sentence",
+    "elNum": "28",
+    "category": "Body-parts",
+    "xy": "9,3"
+    },
+    {
+    "id": 29,
+    "abbr": "Co",
+    "phrase": "Give someone the cold shoulder",
+    "meaning": "Ignore someone",
+    "usage": "as part of a sentence",
+    "elNum": "29",
+    "category": "Body-parts",
+    "xy": "10,3"
+    },
+    {
+    "id": 30,
+    "abbr": "Ct",
+    "phrase": "Cat got your tongue?",
+    "meaning": "Can't think of anything to say?",
+    "usage": "by itself",
+    "elNum": "30",
+    "category": "Body-parts",
+    "xy": "11,3"
+    },
+    {
+    "id": 31,
+    "abbr": "Nh",
+    "phrase": "Hit the nail on the head",
+    "meaning": "Get something exactly right",
+    "usage": "by itself",
+    "elNum": "31",
+    "category": "Body-parts",
+    "xy": "12,3"
+    },
+    {
+    "id": 32,
+    "abbr": "Pl",
+    "phrase": "Pull someone's leg",
+    "meaning": "To joke with someone",
+    "usage": "as part of a sentence",
+    "elNum": "32",
+    "category": "Body-parts",
+    "xy": "13,3"
+    },
+    {
+    "id": 33,
+    "abbr": "Ws",
+    "phrase": "A weight off your shoulders",
+    "meaning": "A relief from worry",
+    "usage": "as part of a sentence",
+    "elNum": "33",
+    "category": "Body-parts",
+    "xy": "14,3"
+    },
+    {
+    "id": 34,
+    "abbr": "Ah",
+    "phrase": "Achilles heel",
+    "meaning": "A weakness or vulnerable point.",
+    "usage": "as part of a sentence",
+    "elNum": "34",
+    "category": "Body-parts",
+    "xy": "15,3"
+    },
+    {
+    "id": 35,
+    "abbr": "Eb",
+    "phrase": "Beauty is in the eye of the beholder",
+    "meaning": "Beauty cannot be judged objectively, for what one person finds beautiful or admirable may not appeal to another.",
+    "usage": "by itself",
+    "elNum": "35",
+    "category": "Body-parts",
+    "xy": "16,3"
+    },
+    {
+    "id": 36,
+    "abbr": "Br",
+    "phrase": "Break a leg",
+    "meaning": "Good luck!",
+    "usage": "by itself",
+    "elNum": "36",
+    "category": "Body-parts",
+    "xy": "17,3"
+    },
+    {
+    "id": 37,
+    "abbr": "Gf",
+    "phrase": "Gut feeling",
+    "meaning": "An instinct or intuition",
+    "usage": "as part of a sentence",
+    "elNum": "37",
+    "category": "Body-parts",
+    "xy": "0,4"
+    },
+    {
+    "id": 38,
+    "abbr": "Ht",
+    "phrase": "My hands are tied",
+    "meaning": "I'm unable to act freely because something prevents it",
+    "usage": "by itself",
+    "elNum": "38",
+    "category": "Body-parts",
+    "xy": "1,4"
+    },
+    {
+    "id": 39,
+    "abbr": "Hs",
+    "phrase": "Head start",
+    "meaning": "An advantage granted or gained at the beginning of something.",
+    "usage": "as part of a sentence",
+    "elNum": "39",
+    "category": "Body-parts",
+    "xy": "2,4"
+    },
+    {
+    "id": 40,
+    "abbr": "Jh",
+    "phrase": "Joined at the hip",
+    "meaning": "When two people are inseperable",
+    "usage": "as part of a sentence",
+    "elNum": "40",
+    "category": "Body-parts",
+    "xy": "3,4"
+    },
+    {
+    "id": 41,
+    "abbr": "Pa",
+    "phrase": "Pain in the neck/ass",
+    "meaning": "an annoying or tedious person or thing.",
+    "usage": "as part of a sentence",
+    "elNum": "41",
+    "category": "Body-parts",
+    "xy": "4,4"
+    },
+    {
+    "id": 42,
+    "abbr": "Fm",
+    "phrase": "to put your foot in your mouth",
+    "meaning": " to say something that you shouldn't have",
+    "usage": "as part of a sentence",
+    "elNum": "42",
+    "category": "Body-parts",
+    "xy": "5,4"
+    },
+    {
+    "id": 43,
+    "abbr": "Ss",
+    "phrase": "Sight for sore eyes",
+    "meaning": "a person or thing that one is extremely pleased or relieved to see.",
+    "usage": "as part of a sentence",
+    "elNum": "43",
+    "category": "Love",
+    "xy": "6,4"
+    },
+    {
+    "id": 44,
+    "abbr": "Wk",
+    "phrase": "Weak at the knees",
+    "meaning": "helpless with emotion",
+    "usage": "as part of a sentence",
+    "elNum": "44",
+    "category": "Love",
+    "xy": "7,4"
+    },
+    {
+    "id": 45,
+    "abbr": "Pt",
+    "phrase": "A picture is worth 1000 words",
+    "meaning": "Better to show than tell",
+    "usage": "by itself",
+    "elNum": "45",
+    "category": "Books",
+    "xy": "8,4"
+    },
+    {
+    "id": 46,
+    "abbr": "Ob",
+    "phrase": "An open book",
+    "meaning": "a person or thing that is easily understood or interpreted.",
+    "usage": "as part of a sentence",
+    "elNum": "46",
+    "category": "Books",
+    "xy": "9,4"
+    },
+    {
+    "id": 47,
+    "abbr": "Ls",
+    "phrase": "Make a long story short",
+    "meaning": "Tell something briefly",
+    "usage": "as part of a sentence",
+    "elNum": "47",
+    "category": "Books",
+    "xy": "10,4"
+    },
+    {
+    "id": 48,
+    "abbr": "Bb",
+    "phrase": "By the book",
+    "meaning": "strictly according to the rules.",
+    "usage": "as part of a sentence",
+    "elNum": "48",
+    "category": "Books",
+    "xy": "11,4"
+    },
+    {
+    "id": 49,
+    "abbr": "Co",
+    "phrase": "Cook the books",
+    "meaning": "alter facts or figures dishonestly or illegally.",
+    "usage": "as part of a sentence",
+    "elNum": "49",
+    "category": "Books",
+    "xy": "12,4"
+    },
+    {
+    "id": 50,
+    "abbr": "Rb",
+    "phrase": "Read someone like a book",
+    "meaning": "understand someone's thoughts and motives clearly or easily.",
+    "usage": "by itself",
+    "elNum": "50",
+    "category": "Books",
+    "xy": "13,4"
+    },
+    {
+    "id": 51,
+    "abbr": "Wa",
+    "phrase": "Reading in between the lines",
+    "meaning": "to find meanings that are intended but that are not directly expressed in something said or written",
+    "usage": "as part of a sentence",
+    "elNum": "51",
+    "category": "Books",
+    "xy": "14,4"
+    },
+    {
+    "id": 52,
+    "abbr": "Ot",
+    "phrase": "The oldest trick in the book",
+    "meaning": "a way of tricking someone that is still effective although it has been used a lot before",
+    "usage": "as part of a sentence",
+    "elNum": "52",
+    "category": "Books",
+    "xy": "15,4"
+    },
+    {
+    "id": 53,
+    "abbr": "Cc",
+    "phrase": "Curiosity killed the cat",
+    "meaning": "being inquisitive about other people's affairs may get you into trouble.",
+    "usage": "by itself",
+    "elNum": "53",
+    "category": "Cats",
+    "xy": "16,4"
+    },
+    {
+    "id": 54,
+    "abbr": "Cb",
+    "phrase": "Let the cat out of the bag",
+    "meaning": "give away a secret",
+    "usage": "as part of a sentence",
+    "elNum": "54",
+    "category": "Cats",
+    "xy": "17,4"
+    },
+    {
+    "id": 55,
+    "abbr": "Cd",
+    "phrase": "Look what the cat dragged in",
+    "meaning": "used as an ironic acknowledgement of someone's arrival, especially to imply that they are unwelcome or disagreeable in some way.",
+    "usage": "by itself",
+    "elNum": "55",
+    "category": "Cats",
+    "xy": "0,5"
+    },
+    {
+    "id": 56,
+    "abbr": "Mc",
+    "phrase": "When the cat's away, the mice will play",
+    "meaning": "people will naturally take advantage of the absence of someone in authority to do as they like.",
+    "usage": "by itself",
+    "elNum": "56",
+    "category": "Cats",
+    "xy": "1,5"
+    },
+    {
+    "id": 57,
+    "abbr": "Dr",
+    "phrase": "Do something at the drop of a hat",
+    "meaning": "Do something without having planned beforehand",
+    "usage": "as part of a sentence",
+    "elNum": "57",
+    "category": "Clothing",
+    "xy": "2,5"
+    },
+    {
+    "id": 58,
+    "abbr": "Mx",
+    "phrase": "A Mexican Standoff",
+    "meaning": "a confrontation in which no strategy exists that allows any party to achieve victory",
+    "usage": "as part of a sentence",
+    "elNum": "58",
+    "category": "Country",
+    "xy": "3,7"
+    },
+    {
+    "id": 59,
+    "abbr": "Ie",
+    "phrase": "Irish Exit",
+    "meaning": "leaving a party without saying goodbye to anyone",
+    "usage": "as part of a sentence",
+    "elNum": "59",
+    "category": "Country",
+    "xy": "4,7"
+    },
+    {
+    "id": 60,
+    "abbr": "Gr",
+    "phrase": "It's all Greek to me",
+    "meaning": "I can't understand it at all.",
+    "usage": "by itself",
+    "elNum": "60",
+    "category": "Country",
+    "xy": "5,7"
+    },
+    {
+    "id": 61,
+    "abbr": "Ro",
+    "phrase": "When in rome",
+    "meaning": "when you are visiting another place, you should follow the customs of the people in that place",
+    "usage": "by itself",
+    "elNum": "61",
+    "category": "Country",
+    "xy": "6,7"
+    },
+    {
+    "id": 62,
+    "abbr": "Sp",
+    "phrase": "Don't crying over spilt milk",
+    "meaning": "There's no reason to complain about something that can't be fixed",
+    "usage": "by itself",
+    "elNum": "62",
+    "category": "Food",
+    "xy": "7,7"
+    },
+    {
+    "id": 63,
+    "abbr": "Tm",
+    "phrase": "Get a taste of your own medicine",
+    "meaning": "Get treated the way you've been treating others (negative)",
+    "usage": "as part of a sentence",
+    "elNum": "63",
+    "category": "Food",
+    "xy": "8,7"
+    },
+    {
+    "id": 64,
+    "abbr": "Pc",
+    "phrase": "It's a piece of cake",
+    "meaning": "It's easy",
+    "usage": "by itself",
+    "elNum": "64",
+    "category": "Food",
+    "xy": "9,7"
+    },
+    {
+    "id": 65,
+    "abbr": "Pp",
+    "phrase": "Like two peas in a pod",
+    "meaning": "They're always together",
+    "usage": "as part of a sentence",
+    "elNum": "65",
+    "category": "Food",
+    "xy": "10,7"
+    },
+    {
+    "id": 66,
+    "abbr": "Pf",
+    "phrase": "Out of the frying pan and into the fire",
+    "meaning": "Things are going from bad to worse",
+    "usage": "by itself",
+    "elNum": "66",
+    "category": "Food",
+    "xy": "11,7"
+    },
+    {
+    "id": 67,
+    "abbr": "Sb",
+    "phrase": "Spill the beans",
+    "meaning": "Give away a secret",
+    "usage": "as part of a sentence",
+    "elNum": "67",
+    "category": "Food",
+    "xy": "12,7"
+    },
+    {
+    "id": 68,
+    "abbr": "Gs",
+    "phrase": "Take it with a grain of salt",
+    "meaning": "Don't take it too seriously",
+    "usage": "as part of a sentence",
+    "elNum": "68",
+    "category": "Food",
+    "xy": "13,7"
+    },
+    {
+    "id": 69,
+    "abbr": "Ba",
+    "phrase": "A bad apple",
+    "meaning": "a bad or corrupt person in a group",
+    "usage": "as part of a sentence",
+    "elNum": "69",
+    "category": "Fruits",
+    "xy": "14,7"
+    },
+    {
+    "id": 70,
+    "abbr": "Bc",
+    "phrase": "A Bite at the cherry",
+    "meaning": "an attempt at something.",
+    "usage": "as part of a sentence",
+    "elNum": "70",
+    "category": "Fruits",
+    "xy": "15,7"
+    },
+    {
+    "id": 71,
+    "abbr": "Pj",
+    "phrase": "A plum job",
+    "meaning": "a very good one that a lot of people would like",
+    "usage": "as part of a sentence",
+    "elNum": "71",
+    "category": "Fruits",
+    "xy": "16,7"
+    },
+    {
+    "id": 72,
+    "abbr": "Ap",
+    "phrase": "An apple a day keeps the doctor away",
+    "meaning": "Apples are good for you",
+    "usage": "by itself",
+    "elNum": "72",
+    "category": "Fruits",
+    "xy": "3,5"
+    },
+    {
+    "id": 73,
+    "abbr": "Ao",
+    "phrase": "Comparing apples to oranges",
+    "meaning": "Comparing two things that cannot be compared",
+    "usage": "as part of a sentence",
+    "elNum": "73",
+    "category": "Fruits",
+    "xy": "4,5"
+    },
+    {
+    "id": 74,
+    "abbr": "Gb",
+    "phrase": "Go Bananas",
+    "meaning": "to get angry; to go mad",
+    "usage": "as part of a sentence",
+    "elNum": "74",
+    "category": "Fruits",
+    "xy": "5,5"
+    },
+    {
+    "id": 75,
+    "abbr": "Ps",
+    "phrase": "Go pear-shaped",
+    "meaning": "to go wrong",
+    "usage": "as part of a sentence",
+    "elNum": "75",
+    "category": "Fruits",
+    "xy": "6,5"
+    },
+    {
+    "id": 76,
+    "abbr": "Lm",
+    "phrase": "Lemon",
+    "meaning": "a person or thing that proves to be defective, imperfect, or unsatisfactory",
+    "usage": "as part of a sentence",
+    "elNum": "76",
+    "category": "Fruits",
+    "xy": "7,5"
+    },
+    {
+    "id": 77,
+    "abbr": "Ir",
+    "phrase": "Iridiom",
+    "meaning": "A periodic table of idioms",
+    "usage": "as part of a sentence",
+    "elNum": "77",
+    "category": "Website",
+    "xy": "8,5"
+    },
+    {
+    "id": 78,
+    "abbr": "At",
+    "phrase": "the apple doesn't fall far from the tree",
+    "meaning": "a child displays the characteristics or tendencies that the parent does or has done.",
+    "usage": "by itself",
+    "elNum": "78",
+    "category": "Fruits",
+    "xy": "9,5"
+    },
+    {
+    "id": 79,
+    "abbr": "Ae",
+    "phrase": "The apple of one's eye",
+    "meaning": "a person of whom one is extremely fond and proud.",
+    "usage": "as part of a sentence",
+    "elNum": "79",
+    "category": "Fruits",
+    "xy": "10,5"
+    },
+    {
+    "id": 80,
+    "abbr": "Os",
+    "phrase": "Ball and Chain",
+    "meaning": "(sarcastic slang) a person's spouse or romantic partner, especially a female.",
+    "usage": "as part of a sentence",
+    "elNum": "80",
+    "category": "Love",
+    "xy": "11,5"
+    },
+    {
+    "id": 81,
+    "abbr": "Im",
+    "phrase": "Be An Item",
+    "meaning": "(of a couple) be involved in an established romantic or sexual relationship.",
+    "usage": "as part of a sentence",
+    "elNum": "81",
+    "category": "Love",
+    "xy": "12,5"
+    },
+    {
+    "id": 82,
+    "abbr": "Hh",
+    "phrase": "Be Head Over Heels (In Love)",
+    "meaning": "madly in love",
+    "usage": "as part of a sentence",
+    "elNum": "82",
+    "category": "Love",
+    "xy": "13,5"
+    },
+    {
+    "id": 83,
+    "abbr": "Ld",
+    "phrase": "Be Lovey-Dovey",
+    "meaning": "very affectionate or romantic, especially excessively so.",
+    "usage": "as part of a sentence",
+    "elNum": "83",
+    "category": "Love",
+    "xy": "14,5"
+    },
+    {
+    "id": 84,
+    "abbr": "Ff",
+    "phrase": "Birds of a feather flock together",
+    "meaning": "beings (typically humans) of similar type, interest, personality, character, or other distinctive attribute tend to mutually associate.",
+    "usage": "by itself",
+    "elNum": "84",
+    "category": "Love",
+    "xy": "15,5"
+    },
+    {
+    "id": 85,
+    "abbr": "Bd",
+    "phrase": "Blind Date",
+    "meaning": "a social engagement or date with a person one has not previously met.",
+    "usage": "as part of a sentence",
+    "elNum": "85",
+    "category": "Love",
+    "xy": "16,5"
+    },
+    {
+    "id": 86,
+    "abbr": "Fl",
+    "phrase": "Fall In Love With Somebody",
+    "meaning": "develop a deep romantic attachment to someone.",
+    "usage": "as part of a sentence",
+    "elNum": "86",
+    "category": "Love",
+    "xy": "17,5"
+    },
+    {
+    "id": 87,
+    "abbr": "Le",
+    "phrase": "Love At First Sight",
+    "meaning": "developing feelings for someone after meeting or seeing them for the first time.",
+    "usage": "as part of a sentence",
+    "elNum": "87",
+    "category": "Love",
+    "xy": "0,6"
+    },
+    {
+    "id": 88,
+    "abbr": "Mh",
+    "phrase": "Match Made In Heaven",
+    "meaning": "a relationship or pairing where each member perfectly complements the other.",
+    "usage": "as part of a sentence",
+    "elNum": "88",
+    "category": "Love",
+    "xy": "1,6"
+    },
+    {
+    "id": 89,
+    "abbr": "Tt",
+    "phrase": "Tie The Knot",
+    "meaning": "to get married",
+    "usage": "as part of a sentence",
+    "elNum": "89",
+    "category": "Love",
+    "xy": "2,6"
+    },
+    {
+    "id": 90,
+    "abbr": "Po",
+    "phrase": "A penny for your thoughts",
+    "meaning": "Tell me what you're thinking",
+    "usage": "by itself",
+    "elNum": "90",
+    "category": "Money",
+    "xy": "3,8"
+    },
+    {
+    "id": 91,
+    "abbr": "Bt",
+    "phrase": "Buy Time",
+    "meaning": "delay an event temporarily so as to have longer to improve one's own position.",
+    "usage": "as part of a sentence",
+    "elNum": "91",
+    "category": "Money",
+    "xy": "4,8"
+    },
+    {
+    "id": 92,
+    "abbr": "Be",
+    "phrase": "Beat around the bush",
+    "meaning": "Avoid saying what you mean, usually because it is uncomfortable",
+    "usage": "as part of a sentence",
+    "elNum": "92",
+    "category": "Nature",
+    "xy": "5,8"
+    },
+    {
+    "id": 93,
+    "abbr": "Bi",
+    "phrase": "Break the ice",
+    "meaning": "Make people feel more comfortable",
+    "usage": "as part of a sentence",
+    "elNum": "93",
+    "category": "Nature",
+    "xy": "6,8"
+    },
+    {
+    "id": 94,
+    "abbr": "Rs",
+    "phrase": "Come rain or shine",
+    "meaning": "No matter what",
+    "usage": "as part of a sentence",
+    "elNum": "94",
+    "category": "Nature",
+    "xy": "7,8"
+    },
+    {
+    "id": 95,
+    "abbr": "Cl",
+    "phrase": "Every cloud has a silver lining",
+    "meaning": "Good things come after bad things",
+    "usage": "by itself",
+    "elNum": "95",
+    "category": "Nature",
+    "xy": "8,8"
+    },
+    {
+    "id": 96,
+    "abbr": "Fr",
+    "phrase": "Fight fire with fire",
+    "meaning": "use the weapons or tactics of one's enemy or opponent, even if one finds them distasteful.",
+    "usage": "by itself",
+    "elNum": "96",
+    "category": "Nature",
+    "xy": "9,8"
+    },
+    {
+    "id": 97,
+    "abbr": "Sw",
+    "phrase": "Get a second wind",
+    "meaning": "Have more energy after having been tired",
+    "usage": "as part of a sentence",
+    "elNum": "97",
+    "category": "Nature",
+    "xy": "10,8"
+    },
+    {
+    "id": 98,
+    "abbr": "Cw",
+    "phrase": "Catch wind of something",
+    "meaning": "Hear news of something secret",
+    "usage": "as part of a sentence",
+    "elNum": "98",
+    "category": "Nature",
+    "xy": "11,8"
+    },
+    {
+    "id": 99,
+    "abbr": "Df",
+    "phrase": "Go down in flames",
+    "meaning": "Fail spectacularly",
+    "usage": "as part of a sentence",
+    "elNum": "99",
+    "category": "Nature",
+    "xy": "12,8"
+    },
+    {
+    "id": 100,
+    "abbr": "Hc",
+    "phrase": "Have your head in the clouds",
+    "meaning": "Not concentrating",
+    "usage": "as part of a sentence",
+    "elNum": "100",
+    "category": "Nature",
+    "xy": "13,8"
+    },
+    {
+    "id": 101,
+    "abbr": "Id",
+    "phrase": "In the dark",
+    "meaning": "in a state of ignorance about something.",
+    "usage": "as part of a sentence",
+    "elNum": "101",
+    "category": "Nature",
+    "xy": "14,8"
+    },
+    {
+    "id": 102,
+    "abbr": "Wb",
+    "phrase": "Know which way the wind is blowing",
+    "meaning": "Understand the situation (usually negative)",
+    "usage": "as part of a sentence",
+    "elNum": "102",
+    "category": "Nature",
+    "xy": "15,8"
+    },
+    {
+    "id": 103,
+    "abbr": "Cn",
+    "phrase": "On cloud nine",
+    "meaning": "Very happy",
+    "usage": "as part of a sentence",
+    "elNum": "103",
+    "category": "Nature",
+    "xy": "16,8"
+    },
+    {
+    "id": 104,
+    "abbr": "Ti",
+    "phrase": "On thin ice",
+    "meaning": "On probation. If you make another mistake, there will be trouble.",
+    "usage": "as part of a sentence",
+    "elNum": "104",
+    "category": "Nature",
+    "xy": "3,6"
+    },
+    {
+    "id": 105,
+    "abbr": "Bm",
+    "phrase": "Once in a blue moon",
+    "meaning": "Rarely",
+    "usage": "as part of a sentence",
+    "elNum": "105",
+    "category": "Nature",
+    "xy": "4,6"
+    },
+    {
+    "id": 106,
+    "abbr": "Pi",
+    "phrase": "Put something on ice",
+    "meaning": "Put a projet on hold",
+    "usage": "as part of a sentence",
+    "elNum": "106",
+    "category": "Nature",
+    "xy": "5,6"
+    },
+    {
+    "id": 107,
+    "abbr": "Rp",
+    "phrase": "Rain on someone's parade",
+    "meaning": "To spoil something",
+    "usage": "as part of a sentence",
+    "elNum": "107",
+    "category": "Nature",
+    "xy": "6,6"
+    },
+    {
+    "id": 108,
+    "abbr": "Rw",
+    "phrase": "Run like the wind",
+    "meaning": "Run fast",
+    "usage": "as part of a sentence",
+    "elNum": "108",
+    "category": "Nature",
+    "xy": "7,6"
+    },
+    {
+    "id": 109,
+    "abbr": "Rd",
+    "phrase": "Saving for a rainy day",
+    "meaning": "Saving money for later",
+    "usage": "as part of a sentence",
+    "elNum": "109",
+    "category": "Nature",
+    "xy": "8,6"
+    },
+    {
+    "id": 110,
+    "abbr": "Sh",
+    "phrase": "Shoot for the stars",
+    "meaning": "aim high; set hefty goals",
+    "usage": "by itself",
+    "elNum": "110",
+    "category": "Nature",
+    "xy": "9,6"
+    },
+    {
+    "id": 111,
+    "abbr": "Rc",
+    "phrase": "Take a rain check",
+    "meaning": "Postpone a plan",
+    "usage": "as part of a sentence",
+    "elNum": "111",
+    "category": "Nature",
+    "xy": "10,6"
+    },
+    {
+    "id": 112,
+    "abbr": "Se",
+    "phrase": "A snowball effect",
+    "meaning": "Events have momentum and build upon each other",
+    "usage": "as part of a sentence",
+    "elNum": "112",
+    "category": "Nature",
+    "xy": "11,6"
+    },
+    {
+    "id": 113,
+    "abbr": "Sn",
+    "phrase": "A snowball's chance in hell",
+    "meaning": "No chance at all",
+    "usage": "as part of a sentence",
+    "elNum": "113",
+    "category": "Nature",
+    "xy": "12,6"
+    },
+    {
+    "id": 114,
+    "abbr": "Rr",
+    "phrase": "As right as rain",
+    "meaning": "Perfect",
+    "usage": "as part of a sentence",
+    "elNum": "114",
+    "category": "Nature",
+    "xy": "13,6"
+    },
+    {
+    "id": 115,
+    "abbr": "Cm",
+    "phrase": "Calm before the storm",
+    "meaning": "Something bad is coming, but right now it's calm",
+    "usage": "as part of a sentence",
+    "elNum": "115",
+    "category": "Nature",
+    "xy": "14,6"
+    },
+    {
+    "id": 116,
+    "abbr": "Lu",
+    "phrase": "A rising tide lifts all ships",
+    "meaning": "improvements in the general economy will benefit all participants in that economy.",
+    "usage": "by itself",
+    "elNum": "116",
+    "category": "Nature",
+    "xy": "15,6"
+    },
+    {
+    "id": 117,
+    "abbr": "Uw",
+    "phrase": "Be/feel under the weather",
+    "meaning": "slightly unwell or in low spirits.",
+    "usage": "as part of a sentence",
+    "elNum": "117",
+    "category": "Nature",
+    "xy": "16,6"
+    },
+    {
+    "id": 118,
+    "abbr": "Py",
+    "phrase": "Peachy",
+    "meaning": "as good as one could hope for",
+    "usage": "as part of a sentence",
+    "elNum": "118",
+    "category": "Fruits",
+    "xy": "17,6"
+    },
+    {
+    "id": 171,
+    "abbr": "Ar",
+    "phrase": "Ar phrase",
+    "meaning": "Asperiores quidem enim cupiditate numquam totam debitis repellat saepe tenetur.",
+    "usage": "This idiom can be used in many ways.",
+    "elNum": "119",
+    "category": "Miscellaneous",
+    "xy": "8,4"
+    },
+    {
+    "id": 172,
+    "abbr": "Ii",
+    "phrase": "It is what it is",
+    "meaning": "You can't change (that)",
+    "usage": "This idiom can be used in many ways.",
+    "elNum": "120",
+    "category": "Miscellaneous",
+    "xy": "8,3"
+    },
+    {
+    "id": 173,
+    "abbr": "Cl",
+    "phrase": "Cl phrase",
+    "meaning": "Quidem velit ea praesentium rerum culpa quia minus odit harum.",
+    "usage": "This idiom can be used in many ways.",
+    "elNum": "121",
+    "category": "Miscellaneous",
+    "xy": "8,2"
+    },
+    {
+    "id": 174,
+    "abbr": "Yi",
+    "phrase": "Yi phrase",
+    "meaning": "Rerum quis saepe qui quisquam et et qui et molestias.",
+    "usage": "This idiom can be used in many ways.",
+    "elNum": "122",
+    "category": "Miscellaneous",
+    "xy": "7,2"
+    },
+    {
+    "id": 175,
+    "abbr": "Ry",
+    "phrase": "Ry phrase",
+    "meaning": "Quis necessitatibus architecto veritatis quo tempora omnis excepturi sit omnis.",
+    "usage": "This idiom can be used in many ways.",
+    "elNum": "123",
+    "category": "Miscellaneous",
+    "xy": "6,2"
+    },
+    {
+    "id": 176,
+    "abbr": "Ku",
+    "phrase": "Ku phrase",
+    "meaning": "Pariatur non omnis sit ea error facere aut placeat quae.",
+    "usage": "This idiom can be used in many ways.",
+    "elNum": "124",
+    "category": "Miscellaneous",
+    "xy": "5,2"
+    },
+    {
+    "id": 177,
+    "abbr": "Kl",
+    "phrase": "Kl phrase",
+    "meaning": "Consequatur voluptas sint dolores incidunt officiis est facere mollitia voluptatem.",
+    "usage": "This idiom can be used in many ways.",
+    "elNum": "125",
+    "category": "Miscellaneous",
+    "xy": "4,2"
+    },
+    {
+    "id": 178,
+    "abbr": "Wq",
+    "phrase": "Wq phrase",
+    "meaning": "Maiores vero debitis perspiciatis doloribus expedita ad sed et officiis.",
+    "usage": "This idiom can be used in many ways.",
+    "elNum": "126",
+    "category": "Miscellaneous",
+    "xy": "3,2"
+    },
+    {
+    "id": 179,
+    "abbr": "Xm",
+    "phrase": "Xm phrase",
+    "meaning": "Fuga possimus commodi consequatur omnis maxime dolor ab quia incidunt.",
+    "usage": "This idiom can be used in many ways.",
+    "elNum": "127",
+    "category": "Miscellaneous",
+    "xy": "2,2"
+    },
+    {
+    "id": 180,
+    "abbr": "Ti",
+    "phrase": "Ti phrase",
+    "meaning": "Voluptatibus ut esse soluta expedita illo tenetur rem ut assumenda.",
+    "usage": "This idiom can be used in many ways.",
+    "elNum": "128",
+    "category": "Miscellaneous",
+    "xy": "1,2"
+    },
+    {
+    "id": 181,
+    "abbr": "Qi",
+    "phrase": "Qi phrase",
+    "meaning": "Facilis sit porro eos cumque accusantium molestiae est earum iusto.",
+    "usage": "This idiom can be used in many ways.",
+    "elNum": "129",
+    "category": "Miscellaneous",
+    "xy": "0,2"
+    },
+    {
+    "id": 182,
+    "abbr": "Ob",
+    "phrase": "Ob phrase",
+    "meaning": "Similique magni corrupti veniam odit aut est sequi qui illum.",
+    "usage": "This idiom can be used in many ways.",
+    "elNum": "130",
+    "category": "Miscellaneous",
+    "xy": "9,2"
+    },
+    {
+    "id": 183,
+    "abbr": "Nj",
+    "phrase": "Nj phrase",
+    "meaning": "Id rerum odit tempore sequi minus sint rerum veritatis necessitatibus.",
+    "usage": "This idiom can be used in many ways.",
+    "elNum": "131",
+    "category": "Miscellaneous",
+    "xy": "10,2"
+    },
+    {
+    "id": 184,
+    "abbr": "Dy",
+    "phrase": "Dy phrase",
+    "meaning": "Modi ea aut animi iure officia quam omnis ipsum voluptas.",
+    "usage": "This idiom can be used in many ways.",
+    "elNum": "132",
+    "category": "Miscellaneous",
+    "xy": "11,2"
+    },
+    {
+    "id": 185,
+    "abbr": "Jk",
+    "phrase": "Jk phrase",
+    "meaning": "Accusamus quos eaque nostrum totam sunt unde id labore ea.",
+    "usage": "This idiom can be used in many ways.",
+    "elNum": "133",
+    "category": "Miscellaneous",
+    "xy": "12,2"
+    },
+    {
+    "id": 186,
+    "abbr": "Td",
+    "phrase": "Td phrase",
+    "meaning": "Aliquam quibusdam est rem amet necessitatibus sit suscipit voluptatem quisquam.",
+    "usage": "This idiom can be used in many ways.",
+    "elNum": "134",
+    "category": "Miscellaneous",
+    "xy": "13,2"
+    },
+    {
+    "id": 187,
+    "abbr": "Vp",
+    "phrase": "Vp phrase",
+    "meaning": "Voluptatem sunt ex et alias incidunt soluta saepe in delectus.",
+    "usage": "This idiom can be used in many ways.",
+    "elNum": "135",
+    "category": "Miscellaneous",
+    "xy": "14,2"
+    },
+    {
+    "id": 188,
+    "abbr": "Zr",
+    "phrase": "Zr phrase",
+    "meaning": "Sit consequatur non qui quia blanditiis explicabo cum eos facilis.",
+    "usage": "This idiom can be used in many ways.",
+    "elNum": "136",
+    "category": "Miscellaneous",
+    "xy": "15,2"
+    },
+    {
+    "id": 189,
+    "abbr": "Qu",
+    "phrase": "Qu phrase",
+    "meaning": "Ut sed consequatur expedita dignissimos natus ut et et facilis.",
+    "usage": "This idiom can be used in many ways.",
+    "elNum": "137",
+    "category": "Miscellaneous",
+    "xy": "16,2"
+    },
+    {
+    "id": 190,
+    "abbr": "Hw",
+    "phrase": "Hw phrase",
+    "meaning": "Quis dolor similique officiis voluptatem velit et facilis autem alias.",
+    "usage": "This idiom can be used in many ways.",
+    "elNum": "138",
+    "category": "Miscellaneous",
+    "xy": "17,2"
+    },
+    {
+    "id": 191,
+    "abbr": "Td",
+    "phrase": "Td phrase",
+    "meaning": "Magni sit ut molestiae id molestiae laboriosam quia veritatis odio.",
+    "usage": "This idiom can be used in many ways.",
+    "elNum": "139",
+    "category": "Miscellaneous",
+    "xy": "8,5"
+    },
+    {
+    "id": 192,
+    "abbr": "Xo",
+    "phrase": "Xo phrase",
+    "meaning": "Quia tenetur sapiente totam distinctio at vel nobis consequatur animi.",
+    "usage": "This idiom can be used in many ways.",
+    "elNum": "140",
+    "category": "Miscellaneous",
+    "xy": "8,6"
+    },
+    {
+    "id": 193,
+    "abbr": "Le",
+    "phrase": "Le phrase",
+    "meaning": "Eaque asperiores perspiciatis omnis nam illo aliquid iusto officiis autem.",
+    "usage": "This idiom can be used in many ways.",
+    "elNum": "141",
+    "category": "Miscellaneous",
+    "xy": "8,7"
+    },
+    {
+    "id": 194,
+    "abbr": "Ni",
+    "phrase": "Ni phrase",
+    "meaning": "Rerum qui consequatur velit tempora atque enim quia et optio.",
+    "usage": "This idiom can be used in many ways.",
+    "elNum": "142",
+    "category": "Miscellaneous",
+    "xy": "7,7"
+    },
+    {
+    "id": 195,
+    "abbr": "Kr",
+    "phrase": "Kr phrase",
+    "meaning": "Doloribus inventore ipsam veritatis cupiditate corporis velit est ipsum impedit.",
+    "usage": "This idiom can be used in many ways.",
+    "elNum": "143",
+    "category": "Miscellaneous",
+    "xy": "6,7"
+    },
+    {
+    "id": 196,
+    "abbr": "Qb",
+    "phrase": "Qb phrase",
+    "meaning": "Doloribus aspernatur fugit corrupti eum rerum eum laborum qui enim.",
+    "usage": "This idiom can be used in many ways.",
+    "elNum": "144",
+    "category": "Miscellaneous",
+    "xy": "5,7"
+    },
+    {
+    "id": 197,
+    "abbr": "St",
+    "phrase": "St phrase",
+    "meaning": "Cumque optio iste et sed sapiente numquam accusantium quos porro.",
+    "usage": "This idiom can be used in many ways.",
+    "elNum": "145",
+    "category": "Miscellaneous",
+    "xy": "4,7"
+    },
+    {
+    "id": 198,
+    "abbr": "Ag",
+    "phrase": "Ag phrase",
+    "meaning": "Tempore eaque quia aperiam cum qui temporibus omnis debitis molestiae.",
+    "usage": "This idiom can be used in many ways.",
+    "elNum": "146",
+    "category": "Miscellaneous",
+    "xy": "3,7"
+    },
+    {
+    "id": 199,
+    "abbr": "We",
+    "phrase": "We phrase",
+    "meaning": "Est quo porro nihil aut unde aliquam voluptate possimus quibusdam.",
+    "usage": "This idiom can be used in many ways.",
+    "elNum": "147",
+    "category": "Miscellaneous",
+    "xy": "2,7"
+    },
+    {
+    "id": 200,
+    "abbr": "Fk",
+    "phrase": "Fk phrase",
+    "meaning": "Exercitationem rerum asperiores ullam iure officiis odit quis consectetur quidem.",
+    "usage": "This idiom can be used in many ways.",
+    "elNum": "148",
+    "category": "Miscellaneous",
+    "xy": "1,7"
+    },
+    {
+    "id": 201,
+    "abbr": "Kf",
+    "phrase": "Kf phrase",
+    "meaning": "Perferendis sed ducimus ea animi quia et sint alias consequatur.",
+    "usage": "This idiom can be used in many ways.",
+    "elNum": "149",
+    "category": "Miscellaneous",
+    "xy": "0,7"
+    },
+    {
+    "id": 202,
+    "abbr": "Sw",
+    "phrase": "Sw phrase",
+    "meaning": "Doloribus qui magnam consequuntur qui a quas ea consequatur quam.",
+    "usage": "This idiom can be used in many ways.",
+    "elNum": "150",
+    "category": "Miscellaneous",
+    "xy": "9,7"
+    },
+    {
+    "id": 203,
+    "abbr": "Nk",
+    "phrase": "Nk phrase",
+    "meaning": "Eum qui doloremque est officia aut animi consectetur aut quo.",
+    "usage": "This idiom can be used in many ways.",
+    "elNum": "151",
+    "category": "Miscellaneous",
+    "xy": "10,7"
+    },
+    {
+    "id": 204,
+    "abbr": "Yb",
+    "phrase": "Yb phrase",
+    "meaning": "Est accusamus rerum voluptatem quis nihil numquam et et aut.",
+    "usage": "This idiom can be used in many ways.",
+    "elNum": "152",
+    "category": "Miscellaneous",
+    "xy": "11,7"
+    },
+    {
+    "id": 205,
+    "abbr": "Tn",
+    "phrase": "Tn phrase",
+    "meaning": "Sunt quibusdam eos facere ab provident porro officia nemo impedit.",
+    "usage": "This idiom can be used in many ways.",
+    "elNum": "153",
+    "category": "Miscellaneous",
+    "xy": "12,7"
+    },
+    {
+    "id": 206,
+    "abbr": "Ul",
+    "phrase": "Ul phrase",
+    "meaning": "Rerum officia et et qui consequuntur iure consequatur provident sint.",
+    "usage": "This idiom can be used in many ways.",
+    "elNum": "154",
+    "category": "Miscellaneous",
+    "xy": "13,7"
+    },
+    {
+    "id": 207,
+    "abbr": "Yr",
+    "phrase": "Yr phrase",
+    "meaning": "Vitae magni vel ad sint id in ea quam voluptatem.",
+    "usage": "This idiom can be used in many ways.",
+    "elNum": "155",
+    "category": "Miscellaneous",
+    "xy": "14,7"
+    },
+    {
+    "id": 208,
+    "abbr": "Uf",
+    "phrase": "Uf phrase",
+    "meaning": "Nemo eum eaque ut consequatur sapiente et et sed vitae.",
+    "usage": "This idiom can be used in many ways.",
+    "elNum": "156",
+    "category": "Miscellaneous",
+    "xy": "15,7"
+    },
+    {
+    "id": 209,
+    "abbr": "Jq",
+    "phrase": "Jq phrase",
+    "meaning": "Consequatur quas qui consequatur quo id est quam iste necessitatibus.",
+    "usage": "This idiom can be used in many ways.",
+    "elNum": "157",
+    "category": "Miscellaneous",
+    "xy": "16,7"
+    },
+    {
+    "id": 210,
+    "abbr": "Pd",
+    "phrase": "Pd phrase",
+    "meaning": "Eum occaecati nihil minima in iste consequatur laboriosam ducimus voluptatum.",
+    "usage": "This idiom can be used in many ways.",
+    "elNum": "158",
+    "category": "Miscellaneous",
+    "xy": "17,7"
+    },
+    {
+    "id": 211,
+    "abbr": "Ag",
+    "phrase": "Ag phrase",
+    "meaning": "Accusamus sit ut doloribus quasi itaque voluptates enim quod unde.",
+    "usage": "This idiom can be used in many ways.",
+    "elNum": "159",
+    "category": "Miscellaneous",
+    "xy": "7,4"
+    },
+    {
+    "id": 212,
+    "abbr": "Mm",
+    "phrase": "Mm phrase",
+    "meaning": "Sit modi maxime molestiae culpa animi non recusandae et molestias.",
+    "usage": "This idiom can be used in many ways.",
+    "elNum": "160",
+    "category": "Miscellaneous",
+    "xy": "6,4"
+    },
+    {
+    "id": 213,
+    "abbr": "Nb",
+    "phrase": "Nb phrase",
+    "meaning": "Ut quaerat autem voluptatem qui reprehenderit dicta voluptatem aut dolor.",
+    "usage": "This idiom can be used in many ways.",
+    "elNum": "161",
+    "category": "Miscellaneous",
+    "xy": "5,4"
+    },
+    {
+    "id": 214,
+    "abbr": "Jt",
+    "phrase": "Jt phrase",
+    "meaning": "Voluptatem dolorem eum suscipit libero cum voluptate quisquam ut dolor.",
+    "usage": "This idiom can be used in many ways.",
+    "elNum": "162",
+    "category": "Miscellaneous",
+    "xy": "9,4"
+    },
+    {
+    "id": 215,
+    "abbr": "Jt",
+    "phrase": "Jt phrase",
+    "meaning": "Voluptate expedita vitae sed ipsa dolores quia laborum alias consequatur.",
+    "usage": "This idiom can be used in many ways.",
+    "elNum": "163",
+    "category": "Miscellaneous",
+    "xy": "10,4"
+    },
+    {
+    "id": 216,
+    "abbr": "Ca",
+    "phrase": "Ca phrase",
+    "meaning": "Eveniet eaque dicta harum molestias expedita molestiae libero omnis autem.",
+    "usage": "This idiom can be used in many ways.",
+    "elNum": "164",
+    "category": "Miscellaneous",
+    "xy": "11,4"
+    },
+    {
+    "id": 217,
+    "abbr": "Ts",
+    "phrase": "Ts phrase",
+    "meaning": "Suscipit explicabo natus quod architecto rerum consequatur tempore eaque aut.",
+    "usage": "This idiom can be used in many ways.",
+    "elNum": "165",
+    "category": "Miscellaneous",
+    "xy": "7,5"
+    },
+    {
+    "id": 218,
+    "abbr": "Pd",
+    "phrase": "Pd phrase",
+    "meaning": "Consequatur laudantium sed architecto dicta laborum qui doloremque et vero.",
+    "usage": "This idiom can be used in many ways.",
+    "elNum": "166",
+    "category": "Miscellaneous",
+    "xy": "6,5"
+    },
+    {
+    "id": 219,
+    "abbr": "Ki",
+    "phrase": "Ki phrase",
+    "meaning": "Qui hic autem praesentium aliquam ut quia est sunt sunt.",
+    "usage": "This idiom can be used in many ways.",
+    "elNum": "167",
+    "category": "Miscellaneous",
+    "xy": "5,5"
+    },
+    {
+    "id": 220,
+    "abbr": "Mo",
+    "phrase": "Mo phrase",
+    "meaning": "Et eveniet eius quasi voluptatem sequi enim enim dignissimos sit.",
+    "usage": "This idiom can be used in many ways.",
+    "elNum": "168",
+    "category": "Miscellaneous",
+    "xy": "9,5"
+    },
+    {
+    "id": 221,
+    "abbr": "Ey",
+    "phrase": "Ey phrase",
+    "meaning": "Dolores eum dolore modi sed iste minima praesentium est in.",
+    "usage": "This idiom can be used in many ways.",
+    "elNum": "169",
+    "category": "Miscellaneous",
+    "xy": null
+    },
+    {
+    "id": 222,
+    "abbr": "Dn",
+    "phrase": "Dn phrase",
+    "meaning": "Omnis quaerat sit voluptates quia quisquam sint voluptate voluptatibus minus.",
+    "usage": "This idiom can be used in many ways.",
+    "elNum": "170",
+    "category": "Miscellaneous",
+    "xy": null
+    },
+    {
+    "id": 223,
+    "abbr": "Rw",
+    "phrase": "Rw phrase",
+    "meaning": "Dolorem velit aut consequatur modi ducimus hic vitae repellat numquam.",
+    "usage": "This idiom can be used in many ways.",
+    "elNum": "171",
+    "category": "Miscellaneous",
+    "xy": null
+    },
+    {
+    "id": 224,
+    "abbr": "Bf",
+    "phrase": "Bf phrase",
+    "meaning": "Quasi incidunt quisquam dolorem magni reprehenderit voluptatem velit aut molestiae.",
+    "usage": "This idiom can be used in many ways.",
+    "elNum": "172",
+    "category": "Miscellaneous",
+    "xy": null
+    }
+    ],
+    "tags":
+    [
+        {
+        "id": 1,
+        "name": "verb"
+        },
+        {
+        "id": 2,
+        "name": "happy"
+        },
+        {
+        "id": 3,
+        "name": "advice"
+        },
+        {
+        "id": 4,
+        "name": "money"
+        },
+        {
+        "id": 5,
+        "name": "numbers"
+        },
+        {
+        "id": 6,
+        "name": "noun"
+        },
+        {
+        "id": 7,
+        "name": "informal"
+        },
+        {
+        "id": 8,
+        "name": "books"
+        },
+        {
+        "id": 9,
+        "name": "animals"
+        },
+        {
+        "id": 10,
+        "name": "dogs"
+        },
+        {
+        "id": 11,
+        "name": "nature"
+        },
+        {
+        "id": 12,
+        "name": "cats"
+        },
+        {
+        "id": 13,
+        "name": "body parts"
+        },
+        {
+        "id": 14,
+        "name": "action"
+        },
+        {
+        "id": 15,
+        "name": "love"
+        },
+        {
+        "id": 16,
+        "name": "proverb"
+        },
+        {
+        "id": 17,
+        "name": "clothing"
+        },
+        {
+        "id": 18,
+        "name": "country"
+        },
+        {
+        "id": 19,
+        "name": "food"
+        },
+        {
+        "id": 20,
+        "name": "root"
+        },
+        {
+        "id": 21,
+        "name": "time"
+        },
+        {
+        "id": 22,
+        "name": "fruits"
+        }
+        ]
+}

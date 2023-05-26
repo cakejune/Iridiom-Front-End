@@ -8,6 +8,7 @@ import { Route, Routes } from "react-router-dom";
 import SpecialThanks from "../Navbar Elements/SpecialThanks";
 import IdiomCategoryKey from "./TableF/IdiomCategoryKey";
 import EditIdiom from "./EditIdiom";
+import SearchBar from "./SearchBar";
 
 function App() {
   const [elements, setElements] = useState([]);
@@ -15,6 +16,7 @@ function App() {
   const [matchedElementsWithTags, setMatchedElementsWithTags] = useState([]);
   const [selectedCategory, setSelectedCategory] = useState("");
   const [elementToEdit, setElementToEdit] = useState({});
+  const [searchResults, setSearchResults] = useState([]);
 
 
   useEffect(() => {
@@ -85,6 +87,14 @@ function App() {
     fetchData().catch(console.error);
   }
 
+  function renderSearchResults(searchResults){
+
+    setSearchResults(searchResults);
+    //change the color of all the cells that do not match the search results to grey. Change the background color ofthe whole page to slightly dimmer as well.
+
+
+  }
+
  
 
   return (
@@ -95,7 +105,8 @@ function App() {
           
           path="/"
           element={[
-            <TableGrid elements={elements} key={1}/>,
+            <SearchBar renderSearchResults={renderSearchResults} elements={elements} key={0}/>,
+            <TableGrid searchResults={searchResults} elements={elements} key={1}/>,
             <IdiomCategoryKey key={9}/>,
             <Categories
               elements={elements}

@@ -8,7 +8,7 @@ import IdiomCategoryKey from "./IdiomCategoryKey";
 //import constants from constants.js
 import {first_page, second_page, third_page} from "../../constants.js"
 
-export default function TableGrid({ elements }) {
+export default function TableGrid({ elements, searchResults }) {
   
   const [element_page, setElementPage] = useState(0);
   const [show, setShow] = useState(false);
@@ -38,6 +38,14 @@ export default function TableGrid({ elements }) {
     return newTable;
   };
 
+  const checkIfSearched = (element) => {
+    if (searchResults.includes(element)) {
+      return true;
+    } else {
+      return false;
+    }
+  };
+
   
 
   // const matchTableLocation = {
@@ -51,6 +59,7 @@ export default function TableGrid({ elements }) {
     } else {
       return (
         <Cell
+          searched={checkIfSearched(element)}
           element={element}
           key={coordinate}
           handleClick={handleElementClick}
@@ -108,5 +117,3 @@ export default function TableGrid({ elements }) {
     </>
   );
 }
-
-// <IdiomCategoryKey/>

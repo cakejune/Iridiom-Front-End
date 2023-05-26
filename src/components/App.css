@@ -76,6 +76,17 @@ a:active {
   margin-bottom: 1em;
   width: 20em;
 }
+.searchBar {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  font-weight: 700;
+  color: #fd0de2;
+  border-style: double;
+  margin-top: -1em;
+  margin-bottom: 1em;
+  width: 20em;
+}
 
 /*Special Thanks Component*/
 
@@ -425,6 +436,9 @@ td {
 }
 .elementCategory.Website:hover {
   background-color: rgb(6, 153, 190);
+}
+.elementCategory.notSearched {
+  background-color: rgba(136, 135, 135, 0.467);
 }
 
 /*table grid

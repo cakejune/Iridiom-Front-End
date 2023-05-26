@@ -3,9 +3,17 @@ import Button from "react-bootstrap/Button";
 import OverlayTrigger from "react-bootstrap/OverlayTrigger";
 import Tooltip from "react-bootstrap/Tooltip";
 
-export default function Cell({ element, handleClick }) {
+export default function Cell({ element, handleClick, searched }) {
   function handleEvent() {
     handleClick(element);
+    console.log(searched)
+  }
+
+  function renderClassName()
+  {
+    return "elementCategory " + 
+    (handleClick ? "grow " : " ") +
+    (searched ? element.category : "notSearched")
   }
 
   return (
@@ -20,9 +28,7 @@ export default function Cell({ element, handleClick }) {
         }
       >
         <div
-          className={
-            `elementCategory ${handleClick ? "grow " : " "}` + element.category
-          }
+          className={renderClassName()}
           onClick={handleEvent}
         >
           <div className="elNumber">{element.elNum}</div>
