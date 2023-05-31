@@ -1,145 +1,78 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { useState } from "react";
 
 export default function IdiomCategoryKey({setCategory}) {
+  const [categories, setCategories] = useState([]);
+  const [selectedCategory, setSelectedCategory] = useState(null);
+  const style = {
+    "cursor": "pointer",
+    "width": "4em",
+    "height": "4em",
+    "padding": "1px",
+    "margin": "1px",
+    "border": "1px solid #333",
+    "borderRadius": "20%",
+    "borderCollapse": "collapse",
+    "overflow": "hidden",
+    "transition": "all 0.2s ease-in-out",
+    "textAlign": "center",
+    
+  }
+ 
+  const styleKey = {
+    "Love": "rgb(247, 160, 238)",
+    "Books": "linear-gradient(rgb(255, 153, 0), rgb(255, 179, 0))",
+    "Body-parts": "linear-gradient(rgb(221, 169, 90), rgb(231, 77, 77))",
+    "Nature": "linear-gradient(rgb(104, 226, 104), rgb(15, 120, 32))",
+    "Food": "rgb(255, 157, 0)",
+    "Animals": "rgb(127, 191, 255)",
+    "Cats": "#8b7868",
+    "Clothing": "rgb(42, 104, 108)",
+    "Fruits": "peachpuff",
+    "Money": "rgb(244, 241, 89)",
+    "Country": "#596ef7",
+    "Advice": "rgb(212, 233, 180)",
+    "Action": "rgb(245, 189, 106)",
+    "Website": "linear-gradient(rgb(243, 193, 232), rgb(243, 5, 239))",
+  };
+
+  useEffect(() => {
+    fetch("/categories")
+      .then((response) => response.json())
+      .then((data) => {
+        setCategories(data);
+      })
+      .catch(console.error);
+  }, []);
+      
 
   function handleClick(e){
-    console.log(e.target.innerHTML)
-    // setCategory(e.target.innerHTML);
+    console.log(e.target.className);
+    if (selectedCategory === e.target.className){
+      setSelectedCategory(null);
+      setCategory(null);
+      return;
+    }
+    setSelectedCategory(e.target.className)
+    setCategory(e.target.className);
   }
 
   return (
     <div className="idiomKeyContainer">
          <h4 className="idiomKeyTitle">Category 🔑 Key</h4>
     <div className="idiomkey">
-       
-       
-      
-        <div className="keyItem Action">
-          <div className="elementCategory Action">
-            <div className="elNumber"></div>
-            <div className="elAbbr"></div>
-          </div>
-          <div>Action</div>
-        </div>
-        <div className="keyItem Advice">
-            <div className="elementCategory Advice">
-              <div className="keyCell">
-                <div className="elNumber"></div>
-                <div className="elAbbr"></div>
+       {categories.map((category) => {
+          return (
+            <div className="keyItem">
+              <div onClick={handleClick} className={category} style={{...style, "background": styleKey[category]}} key={category}>
+               
               </div>
+              <div>{category}</div>
             </div>
-        <div>Advice</div>
-        </div>
-        <div className="keyItem Animals">
-            <div className="elementCategory Animals">
-              <div className="keyCell">
-                <div className="elNumber"></div>
-                <div className="elAbbr"></div>
-              </div>
-            </div>
-        <div>Animals</div>
-        </div>
-        <div className="keyItem">
-            <div className="elementCategory Body-parts">
-              <div className="keyCell">
-                <div className="elNumber"></div>
-                <div className="elAbbr"></div>
-              </div>
-            </div>
-        <div>Body Parts</div>
-        </div>
-        <div className="keyItem">
-            <div className="elementCategory Books">
-              <div className="keyCell">
-                <div className="elNumber"></div>
-                <div className="elAbbr"></div>
-              </div>
-            </div>
-        <div>Books</div>
-        </div>
-        <div className="keyItem">
-            <div className="elementCategory Cats">
-              <div className="keyCell">
-                <div className="elNumber"></div>
-                <div className="elAbbr"></div>
-              </div>
-            </div>
-        <div>Cats</div>
-        </div>
-        <div className="keyItem">
-            <div className="elementCategory Clothing">
-              <div className="keyCell">
-                <div className="elNumber"></div>
-                <div className="elAbbr"></div>
-              </div>
-            </div>
-        <div>Clothing</div>
-        </div>
-        <div className="keyItem">
-            <div className="elementCategory Country">
-              <div className="keyCell">
-                <div className="elNumber"></div>
-                <div className="elAbbr"></div>
-              </div>
-            </div>
-        <div>Country</div>
-        </div>
-        <div className="keyItem">
-            <div className="elementCategory Food">
-              <div className="keyCell">
-                <div className="elNumber"></div>
-                <div className="elAbbr"></div>
-              </div>
-            </div>
-        <div>Food</div>
-        </div>
-        <div className="keyItem">
-            <div className="elementCategory Fruits">
-              <div className="keyCell">
-                <div className="elNumber"></div>
-                <div className="elAbbr"></div>
-              </div>
-            </div>
-        <div>Fruits</div>
-        </div>
-        <div className="keyItem">
-            <div className="elementCategory Love">
-              <div className="keyCell">
-                <div className="elNumber"></div>
-                <div className="elAbbr"></div>
-              </div>
-            </div>
-        <div>Love</div>
-        </div>
-        <div className="keyItem">
-            <div className="elementCategory Money">
-              <div className="keyCell">
-                <div className="elNumber"></div>
-                <div className="elAbbr"></div>
-              </div>
-            </div>
-        <div>Money</div>
-        </div>
-        <div className="keyItem">
-            <div className="elementCategory Nature">
-              <div className="keyCell">
-                <div className="elNumber"></div>
-                <div className="elAbbr"></div>
-              </div>
-            </div>
-        <div>Nature</div>
-        </div>
-        
-        <div className="keyItem">
-            <div className="elementCategory Website">
-              <div className="keyCell">
-                <div className="elNumber"></div>
-                <div className="elAbbr"></div>
-              </div>
-            </div>
-        <div>Website</div>
-        </div>
-      
+          );
+       }
+        )}
+
     </div>
     </div>
   );

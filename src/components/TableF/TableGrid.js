@@ -113,11 +113,10 @@ export default function TableGrid({ elements, searchResults }) {
           alignItems: "center",
         }}
       >
-        <p onClick={decreasePage}><i className="arrow left"></i></p>
+        <p onClick={decreasePage}><i className={element_page === 1 ? "arrow left" : null}></i></p>
         <div className="tableGrid">{render()}</div>
-        <p onClick={increasePage}><i className="arrow right"></i></p>
+        <p onClick={increasePage}><i className={element_page === 0 ? "arrow right" : null}></i></p>
       </div>
-      <Button onClick={() => console.log(elements)}>See state</Button>
     </>
   );
 }
