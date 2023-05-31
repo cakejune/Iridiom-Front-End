@@ -1,6 +1,12 @@
 import React from "react";
 
-export default function IdiomCategoryKey() {
+export default function IdiomCategoryKey({setCategory}) {
+
+  function handleClick(e){
+    console.log(e.target.innerHTML)
+    // setCategory(e.target.innerHTML);
+  }
+
   return (
     <div className="idiomKeyContainer">
          <h4 className="idiomKeyTitle">Category 🔑 Key</h4>

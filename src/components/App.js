@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
 import Navbar from "../Navbar Elements/Navbar";
-import Categories from "./CategoriesF/Categories";
 import SearchResults from "./SearchResults/SearchResults";
 import TableGrid from "./TableF/TableGrid";
 import { Route, Routes } from "react-router-dom";
@@ -87,6 +86,15 @@ function App() {
     fetchData().catch(console.error);
   }
 
+
+  function setCategorySearch(category){
+    setSelectedCategory(category);
+    const filteredElements = elements.filter((el) => {
+      return el.category === category;
+    });
+    renderSearchResults(filteredElements);
+  }
+
   function renderSearchResults(searchResults){
 
     setSearchResults(searchResults);
@@ -108,14 +116,7 @@ function App() {
           element={[
             <SearchBar renderSearchResults={renderSearchResults} elements={elements} key={0}/>,
             <TableGrid searchResults={searchResults} elements={elements} key={1}/>,
-            <IdiomCategoryKey key={9}/>,
-            <Categories
-              elements={elements}
-              tagState={tagState}
-              filterElementsByTags={filterElementsByTags}
-              key={2}
-            />,
-            <SearchResults matchedElementsWithTags={matchedElementsWithTags} key={3}/>,
+            <IdiomCategoryKey key={9} setCategory={setCategorySearch}/>,
           ]}
         ></Route>
         <Route path="/edit/:id" element={<EditIdiom key={5} />}></Route>
@@ -125,122 +126,6 @@ function App() {
     </div>
   );
 
-  function AddElement({ postIdiom }) {
-    const [newE, setNewE] = React.useState({
-      abbr: "",
-      phrase: "",
-      meaning: "",
-      usage: "",
-      tags: "",
-      elNum: 0,
-    });
-
-    function handleSubmit(e) {
-      e.preventDefault();
-      postIdiom(newE);
-    }
-    function trackInput(e) {
-      {
-        const value = e.target.value;
-        setNewE({
-          ...newE,
-          [e.target.name]: value,
-        });
-      }
-    }
-    return (
-      <div id="add-Idiom">
-        <form id="addElement" onSubmit={handleSubmit}>
-          <h1>Add An Idiom</h1>
-          <div className="field">
-            <label htmlFor="abbr">Abbr:</label>
-            <input
-              type="text"
-              id="abbr"
-              name="abbr"
-              placeholder="Enter the custom abbreviation"
-              value={newE.abbr}
-              onChange={trackInput}
-            />
-            <small></small>
-          </div>
-          <div className="field">
-            <label htmlFor="phrase">phrase:</label>
-            <input
-              type="text"
-              id="phrase"
-              name="phrase"
-              placeholder="Enter the phrase"
-              value={newE.phrase}
-              onChange={trackInput}
-            />
-            <small></small>
-          </div>
-          <div className="field">
-            <label htmlFor="meaning">meaning:</label>
-            <input
-              type="text"
-              id="meaning"
-              name="meaning"
-              placeholder="Enter the meaning"
-              value={newE.meaning}
-              onChange={trackInput}
-            />
-            <small></small>
-          </div>
-          <div className="field">
-            <label htmlFor="usage">usage:</label>
-            <input
-              type="text"
-              id="usage"
-              name="usage"
-              placeholder="Enter the usage"
-              value={newE.usage}
-              onChange={trackInput}
-            />
-            <small></small>
-          </div>
-          <div className="field">
-            <label htmlFor="tags">tags:</label>
-            <input
-              type="text"
-              id="tags"
-              name="tags"
-              placeholder="Enter the tags"
-              value={newE.tags}
-              onChange={trackInput}
-            />
-            <small></small>
-          </div>
-          <div className="field">
-            <label htmlFor="elementNumber">elementNumber:</label>
-            <input
-              type="text"
-              id="elementNumber"
-              name="elNum"
-              placeholder="Enter the element number"
-              value={newE.elNum}
-              onChange={trackInput}
-            />
-            <small></small>
-          </div>
-          <div className="field">
-            <label htmlFor="category">category:</label>
-            <input
-              type="text"
-              id="elementCategory"
-              name="category"
-              placeholder="Enter the category"
-              value={newE.category}
-              onChange={trackInput}
-            />
-            <small></small>
-          </div>
-          <button type="submit">Submit</button>
-        </form>
-      </div>
-    );
-  }
 }
 
 export default App;

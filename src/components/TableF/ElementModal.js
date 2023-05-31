@@ -34,7 +34,7 @@ export default function ElementModal({ element, show, handleClose}) {
     <Modal show={show} onHide={handleClose} style={{fontFamily: "Roboto Mono, monospace"}}>
       <Modal.Header closeButton>
         <Modal.Title className="idiomTitle">
-          <Cell element={element} handleClick={null} />
+          <Cell element={element} handleClick={null} searched={true}/>
           <div className="idiomPhrase">{element.phrase}</div>
         </Modal.Title>
       </Modal.Header>
@@ -42,6 +42,12 @@ export default function ElementModal({ element, show, handleClose}) {
         <div className="modalBodyContent">
           <div className="Meaning">
             {`Meaning: ${element.meaning}`}
+            </div>
+          <div className="Usage">
+            {`Usage: ${element.usage}`}
+            </div>
+          <div className="Category">
+            {`Category: ${element.category}`}
             </div>
           {/*This is part of the body of the modal that will show the tags, but tags aren't in the idiom objects atm */}
           <div className="tagContainer">
