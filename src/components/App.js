@@ -90,6 +90,7 @@ function App() {
   function renderSearchResults(searchResults){
 
     setSearchResults(searchResults);
+    
     //change the color of all the cells that do not match the search results to grey. Change the background color ofthe whole page to slightly dimmer as well.
 
 

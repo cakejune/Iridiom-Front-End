@@ -11,6 +11,7 @@ export default function SearchBar({elements, renderSearchResults}){
 
     const handleTyping = (e) => {
         const filteredElements = elements.filter((element) => {
+            console.log(e.target.value)
           return element.phrase.toLowerCase().includes(e.target.value.toLowerCase());
         });
       
@@ -20,8 +21,8 @@ export default function SearchBar({elements, renderSearchResults}){
 
     return (
         <div className="searchBar">
-            <input type="text" onChange={handleTyping} placeholder="Search for an idiom" />
-            <button type="submit" onClick={handleSubmit}>Search</button>
+            <input type="text" onChange={handleTyping} placeholder="Search for an idiom"/>
+            
         </div>
     )
 }
