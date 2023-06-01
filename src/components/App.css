@@ -536,6 +536,13 @@ td {
 }
 
 /*MODALS*/
+
+/* Intro Modal */
+
+.welcomeText {
+  text-align: center;
+}
+
 .idiomTitle {
   display: flex;
 }

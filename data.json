@@ -1,0 +1,3240 @@
+{
+  "idioms": [
+    {
+      "id": 1,
+      "elNum": "1",
+      "abbr": "Bl",
+      "phrase": "A blessing in disguise",
+      "meaning": "a good thing that seemed bad at first",
+      "usage": "as part of a sentence",
+      "xy": "0,0",
+      "created_at": "2023-04-24T19:29:05.974Z",
+      "updated_at": "2023-04-24T19:29:05.974Z",
+      "category": "Advice"
+    },
+    {
+      "id": 2,
+      "elNum": "2",
+      "abbr": "Di",
+      "phrase": "A dime a dozen",
+      "meaning": "Something common",
+      "usage": "as part of a sentence",
+      "xy": "17,0",
+      "created_at": "2023-04-24T19:29:05.980Z",
+      "updated_at": "2023-04-24T19:29:05.980Z",
+      "category": "Money"
+    },
+    {
+      "id": 3,
+      "elNum": "3",
+      "abbr": "Sd",
+      "phrase": "Spitting distance",
+      "meaning": "A short distance",
+      "usage": "as part of a sentence",
+      "xy": "0,1",
+      "created_at": "2023-04-24T19:29:05.985Z",
+      "updated_at": "2023-04-24T19:29:05.985Z",
+      "category": "Action"
+    },
+    {
+      "id": 4,
+      "elNum": "4",
+      "abbr": "St",
+      "phrase": "A stone's throw (away)",
+      "meaning": "a short distance",
+      "usage": "as part of a sentence",
+      "xy": "1,1",
+      "created_at": "2023-04-24T19:29:05.991Z",
+      "updated_at": "2023-04-24T19:29:05.991Z",
+      "category": "Action"
+    },
+    {
+      "id": 5,
+      "elNum": "5",
+      "abbr": "Bh",
+      "phrase": "A bird in the hand is worth two in the bush",
+      "meaning": "What you have is worth more than what you might have later",
+      "usage": "by itself",
+      "xy": "12,1",
+      "created_at": "2023-04-24T19:29:05.996Z",
+      "updated_at": "2023-04-24T19:29:05.996Z",
+      "category": "Animals"
+    },
+    {
+      "id": 6,
+      "elNum": "6",
+      "abbr": "Dg",
+      "phrase": "Don't give up your day job",
+      "meaning": "You're not very good at this",
+      "usage": "by itself",
+      "xy": "13,1",
+      "created_at": "2023-04-24T19:29:06.001Z",
+      "updated_at": "2023-04-24T19:29:06.001Z",
+      "category": "Advice"
+    },
+    {
+      "id": 7,
+      "elNum": "7",
+      "abbr": "Dj",
+      "phrase": "Don't judge a book by its cover",
+      "meaning": "you shouldn't judge someone or something based only on what you see on the outside or only on what you perceive without knowing the full situation.",
+      "usage": "by itself",
+      "xy": "14,1",
+      "created_at": "2023-04-24T19:29:06.005Z",
+      "updated_at": "2023-04-24T19:29:06.005Z",
+      "category": "Advice"
+    },
+    {
+      "id": 8,
+      "elNum": "8",
+      "abbr": "Dp",
+      "phrase": "Don't put all your eggs in one basket",
+      "meaning": "What you're doing is too risky",
+      "usage": "by itself",
+      "xy": "15,1",
+      "created_at": "2023-04-24T19:29:06.010Z",
+      "updated_at": "2023-04-24T19:29:06.010Z",
+      "category": "Advice"
+    },
+    {
+      "id": 9,
+      "elNum": "9",
+      "abbr": "Gt",
+      "phrase": "Good things come to those who wait",
+      "meaning": "Be patient",
+      "usage": "by itself",
+      "xy": "16,1",
+      "created_at": "2023-04-24T19:29:06.015Z",
+      "updated_at": "2023-04-24T19:29:06.015Z",
+      "category": "Advice"
+    },
+    {
+      "id": 10,
+      "elNum": "10",
+      "abbr": "Sy",
+      "phrase": "Slow and steady wins the race",
+      "meaning": "Reliability is more important than speed",
+      "usage": "by itself",
+      "xy": "17,1",
+      "created_at": "2023-04-24T19:29:06.021Z",
+      "updated_at": "2023-04-24T19:29:06.021Z",
+      "category": "Advice"
+    },
+    {
+      "id": 11,
+      "elNum": "11",
+      "abbr": "Bk",
+      "phrase": "Barking up the wrong tree",
+      "meaning": "To be mistaken, to be looking for solutions in the wrong place",
+      "usage": "as part of a sentence",
+      "xy": "0,2",
+      "created_at": "2023-04-24T19:29:06.026Z",
+      "updated_at": "2023-04-24T19:29:06.026Z",
+      "category": "Animals"
+    },
+    {
+      "id": 12,
+      "elNum": "12",
+      "abbr": "Dh",
+      "phrase": "Beat a dead horse",
+      "meaning": "Move on, this subject is over",
+      "usage": "by itself",
+      "xy": "1,2",
+      "created_at": "2023-04-24T19:29:06.034Z",
+      "updated_at": "2023-04-24T19:29:06.034Z",
+      "category": "Animals"
+    },
+    {
+      "id": 13,
+      "elNum": "13",
+      "abbr": "Dc",
+      "phrase": "Don't count your chickens before they hatch",
+      "meaning": "Don't count on something good happening until it's happened.",
+      "usage": "by itself",
+      "xy": "12,2",
+      "created_at": "2023-04-24T19:29:06.039Z",
+      "updated_at": "2023-04-24T19:29:06.039Z",
+      "category": "Animals"
+    },
+    {
+      "id": 14,
+      "elNum": "14",
+      "abbr": "Ed",
+      "phrase": "Every dog has his day",
+      "meaning": "Everyone gets a chance at least once",
+      "usage": "by itself",
+      "xy": "13,2",
+      "created_at": "2023-04-24T19:29:06.045Z",
+      "updated_at": "2023-04-24T19:29:06.045Z",
+      "category": "Animals"
+    },
+    {
+      "id": 15,
+      "elNum": "15",
+      "abbr": "Gc",
+      "phrase": "Go on a wild goose chase",
+      "meaning": "To do something pointless",
+      "usage": "as part of a sentence",
+      "xy": "14,2",
+      "created_at": "2023-04-24T19:29:06.051Z",
+      "updated_at": "2023-04-24T19:29:06.051Z",
+      "category": "Animals"
+    },
+    {
+      "id": 16,
+      "elNum": "16",
+      "abbr": "Hd",
+      "phrase": "Hair of the dog",
+      "meaning": "an alcoholic drink taken to cure a hangover.",
+      "usage": "as part of a sentence",
+      "xy": "15,2",
+      "created_at": "2023-04-24T19:29:06.055Z",
+      "updated_at": "2023-04-24T19:29:06.055Z",
+      "category": "Animals"
+    },
+    {
+      "id": 17,
+      "elNum": "17",
+      "abbr": "Bf",
+      "phrase": "He has bigger fish to fry",
+      "meaning": "He has bigger things to take care of than what we are talking about now",
+      "usage": "by itself",
+      "xy": "16,2",
+      "created_at": "2023-04-24T19:29:06.060Z",
+      "updated_at": "2023-04-24T19:29:06.060Z",
+      "category": "Animals"
+    },
+    {
+      "id": 18,
+      "elNum": "18",
+      "abbr": "Hm",
+      "phrase": "Hear something straight from the horse's mouth",
+      "meaning": "Hear something from the person involved",
+      "usage": "as part of a sentence",
+      "xy": "17,2",
+      "created_at": "2023-04-24T19:29:06.065Z",
+      "updated_at": "2023-04-24T19:29:06.065Z",
+      "category": "Animals"
+    },
+    {
+      "id": 19,
+      "elNum": "19",
+      "abbr": "Rc",
+      "phrase": "It's raining cats and dogs",
+      "meaning": "It's raining hard",
+      "usage": "by itself",
+      "xy": "0,3",
+      "created_at": "2023-04-24T19:29:06.070Z",
+      "updated_at": "2023-04-24T19:29:06.070Z",
+      "category": "Animals"
+    },
+    {
+      "id": 20,
+      "elNum": "20",
+      "abbr": "Bs",
+      "phrase": "Kill two birds with one stone",
+      "meaning": "Get two things done with a single action",
+      "usage": "by itself",
+      "xy": "1,3",
+      "created_at": "2023-04-24T19:29:06.075Z",
+      "updated_at": "2023-04-24T19:29:06.075Z",
+      "category": "Animals"
+    },
+    {
+      "id": 21,
+      "elNum": "21",
+      "abbr": "Dl",
+      "phrase": "Let sleeping dogs lie",
+      "meaning": "Stop discussing an issue",
+      "usage": "as part of a sentence",
+      "xy": "2,3",
+      "created_at": "2023-04-24T19:29:06.080Z",
+      "updated_at": "2023-04-24T19:29:06.080Z",
+      "category": "Animals"
+    },
+    {
+      "id": 22,
+      "elNum": "22",
+      "abbr": "Sc",
+      "phrase": "There's more than one way to skin a cat",
+      "meaning": "there is another way to get what you want",
+      "usage": "by itself",
+      "xy": "3,3",
+      "created_at": "2023-04-24T19:29:06.085Z",
+      "updated_at": "2023-04-24T19:29:06.085Z",
+      "category": "Animals"
+    },
+    {
+      "id": 23,
+      "elNum": "23",
+      "abbr": "Bz",
+      "phrase": "Bite off more than you can chew",
+      "meaning": "Take on a project that you cannot finish",
+      "usage": "as part of a sentence",
+      "xy": "4,3",
+      "created_at": "2023-04-24T19:29:06.090Z",
+      "updated_at": "2023-04-24T19:29:06.090Z",
+      "category": "Body-parts"
+    },
+    {
+      "id": 24,
+      "elNum": "24",
+      "abbr": "Bu",
+      "phrase": "Bite the bullet",
+      "meaning": "To get something over with because it is inevitable",
+      "usage": "as part of a sentence",
+      "xy": "5,3",
+      "created_at": "2023-04-24T19:29:06.095Z",
+      "updated_at": "2023-04-24T19:29:06.095Z",
+      "category": "Body-parts"
+    },
+    {
+      "id": 25,
+      "elNum": "25",
+      "abbr": "By",
+      "phrase": "By the skin of your teeth",
+      "meaning": "Just barely",
+      "usage": "as part of a sentence",
+      "xy": "6,3",
+      "created_at": "2023-04-24T19:29:06.101Z",
+      "updated_at": "2023-04-24T19:29:06.101Z",
+      "category": "Body-parts"
+    },
+    {
+      "id": 26,
+      "elNum": "26",
+      "abbr": "Al",
+      "phrase": "Costs an arm and a leg",
+      "meaning": "Very expensive",
+      "usage": "as part of a sentence",
+      "xy": "7,3",
+      "created_at": "2023-04-24T19:29:06.107Z",
+      "updated_at": "2023-04-24T19:29:06.107Z",
+      "category": "Body-parts"
+    },
+    {
+      "id": 27,
+      "elNum": "27",
+      "abbr": "Oh",
+      "phrase": "Get out of hand",
+      "meaning": "Get out of control",
+      "usage": "as part of a sentence",
+      "xy": "8,3",
+      "created_at": "2023-04-24T19:29:06.111Z",
+      "updated_at": "2023-04-24T19:29:06.111Z",
+      "category": "Body-parts"
+    },
+    {
+      "id": 28,
+      "elNum": "28",
+      "abbr": "Go",
+      "phrase": "Get something out of your system",
+      "meaning": "Do the thing you've been wanting to do so you can move on",
+      "usage": "as part of a sentence",
+      "xy": "9,3",
+      "created_at": "2023-04-24T19:29:06.117Z",
+      "updated_at": "2023-04-24T19:29:06.117Z",
+      "category": "Body-parts"
+    },
+    {
+      "id": 29,
+      "elNum": "29",
+      "abbr": "Co",
+      "phrase": "Give someone the cold shoulder",
+      "meaning": "Ignore someone",
+      "usage": "as part of a sentence",
+      "xy": "10,3",
+      "created_at": "2023-04-24T19:29:06.122Z",
+      "updated_at": "2023-04-24T19:29:06.122Z",
+      "category": "Body-parts"
+    },
+    {
+      "id": 30,
+      "elNum": "30",
+      "abbr": "Ct",
+      "phrase": "Cat got your tongue?",
+      "meaning": "Can't think of anything to say?",
+      "usage": "by itself",
+      "xy": "11,3",
+      "created_at": "2023-04-24T19:29:06.126Z",
+      "updated_at": "2023-04-24T19:29:06.126Z",
+      "category": "Body-parts"
+    },
+    {
+      "id": 31,
+      "elNum": "31",
+      "abbr": "Nh",
+      "phrase": "Hit the nail on the head",
+      "meaning": "Get something exactly right",
+      "usage": "by itself",
+      "xy": "12,3",
+      "created_at": "2023-04-24T19:29:06.131Z",
+      "updated_at": "2023-04-24T19:29:06.131Z",
+      "category": "Body-parts"
+    },
+    {
+      "id": 32,
+      "elNum": "32",
+      "abbr": "Pl",
+      "phrase": "Pull someone's leg",
+      "meaning": "To joke with someone",
+      "usage": "as part of a sentence",
+      "xy": "13,3",
+      "created_at": "2023-04-24T19:29:06.136Z",
+      "updated_at": "2023-04-24T19:29:06.136Z",
+      "category": "Body-parts"
+    },
+    {
+      "id": 33,
+      "elNum": "33",
+      "abbr": "Ws",
+      "phrase": "A weight off your shoulders",
+      "meaning": "A relief from worry",
+      "usage": "as part of a sentence",
+      "xy": "14,3",
+      "created_at": "2023-04-24T19:29:06.141Z",
+      "updated_at": "2023-04-24T19:29:06.141Z",
+      "category": "Body-parts"
+    },
+    {
+      "id": 34,
+      "elNum": "34",
+      "abbr": "Ah",
+      "phrase": "Achilles heel",
+      "meaning": "A weakness or vulnerable point.",
+      "usage": "as part of a sentence",
+      "xy": "15,3",
+      "created_at": "2023-04-24T19:29:06.146Z",
+      "updated_at": "2023-04-24T19:29:06.146Z",
+      "category": "Body-parts"
+    },
+    {
+      "id": 35,
+      "elNum": "35",
+      "abbr": "Eb",
+      "phrase": "Beauty is in the eye of the beholder",
+      "meaning": "Beauty cannot be judged objectively, for what one person finds beautiful or admirable may not appeal to another.",
+      "usage": "by itself",
+      "xy": "16,3",
+      "created_at": "2023-04-24T19:29:06.151Z",
+      "updated_at": "2023-04-24T19:29:06.151Z",
+      "category": "Body-parts"
+    },
+    {
+      "id": 36,
+      "elNum": "36",
+      "abbr": "Br",
+      "phrase": "Break a leg",
+      "meaning": "Good luck!",
+      "usage": "by itself",
+      "xy": "17,3",
+      "created_at": "2023-04-24T19:29:06.157Z",
+      "updated_at": "2023-04-24T19:29:06.157Z",
+      "category": "Body-parts"
+    },
+    {
+      "id": 37,
+      "elNum": "37",
+      "abbr": "Gf",
+      "phrase": "Gut feeling",
+      "meaning": "An instinct or intuition",
+      "usage": "as part of a sentence",
+      "xy": "0,4",
+      "created_at": "2023-04-24T19:29:06.162Z",
+      "updated_at": "2023-04-24T19:29:06.162Z",
+      "category": "Body-parts"
+    },
+    {
+      "id": 38,
+      "elNum": "38",
+      "abbr": "Ht",
+      "phrase": "My hands are tied",
+      "meaning": "I'm unable to act freely because something prevents it",
+      "usage": "by itself",
+      "xy": "1,4",
+      "created_at": "2023-04-24T19:29:06.167Z",
+      "updated_at": "2023-04-24T19:29:06.167Z",
+      "category": "Body-parts"
+    },
+    {
+      "id": 39,
+      "elNum": "39",
+      "abbr": "Hs",
+      "phrase": "Head start",
+      "meaning": "An advantage granted or gained at the beginning of something.",
+      "usage": "as part of a sentence",
+      "xy": "2,4",
+      "created_at": "2023-04-24T19:29:06.173Z",
+      "updated_at": "2023-04-24T19:29:06.173Z",
+      "category": "Body-parts"
+    },
+    {
+      "id": 40,
+      "elNum": "40",
+      "abbr": "Jh",
+      "phrase": "Joined at the hip",
+      "meaning": "When two people are inseperable",
+      "usage": "as part of a sentence",
+      "xy": "3,4",
+      "created_at": "2023-04-24T19:29:06.178Z",
+      "updated_at": "2023-04-24T19:29:06.178Z",
+      "category": "Body-parts"
+    },
+    {
+      "id": 41,
+      "elNum": "41",
+      "abbr": "Pa",
+      "phrase": "Pain in the neck/ass",
+      "meaning": "an annoying or tedious person or thing.",
+      "usage": "as part of a sentence",
+      "xy": "4,4",
+      "created_at": "2023-04-24T19:29:06.184Z",
+      "updated_at": "2023-04-24T19:29:06.184Z",
+      "category": "Body-parts"
+    },
+    {
+      "id": 42,
+      "elNum": "42",
+      "abbr": "Fm",
+      "phrase": "to put your foot in your mouth",
+      "meaning": " to say something that you shouldn't have",
+      "usage": "as part of a sentence",
+      "xy": "5,4",
+      "created_at": "2023-04-24T19:29:06.189Z",
+      "updated_at": "2023-04-24T19:29:06.189Z",
+      "category": "Body-parts"
+    },
+    {
+      "id": 43,
+      "elNum": "43",
+      "abbr": "Ss",
+      "phrase": "Sight for sore eyes",
+      "meaning": "a person or thing that one is extremely pleased or relieved to see.",
+      "usage": "as part of a sentence",
+      "xy": "6,4",
+      "created_at": "2023-04-24T19:29:06.194Z",
+      "updated_at": "2023-04-24T19:29:06.194Z",
+      "category": "Love"
+    },
+    {
+      "id": 44,
+      "elNum": "44",
+      "abbr": "Wk",
+      "phrase": "Weak at the knees",
+      "meaning": "helpless with emotion",
+      "usage": "as part of a sentence",
+      "xy": "7,4",
+      "created_at": "2023-04-24T19:29:06.200Z",
+      "updated_at": "2023-04-24T19:29:06.200Z",
+      "category": "Love"
+    },
+    {
+      "id": 45,
+      "elNum": "45",
+      "abbr": "Pt",
+      "phrase": "A picture is worth 1000 words",
+      "meaning": "Better to show than tell",
+      "usage": "by itself",
+      "xy": "8,4",
+      "created_at": "2023-04-24T19:29:06.204Z",
+      "updated_at": "2023-04-24T19:29:06.204Z",
+      "category": "Books"
+    },
+    {
+      "id": 46,
+      "elNum": "46",
+      "abbr": "Ob",
+      "phrase": "An open book",
+      "meaning": "a person or thing that is easily understood or interpreted.",
+      "usage": "as part of a sentence",
+      "xy": "9,4",
+      "created_at": "2023-04-24T19:29:06.210Z",
+      "updated_at": "2023-04-24T19:29:06.210Z",
+      "category": "Books"
+    },
+    {
+      "id": 47,
+      "elNum": "47",
+      "abbr": "Ls",
+      "phrase": "Make a long story short",
+      "meaning": "Tell something briefly",
+      "usage": "as part of a sentence",
+      "xy": "10,4",
+      "created_at": "2023-04-24T19:29:06.215Z",
+      "updated_at": "2023-04-24T19:29:06.215Z",
+      "category": "Books"
+    },
+    {
+      "id": 48,
+      "elNum": "48",
+      "abbr": "Bb",
+      "phrase": "By the book",
+      "meaning": "strictly according to the rules.",
+      "usage": "as part of a sentence",
+      "xy": "11,4",
+      "created_at": "2023-04-24T19:29:06.219Z",
+      "updated_at": "2023-04-24T19:29:06.219Z",
+      "category": "Books"
+    },
+    {
+      "id": 49,
+      "elNum": "49",
+      "abbr": "Co",
+      "phrase": "Cook the books",
+      "meaning": "alter facts or figures dishonestly or illegally.",
+      "usage": "as part of a sentence",
+      "xy": "12,4",
+      "created_at": "2023-04-24T19:29:06.224Z",
+      "updated_at": "2023-04-24T19:29:06.224Z",
+      "category": "Books"
+    },
+    {
+      "id": 50,
+      "elNum": "50",
+      "abbr": "Rb",
+      "phrase": "Read someone like a book",
+      "meaning": "understand someone's thoughts and motives clearly or easily.",
+      "usage": "by itself",
+      "xy": "13,4",
+      "created_at": "2023-04-24T19:29:06.229Z",
+      "updated_at": "2023-04-24T19:29:06.229Z",
+      "category": "Books"
+    },
+    {
+      "id": 51,
+      "elNum": "51",
+      "abbr": "Wa",
+      "phrase": "Reading in between the lines",
+      "meaning": "to find meanings that are intended but that are not directly expressed in something said or written",
+      "usage": "as part of a sentence",
+      "xy": "14,4",
+      "created_at": "2023-04-24T19:29:06.234Z",
+      "updated_at": "2023-04-24T19:29:06.234Z",
+      "category": "Books"
+    },
+    {
+      "id": 52,
+      "elNum": "52",
+      "abbr": "Ot",
+      "phrase": "The oldest trick in the book",
+      "meaning": "a way of tricking someone that is still effective although it has been used a lot before",
+      "usage": "as part of a sentence",
+      "xy": "15,4",
+      "created_at": "2023-04-24T19:29:06.239Z",
+      "updated_at": "2023-04-24T19:29:06.239Z",
+      "category": "Books"
+    },
+    {
+      "id": 53,
+      "elNum": "53",
+      "abbr": "Cc",
+      "phrase": "Curiosity killed the cat",
+      "meaning": "being inquisitive about other people's affairs may get you into trouble.",
+      "usage": "by itself",
+      "xy": "16,4",
+      "created_at": "2023-04-24T19:29:06.246Z",
+      "updated_at": "2023-04-24T19:29:06.246Z",
+      "category": "Cats"
+    },
+    {
+      "id": 54,
+      "elNum": "54",
+      "abbr": "Cb",
+      "phrase": "Let the cat out of the bag",
+      "meaning": "give away a secret",
+      "usage": "as part of a sentence",
+      "xy": "17,4",
+      "created_at": "2023-04-24T19:29:06.251Z",
+      "updated_at": "2023-04-24T19:29:06.251Z",
+      "category": "Cats"
+    },
+    {
+      "id": 55,
+      "elNum": "55",
+      "abbr": "Cd",
+      "phrase": "Look what the cat dragged in",
+      "meaning": "used as an ironic acknowledgement of someone's arrival, especially to imply that they are unwelcome or disagreeable in some way.",
+      "usage": "by itself",
+      "xy": "0,5",
+      "created_at": "2023-04-24T19:29:06.256Z",
+      "updated_at": "2023-04-24T19:29:06.256Z",
+      "category": "Cats"
+    },
+    {
+      "id": 56,
+      "elNum": "56",
+      "abbr": "Mc",
+      "phrase": "When the cat's away, the mice will play",
+      "meaning": "people will naturally take advantage of the absence of someone in authority to do as they like.",
+      "usage": "by itself",
+      "xy": "1,5",
+      "created_at": "2023-04-24T19:29:06.262Z",
+      "updated_at": "2023-04-24T19:29:06.262Z",
+      "category": "Cats"
+    },
+    {
+      "id": 57,
+      "elNum": "57",
+      "abbr": "Dr",
+      "phrase": "Do something at the drop of a hat",
+      "meaning": "Do something without having planned beforehand",
+      "usage": "as part of a sentence",
+      "xy": "2,5",
+      "created_at": "2023-04-24T19:29:06.267Z",
+      "updated_at": "2023-04-24T19:29:06.267Z",
+      "category": "Clothing"
+    },
+    {
+      "id": 58,
+      "elNum": "58",
+      "abbr": "Mx",
+      "phrase": "A Mexican Standoff",
+      "meaning": "a confrontation in which no strategy exists that allows any party to achieve victory",
+      "usage": "as part of a sentence",
+      "xy": "3,7",
+      "created_at": "2023-04-24T19:29:06.272Z",
+      "updated_at": "2023-04-24T19:29:06.272Z",
+      "category": "Country"
+    },
+    {
+      "id": 59,
+      "elNum": "59",
+      "abbr": "Ie",
+      "phrase": "Irish Exit",
+      "meaning": "leaving a party without saying goodbye to anyone",
+      "usage": "as part of a sentence",
+      "xy": "4,7",
+      "created_at": "2023-04-24T19:29:06.277Z",
+      "updated_at": "2023-04-24T19:29:06.277Z",
+      "category": "Country"
+    },
+    {
+      "id": 60,
+      "elNum": "60",
+      "abbr": "Gr",
+      "phrase": "It's all Greek to me",
+      "meaning": "I can't understand it at all.",
+      "usage": "by itself",
+      "xy": "5,7",
+      "created_at": "2023-04-24T19:29:06.282Z",
+      "updated_at": "2023-04-24T19:29:06.282Z",
+      "category": "Country"
+    },
+    {
+      "id": 61,
+      "elNum": "61",
+      "abbr": "Ro",
+      "phrase": "When in rome",
+      "meaning": "when you are visiting another place, you should follow the customs of the people in that place",
+      "usage": "by itself",
+      "xy": "6,7",
+      "created_at": "2023-04-24T19:29:06.287Z",
+      "updated_at": "2023-04-24T19:29:06.287Z",
+      "category": "Country"
+    },
+    {
+      "id": 62,
+      "elNum": "62",
+      "abbr": "Sp",
+      "phrase": "Don't crying over spilt milk",
+      "meaning": "There's no reason to complain about something that can't be fixed",
+      "usage": "by itself",
+      "xy": "7,7",
+      "created_at": "2023-04-24T19:29:06.292Z",
+      "updated_at": "2023-04-24T19:29:06.292Z",
+      "category": "Food"
+    },
+    {
+      "id": 63,
+      "elNum": "63",
+      "abbr": "Tm",
+      "phrase": "Get a taste of your own medicine",
+      "meaning": "Get treated the way you've been treating others (negative)",
+      "usage": "as part of a sentence",
+      "xy": "8,7",
+      "created_at": "2023-04-24T19:29:06.297Z",
+      "updated_at": "2023-04-24T19:29:06.297Z",
+      "category": "Food"
+    },
+    {
+      "id": 64,
+      "elNum": "64",
+      "abbr": "Pc",
+      "phrase": "It's a piece of cake",
+      "meaning": "It's easy",
+      "usage": "by itself",
+      "xy": "9,7",
+      "created_at": "2023-04-24T19:29:06.302Z",
+      "updated_at": "2023-04-24T19:29:06.302Z",
+      "category": "Food"
+    },
+    {
+      "id": 65,
+      "elNum": "65",
+      "abbr": "Pp",
+      "phrase": "Like two peas in a pod",
+      "meaning": "They're always together",
+      "usage": "as part of a sentence",
+      "xy": "10,7",
+      "created_at": "2023-04-24T19:29:06.307Z",
+      "updated_at": "2023-04-24T19:29:06.307Z",
+      "category": "Food"
+    },
+    {
+      "id": 66,
+      "elNum": "66",
+      "abbr": "Pf",
+      "phrase": "Out of the frying pan and into the fire",
+      "meaning": "Things are going from bad to worse",
+      "usage": "by itself",
+      "xy": "11,7",
+      "created_at": "2023-04-24T19:29:06.313Z",
+      "updated_at": "2023-04-24T19:29:06.313Z",
+      "category": "Food"
+    },
+    {
+      "id": 67,
+      "elNum": "67",
+      "abbr": "Sb",
+      "phrase": "Spill the beans",
+      "meaning": "Give away a secret",
+      "usage": "as part of a sentence",
+      "xy": "12,7",
+      "created_at": "2023-04-24T19:29:06.318Z",
+      "updated_at": "2023-04-24T19:29:06.318Z",
+      "category": "Food"
+    },
+    {
+      "id": 68,
+      "elNum": "68",
+      "abbr": "Gs",
+      "phrase": "Take it with a grain of salt",
+      "meaning": "Don't take it too seriously",
+      "usage": "as part of a sentence",
+      "xy": "13,7",
+      "created_at": "2023-04-24T19:29:06.323Z",
+      "updated_at": "2023-04-24T19:29:06.323Z",
+      "category": "Food"
+    },
+    {
+      "id": 69,
+      "elNum": "69",
+      "abbr": "Ba",
+      "phrase": "A bad apple",
+      "meaning": "a bad or corrupt person in a group",
+      "usage": "as part of a sentence",
+      "xy": "14,7",
+      "created_at": "2023-04-24T19:29:06.328Z",
+      "updated_at": "2023-04-24T19:29:06.328Z",
+      "category": "Fruits"
+    },
+    {
+      "id": 70,
+      "elNum": "70",
+      "abbr": "Bc",
+      "phrase": "A Bite at the cherry",
+      "meaning": "an attempt at something.",
+      "usage": "as part of a sentence",
+      "xy": "15,7",
+      "created_at": "2023-04-24T19:29:06.333Z",
+      "updated_at": "2023-04-24T19:29:06.333Z",
+      "category": "Fruits"
+    },
+    {
+      "id": 71,
+      "elNum": "71",
+      "abbr": "Pj",
+      "phrase": "A plum job",
+      "meaning": "a very good one that a lot of people would like",
+      "usage": "as part of a sentence",
+      "xy": "16,7",
+      "created_at": "2023-04-24T19:29:06.338Z",
+      "updated_at": "2023-04-24T19:29:06.338Z",
+      "category": "Fruits"
+    },
+    {
+      "id": 72,
+      "elNum": "72",
+      "abbr": "Ap",
+      "phrase": "An apple a day keeps the doctor away",
+      "meaning": "Apples are good for you",
+      "usage": "by itself",
+      "xy": "3,5",
+      "created_at": "2023-04-24T19:29:06.343Z",
+      "updated_at": "2023-04-24T19:29:06.343Z",
+      "category": "Fruits"
+    },
+    {
+      "id": 73,
+      "elNum": "73",
+      "abbr": "Ao",
+      "phrase": "Comparing apples to oranges",
+      "meaning": "Comparing two things that cannot be compared",
+      "usage": "as part of a sentence",
+      "xy": "4,5",
+      "created_at": "2023-04-24T19:29:06.348Z",
+      "updated_at": "2023-04-24T19:29:06.348Z",
+      "category": "Fruits"
+    },
+    {
+      "id": 74,
+      "elNum": "74",
+      "abbr": "Gb",
+      "phrase": "Go Bananas",
+      "meaning": "to get angry; to go mad",
+      "usage": "as part of a sentence",
+      "xy": "5,5",
+      "created_at": "2023-04-24T19:29:06.354Z",
+      "updated_at": "2023-04-24T19:29:06.354Z",
+      "category": "Fruits"
+    },
+    {
+      "id": 75,
+      "elNum": "75",
+      "abbr": "Ps",
+      "phrase": "Go pear-shaped",
+      "meaning": "to go wrong",
+      "usage": "as part of a sentence",
+      "xy": "6,5",
+      "created_at": "2023-04-24T19:29:06.359Z",
+      "updated_at": "2023-04-24T19:29:06.359Z",
+      "category": "Fruits"
+    },
+    {
+      "id": 76,
+      "elNum": "76",
+      "abbr": "Lm",
+      "phrase": "Lemon",
+      "meaning": "a person or thing that proves to be defective, imperfect, or unsatisfactory",
+      "usage": "as part of a sentence",
+      "xy": "7,5",
+      "created_at": "2023-04-24T19:29:06.365Z",
+      "updated_at": "2023-04-24T19:29:06.365Z",
+      "category": "Fruits"
+    },
+    {
+      "id": 77,
+      "elNum": "77",
+      "abbr": "Ir",
+      "phrase": "Iridiom",
+      "meaning": "A periodic table of idioms",
+      "usage": "as part of a sentence",
+      "xy": "8,5",
+      "created_at": "2023-04-24T19:29:06.371Z",
+      "updated_at": "2023-04-24T19:29:06.371Z",
+      "category": "Website"
+    },
+    {
+      "id": 78,
+      "elNum": "78",
+      "abbr": "At",
+      "phrase": "the apple doesn't fall far from the tree",
+      "meaning": "a child displays the characteristics or tendencies that the parent does or has done.",
+      "usage": "by itself",
+      "xy": "9,5",
+      "created_at": "2023-04-24T19:29:06.375Z",
+      "updated_at": "2023-04-24T19:29:06.375Z",
+      "category": "Fruits"
+    },
+    {
+      "id": 79,
+      "elNum": "79",
+      "abbr": "Ae",
+      "phrase": "The apple of one's eye",
+      "meaning": "a person of whom one is extremely fond and proud.",
+      "usage": "as part of a sentence",
+      "xy": "10,5",
+      "created_at": "2023-04-24T19:29:06.382Z",
+      "updated_at": "2023-04-24T19:29:06.382Z",
+      "category": "Fruits"
+    },
+    {
+      "id": 80,
+      "elNum": "80",
+      "abbr": "Os",
+      "phrase": "Ball and Chain",
+      "meaning": "(sarcastic slang) a person's spouse or romantic partner, especially a female.",
+      "usage": "as part of a sentence",
+      "xy": "11,5",
+      "created_at": "2023-04-24T19:29:06.386Z",
+      "updated_at": "2023-04-24T19:29:06.386Z",
+      "category": "Love"
+    },
+    {
+      "id": 81,
+      "elNum": "81",
+      "abbr": "Im",
+      "phrase": "Be An Item",
+      "meaning": "(of a couple) be involved in an established romantic or sexual relationship.",
+      "usage": "as part of a sentence",
+      "xy": "12,5",
+      "created_at": "2023-04-24T19:29:06.391Z",
+      "updated_at": "2023-04-24T19:29:06.391Z",
+      "category": "Love"
+    },
+    {
+      "id": 82,
+      "elNum": "82",
+      "abbr": "Hh",
+      "phrase": "Be Head Over Heels (In Love)",
+      "meaning": "madly in love",
+      "usage": "as part of a sentence",
+      "xy": "13,5",
+      "created_at": "2023-04-24T19:29:06.396Z",
+      "updated_at": "2023-04-24T19:29:06.396Z",
+      "category": "Love"
+    },
+    {
+      "id": 83,
+      "elNum": "83",
+      "abbr": "Ld",
+      "phrase": "Be Lovey-Dovey",
+      "meaning": "very affectionate or romantic, especially excessively so.",
+      "usage": "as part of a sentence",
+      "xy": "14,5",
+      "created_at": "2023-04-24T19:29:06.401Z",
+      "updated_at": "2023-04-24T19:29:06.401Z",
+      "category": "Love"
+    },
+    {
+      "id": 84,
+      "elNum": "84",
+      "abbr": "Ff",
+      "phrase": "Birds of a feather flock together",
+      "meaning": "beings (typically humans) of similar type, interest, personality, character, or other distinctive attribute tend to mutually associate.",
+      "usage": "by itself",
+      "xy": "15,5",
+      "created_at": "2023-04-24T19:29:06.407Z",
+      "updated_at": "2023-04-24T19:29:06.407Z",
+      "category": "Love"
+    },
+    {
+      "id": 85,
+      "elNum": "85",
+      "abbr": "Bd",
+      "phrase": "Blind Date",
+      "meaning": "a social engagement or date with a person one has not previously met.",
+      "usage": "as part of a sentence",
+      "xy": "16,5",
+      "created_at": "2023-04-24T19:29:06.412Z",
+      "updated_at": "2023-04-24T19:29:06.412Z",
+      "category": "Love"
+    },
+    {
+      "id": 86,
+      "elNum": "86",
+      "abbr": "Fl",
+      "phrase": "Fall In Love With Somebody",
+      "meaning": "develop a deep romantic attachment to someone.",
+      "usage": "as part of a sentence",
+      "xy": "17,5",
+      "created_at": "2023-04-24T19:29:06.417Z",
+      "updated_at": "2023-04-24T19:29:06.417Z",
+      "category": "Love"
+    },
+    {
+      "id": 87,
+      "elNum": "87",
+      "abbr": "Le",
+      "phrase": "Love At First Sight",
+      "meaning": "developing feelings for someone after meeting or seeing them for the first time.",
+      "usage": "as part of a sentence",
+      "xy": "0,6",
+      "created_at": "2023-04-24T19:29:06.422Z",
+      "updated_at": "2023-04-24T19:29:06.422Z",
+      "category": "Love"
+    },
+    {
+      "id": 88,
+      "elNum": "88",
+      "abbr": "Mh",
+      "phrase": "Match Made In Heaven",
+      "meaning": "a relationship or pairing where each member perfectly complements the other.",
+      "usage": "as part of a sentence",
+      "xy": "1,6",
+      "created_at": "2023-04-24T19:29:06.427Z",
+      "updated_at": "2023-04-24T19:29:06.427Z",
+      "category": "Love"
+    },
+    {
+      "id": 89,
+      "elNum": "89",
+      "abbr": "Tt",
+      "phrase": "Tie The Knot",
+      "meaning": "to get married",
+      "usage": "as part of a sentence",
+      "xy": "2,6",
+      "created_at": "2023-04-24T19:29:06.431Z",
+      "updated_at": "2023-04-24T19:29:06.431Z",
+      "category": "Love"
+    },
+    {
+      "id": 90,
+      "elNum": "90",
+      "abbr": "Po",
+      "phrase": "A penny for your thoughts",
+      "meaning": "Tell me what you're thinking",
+      "usage": "by itself",
+      "xy": "3,8",
+      "created_at": "2023-04-24T19:29:06.436Z",
+      "updated_at": "2023-04-24T19:29:06.436Z",
+      "category": "Money"
+    },
+    {
+      "id": 91,
+      "elNum": "91",
+      "abbr": "Bt",
+      "phrase": "Buy Time",
+      "meaning": "delay an event temporarily so as to have longer to improve one's own position.",
+      "usage": "as part of a sentence",
+      "xy": "4,8",
+      "created_at": "2023-04-24T19:29:06.441Z",
+      "updated_at": "2023-04-24T19:29:06.441Z",
+      "category": "Money"
+    },
+    {
+      "id": 92,
+      "elNum": "92",
+      "abbr": "Be",
+      "phrase": "Beat around the bush",
+      "meaning": "Avoid saying what you mean, usually because it is uncomfortable",
+      "usage": "as part of a sentence",
+      "xy": "5,8",
+      "created_at": "2023-04-24T19:29:06.447Z",
+      "updated_at": "2023-04-24T19:29:06.447Z",
+      "category": "Nature"
+    },
+    {
+      "id": 93,
+      "elNum": "93",
+      "abbr": "Bi",
+      "phrase": "Break the ice",
+      "meaning": "Make people feel more comfortable",
+      "usage": "as part of a sentence",
+      "xy": "6,8",
+      "created_at": "2023-04-24T19:29:06.454Z",
+      "updated_at": "2023-04-24T19:29:06.454Z",
+      "category": "Nature"
+    },
+    {
+      "id": 94,
+      "elNum": "94",
+      "abbr": "Rs",
+      "phrase": "Come rain or shine",
+      "meaning": "No matter what",
+      "usage": "as part of a sentence",
+      "xy": "7,8",
+      "created_at": "2023-04-24T19:29:06.458Z",
+      "updated_at": "2023-04-24T19:29:06.458Z",
+      "category": "Nature"
+    },
+    {
+      "id": 95,
+      "elNum": "95",
+      "abbr": "Cl",
+      "phrase": "Every cloud has a silver lining",
+      "meaning": "Good things come after bad things",
+      "usage": "by itself",
+      "xy": "8,8",
+      "created_at": "2023-04-24T19:29:06.463Z",
+      "updated_at": "2023-04-24T19:29:06.463Z",
+      "category": "Nature"
+    },
+    {
+      "id": 96,
+      "elNum": "96",
+      "abbr": "Fr",
+      "phrase": "Fight fire with fire",
+      "meaning": "use the weapons or tactics of one's enemy or opponent, even if one finds them distasteful.",
+      "usage": "by itself",
+      "xy": "9,8",
+      "created_at": "2023-04-24T19:29:06.468Z",
+      "updated_at": "2023-04-24T19:29:06.468Z",
+      "category": "Nature"
+    },
+    {
+      "id": 97,
+      "elNum": "97",
+      "abbr": "Sw",
+      "phrase": "Get a second wind",
+      "meaning": "Have more energy after having been tired",
+      "usage": "as part of a sentence",
+      "xy": "10,8",
+      "created_at": "2023-04-24T19:29:06.475Z",
+      "updated_at": "2023-04-24T19:29:06.475Z",
+      "category": "Nature"
+    },
+    {
+      "id": 98,
+      "elNum": "98",
+      "abbr": "Cw",
+      "phrase": "Catch wind of something",
+      "meaning": "Hear news of something secret",
+      "usage": "as part of a sentence",
+      "xy": "11,8",
+      "created_at": "2023-04-24T19:29:06.481Z",
+      "updated_at": "2023-04-24T19:29:06.481Z",
+      "category": "Nature"
+    },
+    {
+      "id": 99,
+      "elNum": "99",
+      "abbr": "Df",
+      "phrase": "Go down in flames",
+      "meaning": "Fail spectacularly",
+      "usage": "as part of a sentence",
+      "xy": "12,8",
+      "created_at": "2023-04-24T19:29:06.487Z",
+      "updated_at": "2023-04-24T19:29:06.487Z",
+      "category": "Nature"
+    },
+    {
+      "id": 100,
+      "elNum": "100",
+      "abbr": "Hc",
+      "phrase": "Have your head in the clouds",
+      "meaning": "Not concentrating",
+      "usage": "as part of a sentence",
+      "xy": "13,8",
+      "created_at": "2023-04-24T19:29:06.492Z",
+      "updated_at": "2023-04-24T19:29:06.492Z",
+      "category": "Nature"
+    },
+    {
+      "id": 101,
+      "elNum": "101",
+      "abbr": "Id",
+      "phrase": "In the dark",
+      "meaning": "in a state of ignorance about something.",
+      "usage": "as part of a sentence",
+      "xy": "14,8",
+      "created_at": "2023-04-24T19:29:06.497Z",
+      "updated_at": "2023-04-24T19:29:06.497Z",
+      "category": "Nature"
+    },
+    {
+      "id": 102,
+      "elNum": "102",
+      "abbr": "Wb",
+      "phrase": "Know which way the wind is blowing",
+      "meaning": "Understand the situation (usually negative)",
+      "usage": "as part of a sentence",
+      "xy": "15,8",
+      "created_at": "2023-04-24T19:29:06.502Z",
+      "updated_at": "2023-04-24T19:29:06.502Z",
+      "category": "Nature"
+    },
+    {
+      "id": 103,
+      "elNum": "103",
+      "abbr": "Cn",
+      "phrase": "On cloud nine",
+      "meaning": "Very happy",
+      "usage": "as part of a sentence",
+      "xy": "16,8",
+      "created_at": "2023-04-24T19:29:06.507Z",
+      "updated_at": "2023-04-24T19:29:06.507Z",
+      "category": "Nature"
+    },
+    {
+      "id": 104,
+      "elNum": "104",
+      "abbr": "Ti",
+      "phrase": "On thin ice",
+      "meaning": "On probation. If you make another mistake, there will be trouble.",
+      "usage": "as part of a sentence",
+      "xy": "3,6",
+      "created_at": "2023-04-24T19:29:06.512Z",
+      "updated_at": "2023-04-24T19:29:06.512Z",
+      "category": "Nature"
+    },
+    {
+      "id": 105,
+      "elNum": "105",
+      "abbr": "Bm",
+      "phrase": "Once in a blue moon",
+      "meaning": "Rarely",
+      "usage": "as part of a sentence",
+      "xy": "4,6",
+      "created_at": "2023-04-24T19:29:06.518Z",
+      "updated_at": "2023-04-24T19:29:06.518Z",
+      "category": "Nature"
+    },
+    {
+      "id": 106,
+      "elNum": "106",
+      "abbr": "Pi",
+      "phrase": "Put something on ice",
+      "meaning": "Put a projet on hold",
+      "usage": "as part of a sentence",
+      "xy": "5,6",
+      "created_at": "2023-04-24T19:29:06.524Z",
+      "updated_at": "2023-04-24T19:29:06.524Z",
+      "category": "Nature"
+    },
+    {
+      "id": 107,
+      "elNum": "107",
+      "abbr": "Rp",
+      "phrase": "Rain on someone's parade",
+      "meaning": "To spoil something",
+      "usage": "as part of a sentence",
+      "xy": "6,6",
+      "created_at": "2023-04-24T19:29:06.529Z",
+      "updated_at": "2023-04-24T19:29:06.529Z",
+      "category": "Nature"
+    },
+    {
+      "id": 108,
+      "elNum": "108",
+      "abbr": "Rw",
+      "phrase": "Run like the wind",
+      "meaning": "Run fast",
+      "usage": "as part of a sentence",
+      "xy": "7,6",
+      "created_at": "2023-04-24T19:29:06.534Z",
+      "updated_at": "2023-04-24T19:29:06.534Z",
+      "category": "Nature"
+    },
+    {
+      "id": 109,
+      "elNum": "109",
+      "abbr": "Rd",
+      "phrase": "Saving for a rainy day",
+      "meaning": "Saving money for later",
+      "usage": "as part of a sentence",
+      "xy": "8,6",
+      "created_at": "2023-04-24T19:29:06.539Z",
+      "updated_at": "2023-04-24T19:29:06.539Z",
+      "category": "Nature"
+    },
+    {
+      "id": 110,
+      "elNum": "110",
+      "abbr": "Sh",
+      "phrase": "Shoot for the stars",
+      "meaning": "aim high; set hefty goals",
+      "usage": "by itself",
+      "xy": "9,6",
+      "created_at": "2023-04-24T19:29:06.544Z",
+      "updated_at": "2023-04-24T19:29:06.544Z",
+      "category": "Nature"
+    },
+    {
+      "id": 111,
+      "elNum": "111",
+      "abbr": "Rc",
+      "phrase": "Take a rain check",
+      "meaning": "Postpone a plan",
+      "usage": "as part of a sentence",
+      "xy": "10,6",
+      "created_at": "2023-04-24T19:29:06.548Z",
+      "updated_at": "2023-04-24T19:29:06.548Z",
+      "category": "Nature"
+    },
+    {
+      "id": 112,
+      "elNum": "112",
+      "abbr": "Se",
+      "phrase": "A snowball effect",
+      "meaning": "Events have momentum and build upon each other",
+      "usage": "as part of a sentence",
+      "xy": "11,6",
+      "created_at": "2023-04-24T19:29:06.554Z",
+      "updated_at": "2023-04-24T19:29:06.554Z",
+      "category": "Nature"
+    },
+    {
+      "id": 113,
+      "elNum": "113",
+      "abbr": "Sn",
+      "phrase": "A snowball's chance in hell",
+      "meaning": "No chance at all",
+      "usage": "as part of a sentence",
+      "xy": "12,6",
+      "created_at": "2023-04-24T19:29:06.559Z",
+      "updated_at": "2023-04-24T19:29:06.559Z",
+      "category": "Nature"
+    },
+    {
+      "id": 114,
+      "elNum": "114",
+      "abbr": "Rr",
+      "phrase": "As right as rain",
+      "meaning": "Perfect",
+      "usage": "as part of a sentence",
+      "xy": "13,6",
+      "created_at": "2023-04-24T19:29:06.564Z",
+      "updated_at": "2023-04-24T19:29:06.564Z",
+      "category": "Nature"
+    },
+    {
+      "id": 115,
+      "elNum": "115",
+      "abbr": "Cm",
+      "phrase": "Calm before the storm",
+      "meaning": "Something bad is coming, but right now it's calm",
+      "usage": "as part of a sentence",
+      "xy": "14,6",
+      "created_at": "2023-04-24T19:29:06.569Z",
+      "updated_at": "2023-04-24T19:29:06.569Z",
+      "category": "Nature"
+    },
+    {
+      "id": 116,
+      "elNum": "116",
+      "abbr": "Lu",
+      "phrase": "A rising tide lifts all ships",
+      "meaning": "improvements in the general economy will benefit all participants in that economy.",
+      "usage": "by itself",
+      "xy": "15,6",
+      "created_at": "2023-04-24T19:29:06.575Z",
+      "updated_at": "2023-04-24T19:29:06.575Z",
+      "category": "Nature"
+    },
+    {
+      "id": 117,
+      "elNum": "117",
+      "abbr": "Uw",
+      "phrase": "Be/feel under the weather",
+      "meaning": "slightly unwell or in low spirits.",
+      "usage": "as part of a sentence",
+      "xy": "16,6",
+      "created_at": "2023-04-24T19:29:06.580Z",
+      "updated_at": "2023-04-24T19:29:06.580Z",
+      "category": "Nature"
+    },
+    {
+      "id": 118,
+      "elNum": "118",
+      "abbr": "Py",
+      "phrase": "Peachy",
+      "meaning": "as good as one could hope for",
+      "usage": "as part of a sentence",
+      "xy": "17,6",
+      "created_at": "2023-04-24T19:29:06.586Z",
+      "updated_at": "2023-04-24T19:29:06.586Z",
+      "category": "Fruits"
+    },
+    {
+      "id": 171,
+      "elNum": "119",
+      "abbr": "Br",
+      "phrase": "Better safe than sorry",
+      "meaning": "it's wiser to be cautious than to be hasty or rash and so do something you may later regret.",
+      "usage": "Used in isolation",
+      "xy": "8,4",
+      "created_at": "2023-04-28T20:27:35.390Z",
+      "updated_at": "2023-05-26T19:16:49.081Z",
+      "category": "Advice"
+    },
+    {
+      "id": 172,
+      "elNum": "120",
+      "abbr": "Ii",
+      "phrase": "It is what it is",
+      "meaning": "You can't change (that)",
+      "usage": "This idiom can be used in many ways.",
+      "xy": "8,3",
+      "created_at": "2023-04-28T20:27:35.402Z",
+      "updated_at": "2023-05-23T19:58:46.712Z",
+      "category": "Miscellaneous"
+    },
+    {
+      "id": 173,
+      "elNum": "121",
+      "abbr": "Cl",
+      "phrase": "Cl phrase",
+      "meaning": "Quidem velit ea praesentium rerum culpa quia minus odit harum.",
+      "usage": "This idiom can be used in many ways.",
+      "xy": "8,2",
+      "created_at": "2023-04-28T20:27:35.412Z",
+      "updated_at": "2023-04-29T19:00:26.973Z",
+      "category": "Miscellaneous"
+    },
+    {
+      "id": 174,
+      "elNum": "122",
+      "abbr": "Yi",
+      "phrase": "Yi phrase",
+      "meaning": "Rerum quis saepe qui quisquam et et qui et molestias.",
+      "usage": "This idiom can be used in many ways.",
+      "xy": "7,2",
+      "created_at": "2023-04-28T20:27:35.422Z",
+      "updated_at": "2023-04-29T19:00:26.981Z",
+      "category": "Miscellaneous"
+    },
+    {
+      "id": 175,
+      "elNum": "123",
+      "abbr": "Ry",
+      "phrase": "Ry phrase",
+      "meaning": "Quis necessitatibus architecto veritatis quo tempora omnis excepturi sit omnis.",
+      "usage": "This idiom can be used in many ways.",
+      "xy": "6,2",
+      "created_at": "2023-04-28T20:27:35.432Z",
+      "updated_at": "2023-04-29T19:00:26.987Z",
+      "category": "Miscellaneous"
+    },
+    {
+      "id": 176,
+      "elNum": "124",
+      "abbr": "Ku",
+      "phrase": "Ku phrase",
+      "meaning": "Pariatur non omnis sit ea error facere aut placeat quae.",
+      "usage": "This idiom can be used in many ways.",
+      "xy": "5,2",
+      "created_at": "2023-04-28T20:27:35.441Z",
+      "updated_at": "2023-04-29T19:00:26.995Z",
+      "category": "Miscellaneous"
+    },
+    {
+      "id": 177,
+      "elNum": "125",
+      "abbr": "Kl",
+      "phrase": "Kl phrase",
+      "meaning": "Consequatur voluptas sint dolores incidunt officiis est facere mollitia voluptatem.",
+      "usage": "This idiom can be used in many ways.",
+      "xy": "4,2",
+      "created_at": "2023-04-28T20:27:35.451Z",
+      "updated_at": "2023-04-29T18:47:46.947Z",
+      "category": "Miscellaneous"
+    },
+    {
+      "id": 178,
+      "elNum": "126",
+      "abbr": "Wq",
+      "phrase": "Wq phrase",
+      "meaning": "Maiores vero debitis perspiciatis doloribus expedita ad sed et officiis.",
+      "usage": "This idiom can be used in many ways.",
+      "xy": "3,2",
+      "created_at": "2023-04-28T20:27:35.460Z",
+      "updated_at": "2023-04-29T19:00:27.005Z",
+      "category": "Miscellaneous"
+    },
+    {
+      "id": 179,
+      "elNum": "127",
+      "abbr": "Xm",
+      "phrase": "Xm phrase",
+      "meaning": "Fuga possimus commodi consequatur omnis maxime dolor ab quia incidunt.",
+      "usage": "This idiom can be used in many ways.",
+      "xy": "2,2",
+      "created_at": "2023-04-28T20:27:35.470Z",
+      "updated_at": "2023-04-29T19:00:27.016Z",
+      "category": "Miscellaneous"
+    },
+    {
+      "id": 180,
+      "elNum": "128",
+      "abbr": "Ti",
+      "phrase": "Ti phrase",
+      "meaning": "Voluptatibus ut esse soluta expedita illo tenetur rem ut assumenda.",
+      "usage": "This idiom can be used in many ways.",
+      "xy": "1,2",
+      "created_at": "2023-04-28T20:27:35.479Z",
+      "updated_at": "2023-04-29T19:00:27.023Z",
+      "category": "Miscellaneous"
+    },
+    {
+      "id": 181,
+      "elNum": "129",
+      "abbr": "Qi",
+      "phrase": "Qi phrase",
+      "meaning": "Facilis sit porro eos cumque accusantium molestiae est earum iusto.",
+      "usage": "This idiom can be used in many ways.",
+      "xy": "0,2",
+      "created_at": "2023-04-28T20:27:35.488Z",
+      "updated_at": "2023-04-29T19:00:27.032Z",
+      "category": "Miscellaneous"
+    },
+    {
+      "id": 182,
+      "elNum": "130",
+      "abbr": "Ob",
+      "phrase": "Ob phrase",
+      "meaning": "Similique magni corrupti veniam odit aut est sequi qui illum.",
+      "usage": "This idiom can be used in many ways.",
+      "xy": "9,2",
+      "created_at": "2023-04-28T20:27:35.498Z",
+      "updated_at": "2023-04-29T19:00:27.039Z",
+      "category": "Miscellaneous"
+    },
+    {
+      "id": 183,
+      "elNum": "131",
+      "abbr": "Nj",
+      "phrase": "Nj phrase",
+      "meaning": "Id rerum odit tempore sequi minus sint rerum veritatis necessitatibus.",
+      "usage": "This idiom can be used in many ways.",
+      "xy": "10,2",
+      "created_at": "2023-04-28T20:27:35.507Z",
+      "updated_at": "2023-04-29T19:00:27.047Z",
+      "category": "Miscellaneous"
+    },
+    {
+      "id": 184,
+      "elNum": "132",
+      "abbr": "Dy",
+      "phrase": "Dy phrase",
+      "meaning": "Modi ea aut animi iure officia quam omnis ipsum voluptas.",
+      "usage": "This idiom can be used in many ways.",
+      "xy": "11,2",
+      "created_at": "2023-04-28T20:27:35.516Z",
+      "updated_at": "2023-04-29T19:00:27.054Z",
+      "category": "Miscellaneous"
+    },
+    {
+      "id": 185,
+      "elNum": "133",
+      "abbr": "Jk",
+      "phrase": "Jk phrase",
+      "meaning": "Accusamus quos eaque nostrum totam sunt unde id labore ea.",
+      "usage": "This idiom can be used in many ways.",
+      "xy": "12,2",
+      "created_at": "2023-04-28T20:27:35.525Z",
+      "updated_at": "2023-04-29T19:00:27.061Z",
+      "category": "Miscellaneous"
+    },
+    {
+      "id": 186,
+      "elNum": "134",
+      "abbr": "Td",
+      "phrase": "Td phrase",
+      "meaning": "Aliquam quibusdam est rem amet necessitatibus sit suscipit voluptatem quisquam.",
+      "usage": "This idiom can be used in many ways.",
+      "xy": "13,2",
+      "created_at": "2023-04-28T20:27:35.535Z",
+      "updated_at": "2023-04-29T19:00:27.068Z",
+      "category": "Miscellaneous"
+    },
+    {
+      "id": 187,
+      "elNum": "135",
+      "abbr": "Vp",
+      "phrase": "Vp phrase",
+      "meaning": "Voluptatem sunt ex et alias incidunt soluta saepe in delectus.",
+      "usage": "This idiom can be used in many ways.",
+      "xy": "14,2",
+      "created_at": "2023-04-28T20:27:35.543Z",
+      "updated_at": "2023-04-29T19:00:27.075Z",
+      "category": "Miscellaneous"
+    },
+    {
+      "id": 188,
+      "elNum": "136",
+      "abbr": "Zr",
+      "phrase": "Zr phrase",
+      "meaning": "Sit consequatur non qui quia blanditiis explicabo cum eos facilis.",
+      "usage": "This idiom can be used in many ways.",
+      "xy": "15,2",
+      "created_at": "2023-04-28T20:27:35.552Z",
+      "updated_at": "2023-04-29T19:00:27.082Z",
+      "category": "Miscellaneous"
+    },
+    {
+      "id": 189,
+      "elNum": "137",
+      "abbr": "Qu",
+      "phrase": "Qu phrase",
+      "meaning": "Ut sed consequatur expedita dignissimos natus ut et et facilis.",
+      "usage": "This idiom can be used in many ways.",
+      "xy": "16,2",
+      "created_at": "2023-04-28T20:27:35.560Z",
+      "updated_at": "2023-04-29T19:00:27.091Z",
+      "category": "Miscellaneous"
+    },
+    {
+      "id": 190,
+      "elNum": "138",
+      "abbr": "Hw",
+      "phrase": "Hw phrase",
+      "meaning": "Quis dolor similique officiis voluptatem velit et facilis autem alias.",
+      "usage": "This idiom can be used in many ways.",
+      "xy": "17,2",
+      "created_at": "2023-04-28T20:27:35.568Z",
+      "updated_at": "2023-04-29T19:00:27.099Z",
+      "category": "Miscellaneous"
+    },
+    {
+      "id": 191,
+      "elNum": "139",
+      "abbr": "Td",
+      "phrase": "Td phrase",
+      "meaning": "Magni sit ut molestiae id molestiae laboriosam quia veritatis odio.",
+      "usage": "This idiom can be used in many ways.",
+      "xy": "8,5",
+      "created_at": "2023-04-28T20:27:35.577Z",
+      "updated_at": "2023-04-29T19:00:27.106Z",
+      "category": "Miscellaneous"
+    },
+    {
+      "id": 192,
+      "elNum": "140",
+      "abbr": "Xo",
+      "phrase": "Xo phrase",
+      "meaning": "Quia tenetur sapiente totam distinctio at vel nobis consequatur animi.",
+      "usage": "This idiom can be used in many ways.",
+      "xy": "8,6",
+      "created_at": "2023-04-28T20:27:35.584Z",
+      "updated_at": "2023-04-29T19:00:27.113Z",
+      "category": "Miscellaneous"
+    },
+    {
+      "id": 193,
+      "elNum": "141",
+      "abbr": "Le",
+      "phrase": "Le phrase",
+      "meaning": "Eaque asperiores perspiciatis omnis nam illo aliquid iusto officiis autem.",
+      "usage": "This idiom can be used in many ways.",
+      "xy": "8,7",
+      "created_at": "2023-04-28T20:27:35.593Z",
+      "updated_at": "2023-04-29T19:00:27.120Z",
+      "category": "Miscellaneous"
+    },
+    {
+      "id": 194,
+      "elNum": "142",
+      "abbr": "Ni",
+      "phrase": "Ni phrase",
+      "meaning": "Rerum qui consequatur velit tempora atque enim quia et optio.",
+      "usage": "This idiom can be used in many ways.",
+      "xy": "7,7",
+      "created_at": "2023-04-28T20:27:35.602Z",
+      "updated_at": "2023-04-29T19:00:27.127Z",
+      "category": "Miscellaneous"
+    },
+    {
+      "id": 195,
+      "elNum": "143",
+      "abbr": "Kr",
+      "phrase": "Kr phrase",
+      "meaning": "Doloribus inventore ipsam veritatis cupiditate corporis velit est ipsum impedit.",
+      "usage": "This idiom can be used in many ways.",
+      "xy": "6,7",
+      "created_at": "2023-04-28T20:27:35.612Z",
+      "updated_at": "2023-04-29T19:00:27.134Z",
+      "category": "Miscellaneous"
+    },
+    {
+      "id": 196,
+      "elNum": "144",
+      "abbr": "Qb",
+      "phrase": "Qb phrase",
+      "meaning": "Doloribus aspernatur fugit corrupti eum rerum eum laborum qui enim.",
+      "usage": "This idiom can be used in many ways.",
+      "xy": "5,7",
+      "created_at": "2023-04-28T20:27:35.620Z",
+      "updated_at": "2023-04-29T19:00:27.140Z",
+      "category": "Miscellaneous"
+    },
+    {
+      "id": 197,
+      "elNum": "145",
+      "abbr": "St",
+      "phrase": "St phrase",
+      "meaning": "Cumque optio iste et sed sapiente numquam accusantium quos porro.",
+      "usage": "This idiom can be used in many ways.",
+      "xy": "4,7",
+      "created_at": "2023-04-28T20:27:35.635Z",
+      "updated_at": "2023-04-29T19:00:27.149Z",
+      "category": "Miscellaneous"
+    },
+    {
+      "id": 198,
+      "elNum": "146",
+      "abbr": "Ag",
+      "phrase": "Ag phrase",
+      "meaning": "Tempore eaque quia aperiam cum qui temporibus omnis debitis molestiae.",
+      "usage": "This idiom can be used in many ways.",
+      "xy": "3,7",
+      "created_at": "2023-04-28T20:27:35.643Z",
+      "updated_at": "2023-04-29T19:00:27.158Z",
+      "category": "Miscellaneous"
+    },
+    {
+      "id": 199,
+      "elNum": "147",
+      "abbr": "We",
+      "phrase": "We phrase",
+      "meaning": "Est quo porro nihil aut unde aliquam voluptate possimus quibusdam.",
+      "usage": "This idiom can be used in many ways.",
+      "xy": "2,7",
+      "created_at": "2023-04-28T20:27:35.652Z",
+      "updated_at": "2023-04-29T19:00:27.165Z",
+      "category": "Miscellaneous"
+    },
+    {
+      "id": 200,
+      "elNum": "148",
+      "abbr": "Fk",
+      "phrase": "Fk phrase",
+      "meaning": "Exercitationem rerum asperiores ullam iure officiis odit quis consectetur quidem.",
+      "usage": "This idiom can be used in many ways.",
+      "xy": "1,7",
+      "created_at": "2023-04-28T20:27:35.660Z",
+      "updated_at": "2023-04-29T19:00:27.172Z",
+      "category": "Miscellaneous"
+    },
+    {
+      "id": 201,
+      "elNum": "149",
+      "abbr": "Kf",
+      "phrase": "Kf phrase",
+      "meaning": "Perferendis sed ducimus ea animi quia et sint alias consequatur.",
+      "usage": "This idiom can be used in many ways.",
+      "xy": "0,7",
+      "created_at": "2023-04-28T20:27:35.668Z",
+      "updated_at": "2023-04-29T19:00:27.179Z",
+      "category": "Miscellaneous"
+    },
+    {
+      "id": 202,
+      "elNum": "150",
+      "abbr": "Sw",
+      "phrase": "Sw phrase",
+      "meaning": "Doloribus qui magnam consequuntur qui a quas ea consequatur quam.",
+      "usage": "This idiom can be used in many ways.",
+      "xy": "9,7",
+      "created_at": "2023-04-28T20:27:35.676Z",
+      "updated_at": "2023-04-29T19:00:27.186Z",
+      "category": "Miscellaneous"
+    },
+    {
+      "id": 203,
+      "elNum": "151",
+      "abbr": "Nk",
+      "phrase": "Nk phrase",
+      "meaning": "Eum qui doloremque est officia aut animi consectetur aut quo.",
+      "usage": "This idiom can be used in many ways.",
+      "xy": "10,7",
+      "created_at": "2023-04-28T20:27:35.686Z",
+      "updated_at": "2023-04-29T19:00:27.194Z",
+      "category": "Miscellaneous"
+    },
+    {
+      "id": 204,
+      "elNum": "152",
+      "abbr": "Yb",
+      "phrase": "Yb phrase",
+      "meaning": "Est accusamus rerum voluptatem quis nihil numquam et et aut.",
+      "usage": "This idiom can be used in many ways.",
+      "xy": "11,7",
+      "created_at": "2023-04-28T20:27:35.696Z",
+      "updated_at": "2023-04-29T19:00:27.201Z",
+      "category": "Miscellaneous"
+    },
+    {
+      "id": 205,
+      "elNum": "153",
+      "abbr": "Tn",
+      "phrase": "Tn phrase",
+      "meaning": "Sunt quibusdam eos facere ab provident porro officia nemo impedit.",
+      "usage": "This idiom can be used in many ways.",
+      "xy": "12,7",
+      "created_at": "2023-04-28T20:27:35.705Z",
+      "updated_at": "2023-04-29T19:00:27.208Z",
+      "category": "Miscellaneous"
+    },
+    {
+      "id": 206,
+      "elNum": "154",
+      "abbr": "Ul",
+      "phrase": "Ul phrase",
+      "meaning": "Rerum officia et et qui consequuntur iure consequatur provident sint.",
+      "usage": "This idiom can be used in many ways.",
+      "xy": "13,7",
+      "created_at": "2023-04-28T20:27:35.713Z",
+      "updated_at": "2023-04-29T19:00:27.215Z",
+      "category": "Miscellaneous"
+    },
+    {
+      "id": 207,
+      "elNum": "155",
+      "abbr": "Yr",
+      "phrase": "Yr phrase",
+      "meaning": "Vitae magni vel ad sint id in ea quam voluptatem.",
+      "usage": "This idiom can be used in many ways.",
+      "xy": "14,7",
+      "created_at": "2023-04-28T20:27:35.723Z",
+      "updated_at": "2023-04-29T19:00:27.222Z",
+      "category": "Miscellaneous"
+    },
+    {
+      "id": 208,
+      "elNum": "156",
+      "abbr": "Uf",
+      "phrase": "Uf phrase",
+      "meaning": "Nemo eum eaque ut consequatur sapiente et et sed vitae.",
+      "usage": "This idiom can be used in many ways.",
+      "xy": "15,7",
+      "created_at": "2023-04-28T20:27:35.731Z",
+      "updated_at": "2023-04-29T19:00:27.231Z",
+      "category": "Miscellaneous"
+    },
+    {
+      "id": 209,
+      "elNum": "157",
+      "abbr": "Jq",
+      "phrase": "Jq phrase",
+      "meaning": "Consequatur quas qui consequatur quo id est quam iste necessitatibus.",
+      "usage": "This idiom can be used in many ways.",
+      "xy": "16,7",
+      "created_at": "2023-04-28T20:27:35.739Z",
+      "updated_at": "2023-04-29T19:00:27.238Z",
+      "category": "Miscellaneous"
+    },
+    {
+      "id": 210,
+      "elNum": "158",
+      "abbr": "Pd",
+      "phrase": "Pd phrase",
+      "meaning": "Eum occaecati nihil minima in iste consequatur laboriosam ducimus voluptatum.",
+      "usage": "This idiom can be used in many ways.",
+      "xy": "17,7",
+      "created_at": "2023-04-28T20:27:35.748Z",
+      "updated_at": "2023-04-29T19:00:27.246Z",
+      "category": "Miscellaneous"
+    },
+    {
+      "id": 211,
+      "elNum": "159",
+      "abbr": "Ag",
+      "phrase": "Ag phrase",
+      "meaning": "Accusamus sit ut doloribus quasi itaque voluptates enim quod unde.",
+      "usage": "This idiom can be used in many ways.",
+      "xy": "7,4",
+      "created_at": "2023-04-28T20:27:35.756Z",
+      "updated_at": "2023-04-29T19:00:27.253Z",
+      "category": "Miscellaneous"
+    },
+    {
+      "id": 212,
+      "elNum": "160",
+      "abbr": "Mm",
+      "phrase": "Mm phrase",
+      "meaning": "Sit modi maxime molestiae culpa animi non recusandae et molestias.",
+      "usage": "This idiom can be used in many ways.",
+      "xy": "6,4",
+      "created_at": "2023-04-28T20:27:35.764Z",
+      "updated_at": "2023-04-29T19:00:27.262Z",
+      "category": "Miscellaneous"
+    },
+    {
+      "id": 213,
+      "elNum": "161",
+      "abbr": "Nb",
+      "phrase": "Nb phrase",
+      "meaning": "Ut quaerat autem voluptatem qui reprehenderit dicta voluptatem aut dolor.",
+      "usage": "This idiom can be used in many ways.",
+      "xy": "5,4",
+      "created_at": "2023-04-28T20:27:35.772Z",
+      "updated_at": "2023-04-29T19:00:27.269Z",
+      "category": "Miscellaneous"
+    },
+    {
+      "id": 214,
+      "elNum": "162",
+      "abbr": "Jt",
+      "phrase": "Jt phrase",
+      "meaning": "Voluptatem dolorem eum suscipit libero cum voluptate quisquam ut dolor.",
+      "usage": "This idiom can be used in many ways.",
+      "xy": "9,4",
+      "created_at": "2023-04-28T20:27:35.781Z",
+      "updated_at": "2023-04-29T19:00:27.276Z",
+      "category": "Miscellaneous"
+    },
+    {
+      "id": 215,
+      "elNum": "163",
+      "abbr": "Jt",
+      "phrase": "Jt phrase",
+      "meaning": "Voluptate expedita vitae sed ipsa dolores quia laborum alias consequatur.",
+      "usage": "This idiom can be used in many ways.",
+      "xy": "10,4",
+      "created_at": "2023-04-28T20:27:35.789Z",
+      "updated_at": "2023-04-29T19:00:27.283Z",
+      "category": "Miscellaneous"
+    },
+    {
+      "id": 216,
+      "elNum": "164",
+      "abbr": "Ca",
+      "phrase": "Ca phrase",
+      "meaning": "Eveniet eaque dicta harum molestias expedita molestiae libero omnis autem.",
+      "usage": "This idiom can be used in many ways.",
+      "xy": "11,4",
+      "created_at": "2023-04-28T20:27:35.797Z",
+      "updated_at": "2023-04-29T19:00:27.290Z",
+      "category": "Miscellaneous"
+    },
+    {
+      "id": 217,
+      "elNum": "165",
+      "abbr": "Ts",
+      "phrase": "Ts phrase",
+      "meaning": "Suscipit explicabo natus quod architecto rerum consequatur tempore eaque aut.",
+      "usage": "This idiom can be used in many ways.",
+      "xy": "7,5",
+      "created_at": "2023-04-28T20:27:35.805Z",
+      "updated_at": "2023-04-29T19:00:27.299Z",
+      "category": "Miscellaneous"
+    },
+    {
+      "id": 218,
+      "elNum": "166",
+      "abbr": "Pd",
+      "phrase": "Pd phrase",
+      "meaning": "Consequatur laudantium sed architecto dicta laborum qui doloremque et vero.",
+      "usage": "This idiom can be used in many ways.",
+      "xy": "6,5",
+      "created_at": "2023-04-28T20:27:35.814Z",
+      "updated_at": "2023-04-29T19:00:27.305Z",
+      "category": "Miscellaneous"
+    },
+    {
+      "id": 219,
+      "elNum": "167",
+      "abbr": "Ki",
+      "phrase": "Ki phrase",
+      "meaning": "Qui hic autem praesentium aliquam ut quia est sunt sunt.",
+      "usage": "This idiom can be used in many ways.",
+      "xy": "5,5",
+      "created_at": "2023-04-28T20:27:35.823Z",
+      "updated_at": "2023-04-29T19:00:27.313Z",
+      "category": "Miscellaneous"
+    },
+    {
+      "id": 220,
+      "elNum": "168",
+      "abbr": "Mo",
+      "phrase": "Mo phrase",
+      "meaning": "Et eveniet eius quasi voluptatem sequi enim enim dignissimos sit.",
+      "usage": "This idiom can be used in many ways.",
+      "xy": "9,5",
+      "created_at": "2023-04-28T20:27:35.832Z",
+      "updated_at": "2023-04-29T19:00:27.322Z",
+      "category": "Miscellaneous"
+    },
+    {
+      "id": 221,
+      "elNum": "169",
+      "abbr": "Ey",
+      "phrase": "Ey phrase",
+      "meaning": "Dolores eum dolore modi sed iste minima praesentium est in.",
+      "usage": "This idiom can be used in many ways.",
+      "xy": null,
+      "created_at": "2023-04-28T20:27:35.841Z",
+      "updated_at": "2023-04-29T18:45:21.765Z",
+      "category": "Miscellaneous"
+    },
+    {
+      "id": 222,
+      "elNum": "170",
+      "abbr": "Dn",
+      "phrase": "Dn phrase",
+      "meaning": "Omnis quaerat sit voluptates quia quisquam sint voluptate voluptatibus minus.",
+      "usage": "This idiom can be used in many ways.",
+      "xy": null,
+      "created_at": "2023-04-28T20:27:35.849Z",
+      "updated_at": "2023-04-29T18:45:21.774Z",
+      "category": "Miscellaneous"
+    },
+    {
+      "id": 223,
+      "elNum": "171",
+      "abbr": "Rw",
+      "phrase": "Rw phrase",
+      "meaning": "Dolorem velit aut consequatur modi ducimus hic vitae repellat numquam.",
+      "usage": "This idiom can be used in many ways.",
+      "xy": null,
+      "created_at": "2023-04-28T20:27:35.857Z",
+      "updated_at": "2023-04-29T18:45:21.782Z",
+      "category": "Miscellaneous"
+    },
+    {
+      "id": 224,
+      "elNum": "172",
+      "abbr": "Bf",
+      "phrase": "Bf phrase",
+      "meaning": "Quasi incidunt quisquam dolorem magni reprehenderit voluptatem velit aut molestiae.",
+      "usage": "This idiom can be used in many ways.",
+      "xy": null,
+      "created_at": "2023-04-28T20:27:35.866Z",
+      "updated_at": "2023-04-29T18:45:21.789Z",
+      "category": "Miscellaneous"
+    }
+  ],
+  "idiom_tag_join": [
+    {
+      "id": 1,
+      "idiom_id": 1,
+      "tag_id": 1,
+      "created_at": "2023-04-24T19:43:50.462Z",
+      "updated_at": "2023-04-24T19:43:50.462Z"
+    },
+    {
+      "id": 2,
+      "idiom_id": 1,
+      "tag_id": 2,
+      "created_at": "2023-04-24T19:44:17.171Z",
+      "updated_at": "2023-04-24T19:44:17.171Z"
+    },
+    {
+      "id": 3,
+      "idiom_id": 1,
+      "tag_id": 3,
+      "created_at": "2023-04-24T19:44:19.045Z",
+      "updated_at": "2023-04-24T19:44:19.045Z"
+    },
+    {
+      "id": 4,
+      "idiom_id": 2,
+      "tag_id": 4,
+      "created_at": "2023-04-24T19:50:07.219Z",
+      "updated_at": "2023-04-24T19:50:07.219Z"
+    },
+    {
+      "id": 5,
+      "idiom_id": 2,
+      "tag_id": 5,
+      "created_at": "2023-04-24T19:50:07.229Z",
+      "updated_at": "2023-04-24T19:50:07.229Z"
+    },
+    {
+      "id": 6,
+      "idiom_id": 3,
+      "tag_id": 6,
+      "created_at": "2023-04-24T19:50:07.242Z",
+      "updated_at": "2023-04-24T19:50:07.242Z"
+    },
+    {
+      "id": 7,
+      "idiom_id": 3,
+      "tag_id": 7,
+      "created_at": "2023-04-24T19:50:07.251Z",
+      "updated_at": "2023-04-24T19:50:07.251Z"
+    },
+    {
+      "id": 8,
+      "idiom_id": 4,
+      "tag_id": 6,
+      "created_at": "2023-04-24T19:50:07.260Z",
+      "updated_at": "2023-04-24T19:50:07.260Z"
+    },
+    {
+      "id": 9,
+      "idiom_id": 5,
+      "tag_id": 3,
+      "created_at": "2023-04-24T19:50:07.276Z",
+      "updated_at": "2023-04-24T19:50:07.276Z"
+    },
+    {
+      "id": 10,
+      "idiom_id": 6,
+      "tag_id": 3,
+      "created_at": "2023-04-24T19:50:07.299Z",
+      "updated_at": "2023-04-24T19:50:07.299Z"
+    },
+    {
+      "id": 11,
+      "idiom_id": 7,
+      "tag_id": 8,
+      "created_at": "2023-04-24T19:50:07.317Z",
+      "updated_at": "2023-04-24T19:50:07.317Z"
+    },
+    {
+      "id": 12,
+      "idiom_id": 8,
+      "tag_id": 9,
+      "created_at": "2023-04-24T19:50:07.331Z",
+      "updated_at": "2023-04-24T19:50:07.331Z"
+    },
+    {
+      "id": 13,
+      "idiom_id": 9,
+      "tag_id": 3,
+      "created_at": "2023-04-24T19:50:07.340Z",
+      "updated_at": "2023-04-24T19:50:07.340Z"
+    },
+    {
+      "id": 14,
+      "idiom_id": 10,
+      "tag_id": 3,
+      "created_at": "2023-04-24T19:50:07.349Z",
+      "updated_at": "2023-04-24T19:50:07.349Z"
+    },
+    {
+      "id": 15,
+      "idiom_id": 11,
+      "tag_id": 9,
+      "created_at": "2023-04-24T19:50:07.357Z",
+      "updated_at": "2023-04-24T19:50:07.357Z"
+    },
+    {
+      "id": 16,
+      "idiom_id": 11,
+      "tag_id": 10,
+      "created_at": "2023-04-24T19:50:07.365Z",
+      "updated_at": "2023-04-24T19:50:07.365Z"
+    },
+    {
+      "id": 17,
+      "idiom_id": 12,
+      "tag_id": 9,
+      "created_at": "2023-04-24T19:50:07.373Z",
+      "updated_at": "2023-04-24T19:50:07.373Z"
+    },
+    {
+      "id": 18,
+      "idiom_id": 13,
+      "tag_id": 3,
+      "created_at": "2023-04-24T19:50:07.381Z",
+      "updated_at": "2023-04-24T19:50:07.381Z"
+    },
+    {
+      "id": 19,
+      "idiom_id": 14,
+      "tag_id": 9,
+      "created_at": "2023-04-24T19:50:07.434Z",
+      "updated_at": "2023-04-24T19:50:07.434Z"
+    },
+    {
+      "id": 20,
+      "idiom_id": 14,
+      "tag_id": 10,
+      "created_at": "2023-04-24T19:50:07.446Z",
+      "updated_at": "2023-04-24T19:50:07.446Z"
+    },
+    {
+      "id": 21,
+      "idiom_id": 15,
+      "tag_id": 9,
+      "created_at": "2023-04-24T19:50:07.457Z",
+      "updated_at": "2023-04-24T19:50:07.457Z"
+    },
+    {
+      "id": 22,
+      "idiom_id": 16,
+      "tag_id": 10,
+      "created_at": "2023-04-24T19:50:07.468Z",
+      "updated_at": "2023-04-24T19:50:07.468Z"
+    },
+    {
+      "id": 23,
+      "idiom_id": 16,
+      "tag_id": 9,
+      "created_at": "2023-04-24T19:50:07.476Z",
+      "updated_at": "2023-04-24T19:50:07.476Z"
+    },
+    {
+      "id": 24,
+      "idiom_id": 17,
+      "tag_id": 9,
+      "created_at": "2023-04-24T19:50:07.484Z",
+      "updated_at": "2023-04-24T19:50:07.484Z"
+    },
+    {
+      "id": 25,
+      "idiom_id": 18,
+      "tag_id": 9,
+      "created_at": "2023-04-24T19:50:07.493Z",
+      "updated_at": "2023-04-24T19:50:07.493Z"
+    },
+    {
+      "id": 26,
+      "idiom_id": 19,
+      "tag_id": 9,
+      "created_at": "2023-04-24T19:50:07.501Z",
+      "updated_at": "2023-04-24T19:50:07.501Z"
+    },
+    {
+      "id": 27,
+      "idiom_id": 19,
+      "tag_id": 11,
+      "created_at": "2023-04-24T19:50:07.509Z",
+      "updated_at": "2023-04-24T19:50:07.509Z"
+    },
+    {
+      "id": 28,
+      "idiom_id": 20,
+      "tag_id": 9,
+      "created_at": "2023-04-24T19:50:07.517Z",
+      "updated_at": "2023-04-24T19:50:07.517Z"
+    },
+    {
+      "id": 29,
+      "idiom_id": 21,
+      "tag_id": 10,
+      "created_at": "2023-04-24T19:50:07.525Z",
+      "updated_at": "2023-04-24T19:50:07.525Z"
+    },
+    {
+      "id": 30,
+      "idiom_id": 21,
+      "tag_id": 9,
+      "created_at": "2023-04-24T19:50:07.532Z",
+      "updated_at": "2023-04-24T19:50:07.532Z"
+    },
+    {
+      "id": 31,
+      "idiom_id": 22,
+      "tag_id": 12,
+      "created_at": "2023-04-24T19:50:07.540Z",
+      "updated_at": "2023-04-24T19:50:07.540Z"
+    },
+    {
+      "id": 32,
+      "idiom_id": 22,
+      "tag_id": 9,
+      "created_at": "2023-04-24T19:50:07.550Z",
+      "updated_at": "2023-04-24T19:50:07.550Z"
+    },
+    {
+      "id": 33,
+      "idiom_id": 23,
+      "tag_id": 13,
+      "created_at": "2023-04-24T19:50:07.558Z",
+      "updated_at": "2023-04-24T19:50:07.558Z"
+    },
+    {
+      "id": 34,
+      "idiom_id": 24,
+      "tag_id": 13,
+      "created_at": "2023-04-24T19:50:07.566Z",
+      "updated_at": "2023-04-24T19:50:07.566Z"
+    },
+    {
+      "id": 35,
+      "idiom_id": 25,
+      "tag_id": 13,
+      "created_at": "2023-04-24T19:50:07.574Z",
+      "updated_at": "2023-04-24T19:50:07.574Z"
+    },
+    {
+      "id": 36,
+      "idiom_id": 26,
+      "tag_id": 13,
+      "created_at": "2023-04-24T19:50:07.582Z",
+      "updated_at": "2023-04-24T19:50:07.582Z"
+    },
+    {
+      "id": 37,
+      "idiom_id": 27,
+      "tag_id": 13,
+      "created_at": "2023-04-24T19:50:07.589Z",
+      "updated_at": "2023-04-24T19:50:07.589Z"
+    },
+    {
+      "id": 38,
+      "idiom_id": 28,
+      "tag_id": 13,
+      "created_at": "2023-04-24T19:50:07.598Z",
+      "updated_at": "2023-04-24T19:50:07.598Z"
+    },
+    {
+      "id": 39,
+      "idiom_id": 29,
+      "tag_id": 13,
+      "created_at": "2023-04-24T19:50:07.605Z",
+      "updated_at": "2023-04-24T19:50:07.605Z"
+    },
+    {
+      "id": 40,
+      "idiom_id": 30,
+      "tag_id": 12,
+      "created_at": "2023-04-24T19:50:07.613Z",
+      "updated_at": "2023-04-24T19:50:07.613Z"
+    },
+    {
+      "id": 41,
+      "idiom_id": 30,
+      "tag_id": 9,
+      "created_at": "2023-04-24T19:50:07.620Z",
+      "updated_at": "2023-04-24T19:50:07.620Z"
+    },
+    {
+      "id": 42,
+      "idiom_id": 31,
+      "tag_id": 14,
+      "created_at": "2023-04-24T19:50:07.629Z",
+      "updated_at": "2023-04-24T19:50:07.629Z"
+    },
+    {
+      "id": 43,
+      "idiom_id": 31,
+      "tag_id": 13,
+      "created_at": "2023-04-24T19:50:07.637Z",
+      "updated_at": "2023-04-24T19:50:07.637Z"
+    },
+    {
+      "id": 44,
+      "idiom_id": 32,
+      "tag_id": 13,
+      "created_at": "2023-04-24T19:50:07.646Z",
+      "updated_at": "2023-04-24T19:50:07.646Z"
+    },
+    {
+      "id": 45,
+      "idiom_id": 32,
+      "tag_id": 14,
+      "created_at": "2023-04-24T19:50:07.654Z",
+      "updated_at": "2023-04-24T19:50:07.654Z"
+    },
+    {
+      "id": 46,
+      "idiom_id": 33,
+      "tag_id": 13,
+      "created_at": "2023-04-24T19:50:07.662Z",
+      "updated_at": "2023-04-24T19:50:07.662Z"
+    },
+    {
+      "id": 47,
+      "idiom_id": 34,
+      "tag_id": 13,
+      "created_at": "2023-04-24T19:50:07.669Z",
+      "updated_at": "2023-04-24T19:50:07.669Z"
+    },
+    {
+      "id": 48,
+      "idiom_id": 35,
+      "tag_id": 13,
+      "created_at": "2023-04-24T19:50:07.677Z",
+      "updated_at": "2023-04-24T19:50:07.677Z"
+    },
+    {
+      "id": 49,
+      "idiom_id": 36,
+      "tag_id": 13,
+      "created_at": "2023-04-24T19:50:07.685Z",
+      "updated_at": "2023-04-24T19:50:07.685Z"
+    },
+    {
+      "id": 50,
+      "idiom_id": 37,
+      "tag_id": 13,
+      "created_at": "2023-04-24T19:50:07.693Z",
+      "updated_at": "2023-04-24T19:50:07.693Z"
+    },
+    {
+      "id": 51,
+      "idiom_id": 38,
+      "tag_id": 13,
+      "created_at": "2023-04-24T19:50:07.702Z",
+      "updated_at": "2023-04-24T19:50:07.702Z"
+    },
+    {
+      "id": 52,
+      "idiom_id": 39,
+      "tag_id": 13,
+      "created_at": "2023-04-24T19:50:07.711Z",
+      "updated_at": "2023-04-24T19:50:07.711Z"
+    },
+    {
+      "id": 53,
+      "idiom_id": 40,
+      "tag_id": 13,
+      "created_at": "2023-04-24T19:50:07.720Z",
+      "updated_at": "2023-04-24T19:50:07.720Z"
+    },
+    {
+      "id": 54,
+      "idiom_id": 41,
+      "tag_id": 13,
+      "created_at": "2023-04-24T19:50:07.727Z",
+      "updated_at": "2023-04-24T19:50:07.727Z"
+    },
+    {
+      "id": 55,
+      "idiom_id": 42,
+      "tag_id": 13,
+      "created_at": "2023-04-24T19:50:07.736Z",
+      "updated_at": "2023-04-24T19:50:07.736Z"
+    },
+    {
+      "id": 56,
+      "idiom_id": 43,
+      "tag_id": 13,
+      "created_at": "2023-04-24T19:50:07.745Z",
+      "updated_at": "2023-04-24T19:50:07.745Z"
+    },
+    {
+      "id": 57,
+      "idiom_id": 43,
+      "tag_id": 15,
+      "created_at": "2023-04-24T19:50:07.752Z",
+      "updated_at": "2023-04-24T19:50:07.752Z"
+    },
+    {
+      "id": 58,
+      "idiom_id": 44,
+      "tag_id": 13,
+      "created_at": "2023-04-24T19:50:07.762Z",
+      "updated_at": "2023-04-24T19:50:07.762Z"
+    },
+    {
+      "id": 59,
+      "idiom_id": 44,
+      "tag_id": 15,
+      "created_at": "2023-04-24T19:50:07.769Z",
+      "updated_at": "2023-04-24T19:50:07.769Z"
+    },
+    {
+      "id": 60,
+      "idiom_id": 45,
+      "tag_id": 8,
+      "created_at": "2023-04-24T19:50:07.778Z",
+      "updated_at": "2023-04-24T19:50:07.778Z"
+    },
+    {
+      "id": 61,
+      "idiom_id": 46,
+      "tag_id": 8,
+      "created_at": "2023-04-24T19:50:07.786Z",
+      "updated_at": "2023-04-24T19:50:07.786Z"
+    },
+    {
+      "id": 62,
+      "idiom_id": 47,
+      "tag_id": 8,
+      "created_at": "2023-04-24T19:50:07.793Z",
+      "updated_at": "2023-04-24T19:50:07.793Z"
+    },
+    {
+      "id": 63,
+      "idiom_id": 48,
+      "tag_id": 8,
+      "created_at": "2023-04-24T19:50:07.803Z",
+      "updated_at": "2023-04-24T19:50:07.803Z"
+    },
+    {
+      "id": 64,
+      "idiom_id": 49,
+      "tag_id": 8,
+      "created_at": "2023-04-24T19:50:07.811Z",
+      "updated_at": "2023-04-24T19:50:07.811Z"
+    },
+    {
+      "id": 65,
+      "idiom_id": 50,
+      "tag_id": 8,
+      "created_at": "2023-04-24T19:50:07.820Z",
+      "updated_at": "2023-04-24T19:50:07.820Z"
+    },
+    {
+      "id": 66,
+      "idiom_id": 51,
+      "tag_id": 8,
+      "created_at": "2023-04-24T19:50:07.829Z",
+      "updated_at": "2023-04-24T19:50:07.829Z"
+    },
+    {
+      "id": 67,
+      "idiom_id": 52,
+      "tag_id": 8,
+      "created_at": "2023-04-24T19:50:07.837Z",
+      "updated_at": "2023-04-24T19:50:07.837Z"
+    },
+    {
+      "id": 68,
+      "idiom_id": 53,
+      "tag_id": 12,
+      "created_at": "2023-04-24T19:50:07.846Z",
+      "updated_at": "2023-04-24T19:50:07.846Z"
+    },
+    {
+      "id": 69,
+      "idiom_id": 53,
+      "tag_id": 9,
+      "created_at": "2023-04-24T19:50:07.854Z",
+      "updated_at": "2023-04-24T19:50:07.854Z"
+    },
+    {
+      "id": 70,
+      "idiom_id": 54,
+      "tag_id": 12,
+      "created_at": "2023-04-24T19:50:07.863Z",
+      "updated_at": "2023-04-24T19:50:07.863Z"
+    },
+    {
+      "id": 71,
+      "idiom_id": 54,
+      "tag_id": 9,
+      "created_at": "2023-04-24T19:50:07.871Z",
+      "updated_at": "2023-04-24T19:50:07.871Z"
+    },
+    {
+      "id": 72,
+      "idiom_id": 55,
+      "tag_id": 12,
+      "created_at": "2023-04-24T19:50:07.879Z",
+      "updated_at": "2023-04-24T19:50:07.879Z"
+    },
+    {
+      "id": 73,
+      "idiom_id": 55,
+      "tag_id": 9,
+      "created_at": "2023-04-24T19:50:07.887Z",
+      "updated_at": "2023-04-24T19:50:07.887Z"
+    },
+    {
+      "id": 74,
+      "idiom_id": 56,
+      "tag_id": 12,
+      "created_at": "2023-04-24T19:50:07.896Z",
+      "updated_at": "2023-04-24T19:50:07.896Z"
+    },
+    {
+      "id": 75,
+      "idiom_id": 56,
+      "tag_id": 9,
+      "created_at": "2023-04-24T19:50:07.903Z",
+      "updated_at": "2023-04-24T19:50:07.903Z"
+    },
+    {
+      "id": 76,
+      "idiom_id": 56,
+      "tag_id": 16,
+      "created_at": "2023-04-24T19:50:07.911Z",
+      "updated_at": "2023-04-24T19:50:07.911Z"
+    },
+    {
+      "id": 77,
+      "idiom_id": 57,
+      "tag_id": 17,
+      "created_at": "2023-04-24T19:50:07.919Z",
+      "updated_at": "2023-04-24T19:50:07.919Z"
+    },
+    {
+      "id": 78,
+      "idiom_id": 58,
+      "tag_id": 18,
+      "created_at": "2023-04-24T19:50:07.928Z",
+      "updated_at": "2023-04-24T19:50:07.928Z"
+    },
+    {
+      "id": 79,
+      "idiom_id": 59,
+      "tag_id": 18,
+      "created_at": "2023-04-24T19:50:07.937Z",
+      "updated_at": "2023-04-24T19:50:07.937Z"
+    },
+    {
+      "id": 80,
+      "idiom_id": 60,
+      "tag_id": 18,
+      "created_at": "2023-04-24T19:50:07.946Z",
+      "updated_at": "2023-04-24T19:50:07.946Z"
+    },
+    {
+      "id": 81,
+      "idiom_id": 61,
+      "tag_id": 18,
+      "created_at": "2023-04-24T19:50:07.954Z",
+      "updated_at": "2023-04-24T19:50:07.954Z"
+    },
+    {
+      "id": 82,
+      "idiom_id": 62,
+      "tag_id": 19,
+      "created_at": "2023-04-24T19:50:07.964Z",
+      "updated_at": "2023-04-24T19:50:07.964Z"
+    },
+    {
+      "id": 83,
+      "idiom_id": 63,
+      "tag_id": 19,
+      "created_at": "2023-04-24T19:50:07.974Z",
+      "updated_at": "2023-04-24T19:50:07.974Z"
+    },
+    {
+      "id": 84,
+      "idiom_id": 64,
+      "tag_id": 19,
+      "created_at": "2023-04-24T19:50:07.982Z",
+      "updated_at": "2023-04-24T19:50:07.982Z"
+    },
+    {
+      "id": 85,
+      "idiom_id": 65,
+      "tag_id": 19,
+      "created_at": "2023-04-24T19:50:07.990Z",
+      "updated_at": "2023-04-24T19:50:07.990Z"
+    },
+    {
+      "id": 86,
+      "idiom_id": 66,
+      "tag_id": 11,
+      "created_at": "2023-04-24T19:50:07.998Z",
+      "updated_at": "2023-04-24T19:50:07.998Z"
+    },
+    {
+      "id": 87,
+      "idiom_id": 66,
+      "tag_id": 19,
+      "created_at": "2023-04-24T19:50:08.006Z",
+      "updated_at": "2023-04-24T19:50:08.006Z"
+    },
+    {
+      "id": 88,
+      "idiom_id": 67,
+      "tag_id": 19,
+      "created_at": "2023-04-24T19:50:08.014Z",
+      "updated_at": "2023-04-24T19:50:08.014Z"
+    },
+    {
+      "id": 89,
+      "idiom_id": 68,
+      "tag_id": 19,
+      "created_at": "2023-04-24T19:50:08.022Z",
+      "updated_at": "2023-04-24T19:50:08.022Z"
+    },
+    {
+      "id": 90,
+      "idiom_id": 68,
+      "tag_id": 3,
+      "created_at": "2023-04-24T19:50:08.031Z",
+      "updated_at": "2023-04-24T19:50:08.031Z"
+    },
+    {
+      "id": 91,
+      "idiom_id": 69,
+      "tag_id": 19,
+      "created_at": "2023-04-24T19:50:08.039Z",
+      "updated_at": "2023-04-24T19:50:08.039Z"
+    },
+    {
+      "id": 92,
+      "idiom_id": 70,
+      "tag_id": 19,
+      "created_at": "2023-04-24T19:50:08.048Z",
+      "updated_at": "2023-04-24T19:50:08.048Z"
+    },
+    {
+      "id": 93,
+      "idiom_id": 71,
+      "tag_id": 19,
+      "created_at": "2023-04-24T19:50:08.058Z",
+      "updated_at": "2023-04-24T19:50:08.058Z"
+    },
+    {
+      "id": 94,
+      "idiom_id": 72,
+      "tag_id": 19,
+      "created_at": "2023-04-24T19:50:08.067Z",
+      "updated_at": "2023-04-24T19:50:08.067Z"
+    },
+    {
+      "id": 95,
+      "idiom_id": 72,
+      "tag_id": 16,
+      "created_at": "2023-04-24T19:50:08.076Z",
+      "updated_at": "2023-04-24T19:50:08.076Z"
+    },
+    {
+      "id": 96,
+      "idiom_id": 73,
+      "tag_id": 19,
+      "created_at": "2023-04-24T19:50:08.084Z",
+      "updated_at": "2023-04-24T19:50:08.084Z"
+    },
+    {
+      "id": 97,
+      "idiom_id": 74,
+      "tag_id": 19,
+      "created_at": "2023-04-24T19:50:08.093Z",
+      "updated_at": "2023-04-24T19:50:08.093Z"
+    },
+    {
+      "id": 98,
+      "idiom_id": 75,
+      "tag_id": 19,
+      "created_at": "2023-04-24T19:50:08.102Z",
+      "updated_at": "2023-04-24T19:50:08.102Z"
+    },
+    {
+      "id": 99,
+      "idiom_id": 76,
+      "tag_id": 19,
+      "created_at": "2023-04-24T19:50:08.110Z",
+      "updated_at": "2023-04-24T19:50:08.110Z"
+    },
+    {
+      "id": 100,
+      "idiom_id": 77,
+      "tag_id": 20,
+      "created_at": "2023-04-24T19:50:08.119Z",
+      "updated_at": "2023-04-24T19:50:08.119Z"
+    },
+    {
+      "id": 101,
+      "idiom_id": 78,
+      "tag_id": 19,
+      "created_at": "2023-04-24T19:50:08.128Z",
+      "updated_at": "2023-04-24T19:50:08.128Z"
+    },
+    {
+      "id": 102,
+      "idiom_id": 79,
+      "tag_id": 19,
+      "created_at": "2023-04-24T19:50:08.136Z",
+      "updated_at": "2023-04-24T19:50:08.136Z"
+    },
+    {
+      "id": 103,
+      "idiom_id": 80,
+      "tag_id": 15,
+      "created_at": "2023-04-24T19:50:08.146Z",
+      "updated_at": "2023-04-24T19:50:08.146Z"
+    },
+    {
+      "id": 104,
+      "idiom_id": 81,
+      "tag_id": 15,
+      "created_at": "2023-04-24T19:50:08.154Z",
+      "updated_at": "2023-04-24T19:50:08.154Z"
+    },
+    {
+      "id": 105,
+      "idiom_id": 82,
+      "tag_id": 13,
+      "created_at": "2023-04-24T19:50:08.162Z",
+      "updated_at": "2023-04-24T19:50:08.162Z"
+    },
+    {
+      "id": 106,
+      "idiom_id": 82,
+      "tag_id": 15,
+      "created_at": "2023-04-24T19:50:08.169Z",
+      "updated_at": "2023-04-24T19:50:08.169Z"
+    },
+    {
+      "id": 107,
+      "idiom_id": 83,
+      "tag_id": 15,
+      "created_at": "2023-04-24T19:50:08.179Z",
+      "updated_at": "2023-04-24T19:50:08.179Z"
+    },
+    {
+      "id": 108,
+      "idiom_id": 84,
+      "tag_id": 9,
+      "created_at": "2023-04-24T19:50:08.188Z",
+      "updated_at": "2023-04-24T19:50:08.188Z"
+    },
+    {
+      "id": 109,
+      "idiom_id": 84,
+      "tag_id": 15,
+      "created_at": "2023-04-24T19:50:08.196Z",
+      "updated_at": "2023-04-24T19:50:08.196Z"
+    },
+    {
+      "id": 110,
+      "idiom_id": 85,
+      "tag_id": 15,
+      "created_at": "2023-04-24T19:50:08.204Z",
+      "updated_at": "2023-04-24T19:50:08.204Z"
+    },
+    {
+      "id": 111,
+      "idiom_id": 85,
+      "tag_id": 13,
+      "created_at": "2023-04-24T19:50:08.212Z",
+      "updated_at": "2023-04-24T19:50:08.212Z"
+    },
+    {
+      "id": 112,
+      "idiom_id": 86,
+      "tag_id": 15,
+      "created_at": "2023-04-24T19:50:08.221Z",
+      "updated_at": "2023-04-24T19:50:08.221Z"
+    },
+    {
+      "id": 113,
+      "idiom_id": 87,
+      "tag_id": 15,
+      "created_at": "2023-04-24T19:50:08.231Z",
+      "updated_at": "2023-04-24T19:50:08.231Z"
+    },
+    {
+      "id": 114,
+      "idiom_id": 88,
+      "tag_id": 15,
+      "created_at": "2023-04-24T19:50:08.240Z",
+      "updated_at": "2023-04-24T19:50:08.240Z"
+    },
+    {
+      "id": 115,
+      "idiom_id": 89,
+      "tag_id": 15,
+      "created_at": "2023-04-24T19:50:08.248Z",
+      "updated_at": "2023-04-24T19:50:08.248Z"
+    },
+    {
+      "id": 116,
+      "idiom_id": 90,
+      "tag_id": 4,
+      "created_at": "2023-04-24T19:50:08.257Z",
+      "updated_at": "2023-04-24T19:50:08.257Z"
+    },
+    {
+      "id": 117,
+      "idiom_id": 91,
+      "tag_id": 21,
+      "created_at": "2023-04-24T19:50:08.265Z",
+      "updated_at": "2023-04-24T19:50:08.265Z"
+    },
+    {
+      "id": 118,
+      "idiom_id": 91,
+      "tag_id": 4,
+      "created_at": "2023-04-24T19:50:08.274Z",
+      "updated_at": "2023-04-24T19:50:08.274Z"
+    },
+    {
+      "id": 119,
+      "idiom_id": 92,
+      "tag_id": 11,
+      "created_at": "2023-04-24T19:50:08.285Z",
+      "updated_at": "2023-04-24T19:50:08.285Z"
+    },
+    {
+      "id": 120,
+      "idiom_id": 93,
+      "tag_id": 11,
+      "created_at": "2023-04-24T19:50:08.293Z",
+      "updated_at": "2023-04-24T19:50:08.293Z"
+    },
+    {
+      "id": 121,
+      "idiom_id": 93,
+      "tag_id": 14,
+      "created_at": "2023-04-24T19:50:08.301Z",
+      "updated_at": "2023-04-24T19:50:08.301Z"
+    },
+    {
+      "id": 122,
+      "idiom_id": 94,
+      "tag_id": 11,
+      "created_at": "2023-04-24T19:50:08.310Z",
+      "updated_at": "2023-04-24T19:50:08.310Z"
+    },
+    {
+      "id": 123,
+      "idiom_id": 95,
+      "tag_id": 11,
+      "created_at": "2023-04-24T19:50:08.319Z",
+      "updated_at": "2023-04-24T19:50:08.319Z"
+    },
+    {
+      "id": 124,
+      "idiom_id": 96,
+      "tag_id": 11,
+      "created_at": "2023-04-24T19:50:08.328Z",
+      "updated_at": "2023-04-24T19:50:08.328Z"
+    },
+    {
+      "id": 125,
+      "idiom_id": 97,
+      "tag_id": 11,
+      "created_at": "2023-04-24T19:50:08.337Z",
+      "updated_at": "2023-04-24T19:50:08.337Z"
+    },
+    {
+      "id": 126,
+      "idiom_id": 98,
+      "tag_id": 11,
+      "created_at": "2023-04-24T19:50:08.346Z",
+      "updated_at": "2023-04-24T19:50:08.346Z"
+    },
+    {
+      "id": 127,
+      "idiom_id": 99,
+      "tag_id": 11,
+      "created_at": "2023-04-24T19:50:08.358Z",
+      "updated_at": "2023-04-24T19:50:08.358Z"
+    },
+    {
+      "id": 128,
+      "idiom_id": 100,
+      "tag_id": 11,
+      "created_at": "2023-04-24T19:50:08.368Z",
+      "updated_at": "2023-04-24T19:50:08.368Z"
+    },
+    {
+      "id": 129,
+      "idiom_id": 100,
+      "tag_id": 13,
+      "created_at": "2023-04-24T19:50:08.377Z",
+      "updated_at": "2023-04-24T19:50:08.377Z"
+    },
+    {
+      "id": 130,
+      "idiom_id": 101,
+      "tag_id": 11,
+      "created_at": "2023-04-24T19:50:08.390Z",
+      "updated_at": "2023-04-24T19:50:08.390Z"
+    },
+    {
+      "id": 131,
+      "idiom_id": 102,
+      "tag_id": 11,
+      "created_at": "2023-04-24T19:50:08.401Z",
+      "updated_at": "2023-04-24T19:50:08.401Z"
+    },
+    {
+      "id": 132,
+      "idiom_id": 103,
+      "tag_id": 11,
+      "created_at": "2023-04-24T19:50:08.413Z",
+      "updated_at": "2023-04-24T19:50:08.413Z"
+    },
+    {
+      "id": 133,
+      "idiom_id": 104,
+      "tag_id": 11,
+      "created_at": "2023-04-24T19:50:08.422Z",
+      "updated_at": "2023-04-24T19:50:08.422Z"
+    },
+    {
+      "id": 134,
+      "idiom_id": 105,
+      "tag_id": 21,
+      "created_at": "2023-04-24T19:50:08.433Z",
+      "updated_at": "2023-04-24T19:50:08.433Z"
+    },
+    {
+      "id": 135,
+      "idiom_id": 106,
+      "tag_id": 11,
+      "created_at": "2023-04-24T19:50:08.443Z",
+      "updated_at": "2023-04-24T19:50:08.443Z"
+    },
+    {
+      "id": 136,
+      "idiom_id": 107,
+      "tag_id": 11,
+      "created_at": "2023-04-24T19:50:08.454Z",
+      "updated_at": "2023-04-24T19:50:08.454Z"
+    },
+    {
+      "id": 137,
+      "idiom_id": 108,
+      "tag_id": 11,
+      "created_at": "2023-04-24T19:50:08.463Z",
+      "updated_at": "2023-04-24T19:50:08.463Z"
+    },
+    {
+      "id": 138,
+      "idiom_id": 109,
+      "tag_id": 11,
+      "created_at": "2023-04-24T19:50:08.471Z",
+      "updated_at": "2023-04-24T19:50:08.471Z"
+    },
+    {
+      "id": 139,
+      "idiom_id": 110,
+      "tag_id": 11,
+      "created_at": "2023-04-24T19:50:08.479Z",
+      "updated_at": "2023-04-24T19:50:08.479Z"
+    },
+    {
+      "id": 140,
+      "idiom_id": 111,
+      "tag_id": 11,
+      "created_at": "2023-04-24T19:50:08.487Z",
+      "updated_at": "2023-04-24T19:50:08.487Z"
+    },
+    {
+      "id": 141,
+      "idiom_id": 112,
+      "tag_id": 11,
+      "created_at": "2023-04-24T19:50:08.495Z",
+      "updated_at": "2023-04-24T19:50:08.495Z"
+    },
+    {
+      "id": 142,
+      "idiom_id": 113,
+      "tag_id": 11,
+      "created_at": "2023-04-24T19:50:08.507Z",
+      "updated_at": "2023-04-24T19:50:08.507Z"
+    },
+    {
+      "id": 143,
+      "idiom_id": 114,
+      "tag_id": 11,
+      "created_at": "2023-04-24T19:50:08.515Z",
+      "updated_at": "2023-04-24T19:50:08.515Z"
+    },
+    {
+      "id": 144,
+      "idiom_id": 115,
+      "tag_id": 11,
+      "created_at": "2023-04-24T19:50:08.523Z",
+      "updated_at": "2023-04-24T19:50:08.523Z"
+    },
+    {
+      "id": 145,
+      "idiom_id": 116,
+      "tag_id": 11,
+      "created_at": "2023-04-24T19:50:08.531Z",
+      "updated_at": "2023-04-24T19:50:08.531Z"
+    },
+    {
+      "id": 146,
+      "idiom_id": 116,
+      "tag_id": 16,
+      "created_at": "2023-04-24T19:50:08.539Z",
+      "updated_at": "2023-04-24T19:50:08.539Z"
+    },
+    {
+      "id": 147,
+      "idiom_id": 117,
+      "tag_id": 11,
+      "created_at": "2023-04-24T19:50:08.547Z",
+      "updated_at": "2023-04-24T19:50:08.547Z"
+    },
+    {
+      "id": 148,
+      "idiom_id": 118,
+      "tag_id": 22,
+      "created_at": "2023-04-24T19:50:08.555Z",
+      "updated_at": "2023-04-24T19:50:08.555Z"
+    }
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "name": "verb",
+      "created_at": "2023-04-24T19:27:03.905Z",
+      "updated_at": "2023-04-24T19:27:03.905Z"
+    },
+    {
+      "id": 2,
+      "name": "happy",
+      "created_at": "2023-04-24T19:27:03.912Z",
+      "updated_at": "2023-04-24T19:27:03.912Z"
+    },
+    {
+      "id": 3,
+      "name": "advice",
+      "created_at": "2023-04-24T19:27:03.918Z",
+      "updated_at": "2023-04-24T19:27:03.918Z"
+    },
+    {
+      "id": 4,
+      "name": "money",
+      "created_at": "2023-04-24T19:27:03.925Z",
+      "updated_at": "2023-04-24T19:27:03.925Z"
+    },
+    {
+      "id": 5,
+      "name": "numbers",
+      "created_at": "2023-04-24T19:27:03.933Z",
+      "updated_at": "2023-04-24T19:27:03.933Z"
+    },
+    {
+      "id": 6,
+      "name": "noun",
+      "created_at": "2023-04-24T19:27:03.939Z",
+      "updated_at": "2023-04-24T19:27:03.939Z"
+    },
+    {
+      "id": 7,
+      "name": "informal",
+      "created_at": "2023-04-24T19:27:03.945Z",
+      "updated_at": "2023-04-24T19:27:03.945Z"
+    },
+    {
+      "id": 8,
+      "name": "books",
+      "created_at": "2023-04-24T19:27:03.955Z",
+      "updated_at": "2023-04-24T19:27:03.955Z"
+    },
+    {
+      "id": 9,
+      "name": "animals",
+      "created_at": "2023-04-24T19:27:03.961Z",
+      "updated_at": "2023-04-24T19:27:03.961Z"
+    },
+    {
+      "id": 10,
+      "name": "dogs",
+      "created_at": "2023-04-24T19:27:03.966Z",
+      "updated_at": "2023-04-24T19:27:03.966Z"
+    },
+    {
+      "id": 11,
+      "name": "nature",
+      "created_at": "2023-04-24T19:27:03.971Z",
+      "updated_at": "2023-04-24T19:27:03.971Z"
+    },
+    {
+      "id": 12,
+      "name": "cats",
+      "created_at": "2023-04-24T19:27:03.976Z",
+      "updated_at": "2023-04-24T19:27:03.976Z"
+    },
+    {
+      "id": 13,
+      "name": "body parts",
+      "created_at": "2023-04-24T19:27:03.982Z",
+      "updated_at": "2023-04-24T19:27:03.982Z"
+    },
+    {
+      "id": 14,
+      "name": "action",
+      "created_at": "2023-04-24T19:27:03.988Z",
+      "updated_at": "2023-04-24T19:27:03.988Z"
+    },
+    {
+      "id": 15,
+      "name": "love",
+      "created_at": "2023-04-24T19:27:03.993Z",
+      "updated_at": "2023-04-24T19:27:03.993Z"
+    },
+    {
+      "id": 16,
+      "name": "proverb",
+      "created_at": "2023-04-24T19:27:03.998Z",
+      "updated_at": "2023-04-24T19:27:03.998Z"
+    },
+    {
+      "id": 17,
+      "name": "clothing",
+      "created_at": "2023-04-24T19:27:04.003Z",
+      "updated_at": "2023-04-24T19:27:04.003Z"
+    },
+    {
+      "id": 18,
+      "name": "country",
+      "created_at": "2023-04-24T19:27:04.008Z",
+      "updated_at": "2023-04-24T19:27:04.008Z"
+    },
+    {
+      "id": 19,
+      "name": "food",
+      "created_at": "2023-04-24T19:27:04.015Z",
+      "updated_at": "2023-04-24T19:27:04.015Z"
+    },
+    {
+      "id": 20,
+      "name": "root",
+      "created_at": "2023-04-24T19:27:04.021Z",
+      "updated_at": "2023-04-24T19:27:04.021Z"
+    },
+    {
+      "id": 21,
+      "name": "time",
+      "created_at": "2023-04-24T19:27:04.026Z",
+      "updated_at": "2023-04-24T19:27:04.026Z"
+    },
+    {
+      "id": 22,
+      "name": "fruits",
+      "created_at": "2023-04-24T19:27:04.031Z",
+      "updated_at": "2023-04-24T19:27:04.031Z"
+    }
+  ]
+}
