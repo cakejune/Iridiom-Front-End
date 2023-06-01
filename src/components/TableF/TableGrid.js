@@ -73,9 +73,7 @@ export default function TableGrid({ elements, searchResults }) {
   }
 
   async function handleElementClick(element) {
-      const data = await fetch(`/idioms/${element.id}`);
-      const response = await data.json();
-      setSelectedElement(response);
+      setSelectedElement(element);
       setShow(true);
   }
 

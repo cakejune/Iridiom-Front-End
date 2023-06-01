@@ -8,34 +8,19 @@ import SpecialThanks from "../Navbar Elements/SpecialThanks";
 import IdiomCategoryKey from "./TableF/IdiomCategoryKey";
 import EditIdiom from "./EditIdiom";
 import SearchBar from "./SearchBar";
+import data from "./idioms.json";
 
 function App() {
-  const [elements, setElements] = useState([]);
-  const [tagState, setTagState] = useState([]);
+  const elements = data.idioms;
+  const categoryList = data.idioms.map((idiom) => {
+    return idiom.category;
+  });
+  const categories = [...new Set(categoryList)];
+  const tagState = data.tags;
   const [matchedElementsWithTags, setMatchedElementsWithTags] = useState([]);
   const [selectedCategory, setSelectedCategory] = useState("");
   const [elementToEdit, setElementToEdit] = useState({});
   const [searchResults, setSearchResults] = useState([]);
-
-
-  useEffect(() => {
-    const fetchData = async () => {
-      const data = await fetch("/idioms");
-      const response = await data.json();
-      // console.log(response);
-      // only save idioms between 1 and 118
-      setElements(response);
-      let x = response
-        .map((idiom) => {
-          return idiom.tags;
-        })
-        .flat();
-      let y = new Set(x);
-      setTagState([...y]);
-    };
-
-    fetchData().catch(console.error);
-  }, []);
 
   // useEffect(()=>{
   //   console.log(`matchedElementsWithTags: ${matchedElementsWithTags}`)
@@ -68,24 +53,6 @@ function App() {
     setMatchedElementsWithTags(filteredElements);
   }
 
-  function refreshIdioms(){
-    const fetchData = async () => {
-      const data = await fetch("/idioms");
-      const response = await data.json();
-      // only save idioms between 1 and 118
-      setElements(response);
-      let x = response
-        .map((idiom) => {
-          return idiom.tags;
-        })
-        .flat();
-      let y = new Set(x);
-      setTagState([...y]);
-    };
-
-    fetchData().catch(console.error);
-  }
-
 
   function setCategorySearch(category){
     setSelectedCategory(category);
@@ -108,7 +75,7 @@ function App() {
 
   return (
     <div className="appDiv">
-      <Navbar refreshIdioms={refreshIdioms}/>
+      <Navbar/>
       <Routes>
         <Route
           
@@ -116,7 +83,7 @@ function App() {
           element={[
             <SearchBar renderSearchResults={renderSearchResults} elements={elements} key={0}/>,
             <TableGrid searchResults={searchResults} elements={elements} key={1}/>,
-            <IdiomCategoryKey key={9} setCategory={setCategorySearch}/>,
+            <IdiomCategoryKey key={9} categories={categories} setCategory={setCategorySearch}/>,
           ]}
         ></Route>
         <Route path="/edit/:id" element={<EditIdiom key={5} />}></Route>

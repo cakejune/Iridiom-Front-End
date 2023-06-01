@@ -1,8 +1,7 @@
 import React, { useEffect } from "react";
 import { useState } from "react";
 
-export default function IdiomCategoryKey({setCategory}) {
-  const [categories, setCategories] = useState([]);
+export default function IdiomCategoryKey({setCategory, categories}) {
   const [selectedCategory, setSelectedCategory] = useState(null);
   const style = {
     "cursor": "pointer",
@@ -35,15 +34,6 @@ export default function IdiomCategoryKey({setCategory}) {
     "Action": "rgb(245, 189, 106)",
     "Website": "linear-gradient(rgb(243, 193, 232), rgb(243, 5, 239))",
   };
-
-  useEffect(() => {
-    fetch("/categories")
-      .then((response) => response.json())
-      .then((data) => {
-        setCategories(data);
-      })
-      .catch(console.error);
-  }, []);
       
 
   function handleClick(e){
@@ -63,8 +53,8 @@ export default function IdiomCategoryKey({setCategory}) {
     <div className="idiomkey">
        {categories.map((category) => {
           return (
-            <div className="keyItem">
-              <div onClick={handleClick} className={category} style={{...style, "background": styleKey[category]}} key={category}>
+            <div className="keyItem" key={category}>
+              <div onClick={handleClick} className={category} style={{...style, "background": styleKey[category]}}>
                
               </div>
               <div>{category}</div>
