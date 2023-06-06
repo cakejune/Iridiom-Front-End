@@ -3,7 +3,6 @@ import React, { useState, useEffect } from "react";
 import Cell from "./Cell";
 import ElementModal from "./ElementModal";
 import { Button, Spinner } from "react-bootstrap";
-import SearchResults from "../SearchResults/SearchResults";
 import IdiomCategoryKey from "./IdiomCategoryKey";
 //import constants from constants.js
 import {first_page, second_page, third_page} from "../../constants.js"

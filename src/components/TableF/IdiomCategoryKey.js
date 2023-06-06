@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { useState } from "react";
+import { Badge } from "react-bootstrap";
 
 export default function IdiomCategoryKey({setCategory, categories}) {
   const [selectedCategory, setSelectedCategory] = useState(null);
@@ -49,7 +50,8 @@ export default function IdiomCategoryKey({setCategory, categories}) {
 
   return (
     <div className="idiomKeyContainer">
-         <h4 className="idiomKeyTitle">Category 🔑 Key</h4>
+         <h4><Badge className="badgeTag" bg="secondary" key={123124}>Category 🔑 Key</Badge></h4>
+         
     <div className="idiomkey">
        {categories.map((category) => {
           return (

@@ -1,7 +1,6 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import "./App.css";
 import Navbar from "../Navbar Elements/Navbar";
-import SearchResults from "./SearchResults/SearchResults";
 import TableGrid from "./TableF/TableGrid";
 import { Route, Routes } from "react-router-dom";
 import SpecialThanks from "../Navbar Elements/SpecialThanks";
@@ -9,6 +8,7 @@ import IdiomCategoryKey from "./TableF/IdiomCategoryKey";
 import EditIdiom from "./EditIdiom";
 import SearchBar from "./SearchBar";
 import data from "./idioms.json";
+import { Button } from "react-bootstrap";
 
 function App() {
   const elements = data.idioms;
@@ -39,6 +39,13 @@ function App() {
   //   setElements([...elements, data]);
   // }
 
+
+  function printIdiomPhrases(idioms){
+    const phrases = idioms.map((idiom)=>{
+      return idiom.phrase;
+    })
+    console.log(phrases);
+  }
   function filterElementsByTags(tagsInEquationArray) {
     //tagsInEquationArray = ['informal', 'here']
     const filteredElements = elements.filter((el) => {
@@ -78,12 +85,12 @@ function App() {
       <Navbar/>
       <Routes>
         <Route
-          
           path="/"
           element={[
             <SearchBar renderSearchResults={renderSearchResults} elements={elements} key={0}/>,
             <TableGrid searchResults={searchResults} elements={elements} key={1}/>,
             <IdiomCategoryKey key={9} categories={categories} setCategory={setCategorySearch}/>,
+            <Button onClick={()=>{printIdiomPhrases(elements)}}>Print Idiom Phrases</Button>
           ]}
         ></Route>
         <Route path="/edit/:id" element={<EditIdiom key={5} />}></Route>
