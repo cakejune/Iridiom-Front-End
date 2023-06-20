@@ -90,7 +90,7 @@ function App() {
             <SearchBar renderSearchResults={renderSearchResults} elements={elements} key={0}/>,
             <TableGrid searchResults={searchResults} elements={elements} key={1}/>,
             <IdiomCategoryKey key={9} categories={categories} setCategory={setCategorySearch}/>,
-            <Button onClick={()=>{printIdiomPhrases(elements)}}>Print Idiom Phrases</Button>
+            // <Button onClick={()=>{printIdiomPhrases(elements)}}>Print Idiom Phrases</Button>
           ]}
         ></Route>
         <Route path="/edit/:id" element={<EditIdiom key={5} />}></Route>
