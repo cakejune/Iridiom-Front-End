@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import InfoModal from "./InfoModal";
 
 export default function Navbar(refreshIdioms) {
-  const [show, setShow] = useState(false);
+  const [show, setShow] = useState(true);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
   const handleRefreshIdioms = () => {
