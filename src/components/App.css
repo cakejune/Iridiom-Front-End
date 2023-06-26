@@ -46,7 +46,7 @@ a:active {
   align-items: center;
   display: flex;
   height: 3rem;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .leftlinks {
   display: flex;
@@ -96,10 +96,6 @@ a:active {
 }
 .specialHeader {
   color: rgb(0, 0, 0);
-  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff,
-    0 0 42px rgb(249, 54, 54), 0 0 82px rgb(249, 54, 54),
-    0 0 92px rgb(249, 54, 54), 0 0 102px rgb(249, 54, 54),
-    0 0 151px rgb(249, 54, 54);
   display: flex;
   justify-content: center;
   margin-bottom: 4em;
@@ -516,18 +512,23 @@ td {
 }
 
 .idiomkey {
+
   background-color: inherit;
   display: grid;
   margin: 1% auto;
-  grid-template-columns: repeat(7, 1fr);
-  width: 33%;
+  grid-template-columns: repeat(5, 8em);
+  width: 100%;
   font-size: 0.8em;
+  text-align: center;
+  justify-items: center;
 }
 
 .idiomKeyContainer {
   display: grid;
   justify-items: center;
+  align-items: center;
   margin-top: 1em;
+  justify-content: center;
 
 }
 

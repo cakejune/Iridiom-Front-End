@@ -9,13 +9,13 @@ export default function IdiomCategoryKey({setCategory, categories}) {
     "width": "4em",
     "height": "4em",
     "padding": "1px",
-    "margin": "1px",
+    "margin": "7px",
     "border": "1px solid #333",
     "borderRadius": "20%",
     "borderCollapse": "collapse",
     "overflow": "hidden",
     "transition": "all 0.2s ease-in-out",
-    "textAlign": "center",
+
     
   }
  
