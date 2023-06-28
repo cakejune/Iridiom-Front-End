@@ -12,6 +12,7 @@ export default function InfoModal({show, handleClose}){
       <Modal.Body>
         <div className="modalBodyContent">
           <div className="Meaning">
+            {/* Introduction and overview */}
             <p>
               At Iridiom, we turn learning English idioms into an elemental experience, similar to exploring the periodic table. 
               Iridiom, a playful twist on the element 'Iridium' and 'idiom', serves as your portal to an interactive and vibrant world of English idioms. 
@@ -19,6 +20,7 @@ export default function InfoModal({show, handleClose}){
             <p>
               Here's a quick guide on how to use Iridiom:
             </p>
+            {/* List of usage instructions */}
             <ol>
               <li>
                 <strong>Exploring Idioms: </strong>
@@ -38,6 +40,7 @@ export default function InfoModal({show, handleClose}){
                 Clicking on a category will dim idioms from other categories, allowing you to focus on idioms from your chosen category.
               </li>
             </ol>
+            {/* Closing remarks */}
             <p>
               We invite you to embark on this educational exploration, dive into the world of idioms, and most importantly, have fun! Welcome to Iridiom!
             </p>
@@ -45,6 +48,7 @@ export default function InfoModal({show, handleClose}){
         </div>
       </Modal.Body>
       <Modal.Footer>
+        {/* Close button */}
         <Button variant="secondary" className="close" onClick={handleClose}>
           Close
         </Button>

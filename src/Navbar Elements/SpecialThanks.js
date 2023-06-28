@@ -5,16 +5,6 @@ import React, { useState } from "react";
 import ElementModal from "../components/TableF/ElementModal";
 
 export default function SpecialThanks() {
-  //"id": 105,
-  // "elNum": "105",
-  // "abbr": "Bm",
-  // "phrase": "Once in a blue moon",
-  // "meaning": "Rarely",
-  // "usage": "as part of a sentence",
-  // "xy": "4,6",
-  // "created_at": "2023-04-24T19:29:06.518Z",
-  // "updated_at": "2023-04-24T19:29:06.518Z",
-  // "category": "Nature"
 
   const [showModal, setShowModal] = useState(false);
   const [selectedElement, setSelectedElement] = useState(null);
@@ -26,20 +16,20 @@ export default function SpecialThanks() {
       elNum: "5",
       abbr: "El",
       phrase: "Elisa",
-      meaning: "Pushes you to be better. Also kind of annoying.",
+      meaning: "Pushes you to be better. Loyal to a fault. Can't multitask.",
       usage: "as part of a cohort",
       created_at: "2023-04-24T19:29:06.518Z",
       updated_at: "2023-04-24T19:29:06.518Z",
-      category: "Special People",
+      category: "Dedication Crew",
     },
     {
       id: 201,
       elNum: "11",
       abbr: "Ch",
       phrase: "Chett",
-      meaning: "A fantastic instructor (often has an addiction to catnip).",
+      meaning: "An instructor who dedicates 50% of his time to teaching software concepts, and the other 50% with his cats.",
       usage: "as part of a cohort",
-      category: "Special People",
+      category: "Dedication Crew",
     },
     {
       id: 202,
@@ -48,16 +38,16 @@ export default function SpecialThanks() {
       phrase: "Alina",
       meaning: "A person with high levels of patience and empathy.",
       usage: "as part of a cohort",
-      category: "Special People",
+      category: "Dedication Crew",
     },
     {
       id: 203,
       elNum: "1",
       abbr: "Gr",
       phrase: "Grant",
-      meaning: "A digital being who acts as a catalyst for growth.",
+      meaning: "A friend and teacher. Play his game at https://www.https://polygonle.com/",
       usage: "as part of a cohort",
-      category: "Special People",
+      category: "Dedication Crew",
     },
   ];
 
