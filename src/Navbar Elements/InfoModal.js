@@ -44,6 +44,9 @@ export default function InfoModal({show, handleClose}){
             <p>
               We invite you to embark on this educational exploration, dive into the world of idioms, and most importantly, have fun! Welcome to Iridiom!
             </p>
+            <p>
+              <strong> - 🍰CakeJune☀️ </strong>
+            </p>
           </div>
         </div>
       </Modal.Body>
