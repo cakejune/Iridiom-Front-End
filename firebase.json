@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "/home/cakejune/Development/code/personal/iridiom/my-app",
+    "public": "build",
     "ignore": [
       "firebase.json",
       "**/.*",
