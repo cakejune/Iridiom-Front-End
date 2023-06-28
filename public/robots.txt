@@ -1,3 +1,222 @@
-# https://www.robotstxt.org/robotstxt.html
-User-agent: *
-Disallow:
+0
+"A blessing in disguise"
+1
+"A dime a dozen"
+2
+"Spitting distance"
+3
+"A stone's throw (away)"
+4
+"A bird in the hand is worth two in the bush"
+5
+"Don't give up your day job"
+6
+"Don't judge a book by its cover"
+7
+"Don't put all your eggs in one basket"
+8
+"Good things come to those who wait"
+9
+"Slow and steady wins the race"
+10
+"Barking up the wrong tree"
+11
+"Beat a dead horse"
+12
+"Don't count your chickens before they hatch"
+13
+"Every dog has his day"
+14
+"Go on a wild goose chase"
+15
+"Hair of the dog"
+16
+"He has bigger fish to fry"
+17
+"Hear something straight from the horse's mouth"
+18
+"It's raining cats and dogs"
+19
+"Kill two birds with one stone"
+20
+"Let sleeping dogs lie"
+21
+"There's more than one way to skin a cat"
+22
+"Bite off more than you can chew"
+23
+"Bite the bullet"
+24
+"By the skin of your teeth"
+25
+"Costs an arm and a leg"
+26
+"Get out of hand"
+27
+"Get something out of your system"
+28
+"Give someone the cold shoulder"
+29
+"Cat got your tongue?"
+30
+"Hit the nail on the head"
+31
+"Pull someone's leg"
+32
+"A weight off your shoulders"
+33
+"Achilles heel"
+34
+"Beauty is in the eye of the beholder"
+35
+"Break a leg"
+36
+"Gut feeling"
+37
+"My hands are tied"
+38
+"Head start"
+39
+"Joined at the hip"
+40
+"Pain in the neck/ass"
+41
+"to put your foot in your mouth"
+42
+"Sight for sore eyes"
+43
+"Weak at the knees"
+44
+"A picture is worth 1000 words"
+45
+"An open book"
+46
+"Make a long story short"
+47
+"By the book"
+48
+"Cook the books"
+49
+"Read someone like a book"
+50
+"Reading in between the lines"
+51
+"The oldest trick in the book"
+52
+"Curiosity killed the cat"
+53
+"Let the cat out of the bag"
+54
+"Look what the cat dragged in"
+55
+"When the cat's away, the mice will play"
+56
+"Do something at the drop of a hat"
+57
+"A Mexican Standoff"
+58
+"Irish Exit"
+59
+"It's all Greek to me"
+60
+"When in rome"
+61
+"Don't crying over spilt milk"
+62
+"Get a taste of your own medicine"
+63
+"It's a piece of cake"
+64
+"Like two peas in a pod"
+65
+"Out of the frying pan and into the fire"
+66
+"Spill the beans"
+67
+"Take it with a grain of salt"
+68
+"A bad apple"
+69
+"A Bite at the cherry"
+70
+"A plum job"
+71
+"An apple a day keeps the doctor away"
+72
+"Comparing apples to oranges"
+73
+"Go Bananas"
+74
+"Go pear-shaped"
+75
+"Lemon"
+76
+"Iridiom"
+77
+"the apple doesn't fall far from the tree"
+78
+"The apple of one's eye"
+79
+"Ball and Chain"
+80
+"Be An Item"
+81
+"Be Head Over Heels (In Love)"
+82
+"Be Lovey-Dovey"
+83
+"Birds of a feather flock together"
+84
+"Blind Date"
+85
+"Fall In Love With Somebody"
+86
+"Love At First Sight"
+87
+"Match Made In Heaven"
+88
+"Tie The Knot"
+89
+"A penny for your thoughts"
+90
+"Buy Time"
+91
+"Beat around the bush"
+92
+"Break the ice"
+93
+"Come rain or shine"
+94
+"Every cloud has a silver lining"
+95
+"Fight fire with fire"
+96
+"Get a second wind"
+97
+"Catch wind of something"
+98
+"Go down in flames"
+99
+"Have your head in the clouds"
+100
+"In the dark"
+101
+"Know which way the wind is blowing"
+102. "On cloud nine"
+103. "On thin ice"
+104. "Once in a blue moon"
+105. "Put something on ice"
+106. "Rain on someone's parade"
+107. "Run like the wind"
+108. "Saving for a rainy day"
+109. "Shoot for the stars"
+110. "Take a rain check"
+111. "A snowball effect"
+112. "A snowball's chance in hell"
+113. "As right as rain"
+114. "Calm before the storm"
+115. "A rising tide lifts all ships"
+116. "Be/feel under the weather"
+117. "Peachy"
+118. "Ar phrase"
+119. "It is what it is"

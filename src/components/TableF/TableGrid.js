@@ -38,6 +38,10 @@ export default function TableGrid({ elements, searchResults }) {
   };
 
   const checkIfSearched = (element) => {
+    
+    if (searchResults === undefined) {
+      return false;
+    }
     if (searchResults.length === 0) {
       return true;
     } //if there are no search results, then all elements should be searched

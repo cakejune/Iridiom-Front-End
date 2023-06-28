@@ -1442,568 +1442,474 @@
       },
       {
         "id": 173,
+        "abbr": "Bc",
+        "phrase": "The ball is in your court",
+        "meaning": "It is up to you to make the next decision or step",
+        "usage": "as part of a sentence",
         "elNum": "121",
-        "abbr": "Cl",
-        "phrase": "Cl phrase",
-        "meaning": "Quidem velit ea praesentium rerum culpa quia minus odit harum.",
-        "usage": "This idiom can be used in many ways.",
-        "xy": "8,2",
-        "created_at": "2023-04-28T20:27:35.412Z",
-        "updated_at": "2023-04-29T19:00:26.973Z",
-        "category": "Misc"
-      },
-      {
+        "category": "Advice",
+        "xy": "0,0"
+        },
+        {
         "id": 174,
+        "abbr": "Bm",
+        "phrase": "Burn the midnight oil",
+        "meaning": "To work late into the night, especially studying or working on a project",
+        "usage": "as part of a sentence",
         "elNum": "122",
-        "abbr": "Yi",
-        "phrase": "Yi phrase",
-        "meaning": "Rerum quis saepe qui quisquam et et qui et molestias.",
-        "usage": "This idiom can be used in many ways.",
-        "xy": "7,2",
-        "created_at": "2023-04-28T20:27:35.422Z",
-        "updated_at": "2023-04-29T19:00:26.981Z",
-        "category": "Misc"
-      },
-      {
+        "category": "Action",
+        "xy": "17,0"
+        },
+        {
         "id": 175,
+        "abbr": "Cb",
+        "phrase": "Cross that bridge when you come to it",
+        "meaning": "Deal with a problem if and when it becomes necessary, not before",
+        "usage": "as part of a sentence",
         "elNum": "123",
-        "abbr": "Ry",
-        "phrase": "Ry phrase",
-        "meaning": "Quis necessitatibus architecto veritatis quo tempora omnis excepturi sit omnis.",
-        "usage": "This idiom can be used in many ways.",
-        "xy": "6,2",
-        "created_at": "2023-04-28T20:27:35.432Z",
-        "updated_at": "2023-04-29T19:00:26.987Z",
-        "category": "Misc"
-      },
-      {
+        "category": "Advice",
+        "xy": "0,1"
+        },
+        {
         "id": 176,
+        "abbr": "Cw",
+        "phrase": "Cry wolf",
+        "meaning": "Give a false alarm, pretend something is wrong when it isn't",
+        "usage": "by itself",
         "elNum": "124",
-        "abbr": "Ku",
-        "phrase": "Ku phrase",
-        "meaning": "Pariatur non omnis sit ea error facere aut placeat quae.",
-        "usage": "This idiom can be used in many ways.",
-        "xy": "5,2",
-        "created_at": "2023-04-28T20:27:35.441Z",
-        "updated_at": "2023-04-29T19:00:26.995Z",
-        "category": "Misc"
-      },
-      {
+        "category": "Animals",
+        "xy": "1,1"
+        },
+        {
         "id": 177,
+        "abbr": "Db",
+        "phrase": "Don’t bite the hand that feeds you",
+        "meaning": "Don't act ungrateful to those who take care of you or are generous",
+        "usage": "as part of a sentence",
         "elNum": "125",
-        "abbr": "Kl",
-        "phrase": "Kl phrase",
-        "meaning": "Consequatur voluptas sint dolores incidunt officiis est facere mollitia voluptatem.",
-        "usage": "This idiom can be used in many ways.",
-        "xy": "4,2",
-        "created_at": "2023-04-28T20:27:35.451Z",
-        "updated_at": "2023-04-29T18:47:46.947Z",
-        "category": "Misc"
-      },
-      {
+        "category": "Advice",
+        "xy": "12,1"
+        },
+        {
         "id": 178,
+        "abbr": "Db",
+        "phrase": "Don’t burn your bridges",
+        "meaning": "Don't destroy your path, connections, or relationships in an irretrievable way",
+        "usage": "as part of a sentence",
         "elNum": "126",
-        "abbr": "Wq",
-        "phrase": "Wq phrase",
-        "meaning": "Maiores vero debitis perspiciatis doloribus expedita ad sed et officiis.",
-        "usage": "This idiom can be used in many ways.",
-        "xy": "3,2",
-        "created_at": "2023-04-28T20:27:35.460Z",
-        "updated_at": "2023-04-29T19:00:27.005Z",
-        "category": "Misc"
-      },
-      {
+        "category": "Advice",
+        "xy": "13,1"
+        },
+        {
         "id": 179,
+        "abbr": "Ff",
+        "phrase": "Fit as a fiddle",
+        "meaning": "In good physical health",
+        "usage": "as part of a sentence",
         "elNum": "127",
-        "abbr": "Xm",
-        "phrase": "Xm phrase",
-        "meaning": "Fuga possimus commodi consequatur omnis maxime dolor ab quia incidunt.",
-        "usage": "This idiom can be used in many ways.",
-        "xy": "2,2",
-        "created_at": "2023-04-28T20:27:35.470Z",
-        "updated_at": "2023-04-29T19:00:27.016Z",
-        "category": "Misc"
-      },
-      {
+        "category": "Body-parts",
+        "xy": "14,1"
+        },
+        {
         "id": 180,
+        "abbr": "Gk",
+        "phrase": "Get a kick out of",
+        "meaning": "To enjoy something very much",
+        "usage": "as part of a sentence",
         "elNum": "128",
-        "abbr": "Ti",
-        "phrase": "Ti phrase",
-        "meaning": "Voluptatibus ut esse soluta expedita illo tenetur rem ut assumenda.",
-        "usage": "This idiom can be used in many ways.",
-        "xy": "1,2",
-        "created_at": "2023-04-28T20:27:35.479Z",
-        "updated_at": "2023-04-29T19:00:27.023Z",
-        "category": "Misc"
-      },
-      {
+        "category": "Miscellaneous",
+        "xy": "15,1"
+        },
+        {
         "id": 181,
+        "abbr": "Ww",
+        "phrase": "Woke up on the wrong side of the bed",
+        "meaning": "To be in a bad mood or feeling irritable",
+        "usage": "as part of a sentence",
         "elNum": "129",
-        "abbr": "Qi",
-        "phrase": "Qi phrase",
-        "meaning": "Facilis sit porro eos cumque accusantium molestiae est earum iusto.",
-        "usage": "This idiom can be used in many ways.",
-        "xy": "0,2",
-        "created_at": "2023-04-28T20:27:35.488Z",
-        "updated_at": "2023-04-29T19:00:27.032Z",
-        "category": "Misc"
-      },
-      {
+        "category": "Body-parts",
+        "xy": "16,1"
+        },
+        {
         "id": 182,
+        "abbr": "Gd",
+        "phrase": "Give someone the benefit of the doubt",
+        "meaning": "To believe someone's statement without proof",
+        "usage": "as part of a sentence",
         "elNum": "130",
-        "abbr": "Ob",
-        "phrase": "Ob phrase",
-        "meaning": "Similique magni corrupti veniam odit aut est sequi qui illum.",
-        "usage": "This idiom can be used in many ways.",
-        "xy": "9,2",
-        "created_at": "2023-04-28T20:27:35.498Z",
-        "updated_at": "2023-04-29T19:00:27.039Z",
-        "category": "Misc"
-      },
-      {
+        "category": "Advice",
+        "xy": "17,1"
+        },
+        {
         "id": 183,
+        "abbr": "Ge",
+        "phrase": "Go the extra mile",
+        "meaning": "Making more effort than is expected of you",
+        "usage": "as part of a sentence",
         "elNum": "131",
-        "abbr": "Nj",
-        "phrase": "Nj phrase",
-        "meaning": "Id rerum odit tempore sequi minus sint rerum veritatis necessitatibus.",
-        "usage": "This idiom can be used in many ways.",
-        "xy": "10,2",
-        "created_at": "2023-04-28T20:27:35.507Z",
-        "updated_at": "2023-04-29T19:00:27.047Z",
-        "category": "Misc"
-      },
-      {
+        "category": "Action",
+        "xy": "0,2"
+        },
+        {
         "id": 184,
+        "abbr": "Hg",
+        "phrase": "He’s got the world on a string",
+        "meaning": "He is in complete control and can manipulate situations to his advantage",
+        "usage": "as part of a sentence",
         "elNum": "132",
-        "abbr": "Dy",
-        "phrase": "Dy phrase",
-        "meaning": "Modi ea aut animi iure officia quam omnis ipsum voluptas.",
-        "usage": "This idiom can be used in many ways.",
-        "xy": "11,2",
-        "created_at": "2023-04-28T20:27:35.516Z",
-        "updated_at": "2023-04-29T19:00:27.054Z",
-        "category": "Misc"
-      },
-      {
+        "category": "Miscellaneous",
+        "xy": "1,2"
+        },
+        {
         "id": 185,
+        "abbr": "Hs",
+        "phrase": "Hit the sack",
+        "meaning": "Go to bed",
+        "usage": "by itself",
         "elNum": "133",
-        "abbr": "Jk",
-        "phrase": "Jk phrase",
-        "meaning": "Accusamus quos eaque nostrum totam sunt unde id labore ea.",
-        "usage": "This idiom can be used in many ways.",
-        "xy": "12,2",
-        "created_at": "2023-04-28T20:27:35.525Z",
-        "updated_at": "2023-04-29T19:00:27.061Z",
-        "category": "Misc"
-      },
-      {
+        "category": "Body-parts",
+        "xy": "12,2"
+        },
+        {
         "id": 186,
+        "abbr": "Ih",
+        "phrase": "In over your head",
+        "meaning": "To be involved in a difficult situation that you cannot get out of",
+        "usage": "as part of a sentence",
         "elNum": "134",
-        "abbr": "Td",
-        "phrase": "Td phrase",
-        "meaning": "Aliquam quibusdam est rem amet necessitatibus sit suscipit voluptatem quisquam.",
-        "usage": "This idiom can be used in many ways.",
-        "xy": "13,2",
-        "created_at": "2023-04-28T20:27:35.535Z",
-        "updated_at": "2023-04-29T19:00:27.068Z",
-        "category": "Misc"
-      },
-      {
+        "category": "Action",
+        "xy": "13,2"
+        },
+        {
         "id": 187,
+        "abbr": "It",
+        "phrase": "It takes two to tango",
+        "meaning": "Actions or communications need more than one person",
+        "usage": "as part of a sentence",
         "elNum": "135",
-        "abbr": "Vp",
-        "phrase": "Vp phrase",
-        "meaning": "Voluptatem sunt ex et alias incidunt soluta saepe in delectus.",
-        "usage": "This idiom can be used in many ways.",
-        "xy": "14,2",
-        "created_at": "2023-04-28T20:27:35.543Z",
-        "updated_at": "2023-04-29T19:00:27.075Z",
-        "category": "Misc"
-      },
-      {
+        "category": "Advice",
+        "xy": "14,2"
+        },
+        {
         "id": 188,
+        "abbr": "Jb",
+        "phrase": "Jump on the bandwagon",
+        "meaning": "Join a popular trend or activity",
+        "usage": "as part of a sentence",
         "elNum": "136",
-        "abbr": "Zr",
-        "phrase": "Zr phrase",
-        "meaning": "Sit consequatur non qui quia blanditiis explicabo cum eos facilis.",
-        "usage": "This idiom can be used in many ways.",
-        "xy": "15,2",
-        "created_at": "2023-04-28T20:27:35.552Z",
-        "updated_at": "2023-04-29T19:00:27.082Z",
-        "category": "Misc"
-      },
-      {
+        "category": "Action",
+        "xy": "15,2"
+        },
+        {
         "id": 189,
+        "abbr": "Ks",
+        "phrase": "Keep something at arm’s length",
+        "meaning": "To keep something at a distance, either physically or figuratively",
+        "usage": "as part of a sentence",
         "elNum": "137",
-        "abbr": "Qu",
-        "phrase": "Qu phrase",
-        "meaning": "Ut sed consequatur expedita dignissimos natus ut et et facilis.",
-        "usage": "This idiom can be used in many ways.",
-        "xy": "16,2",
-        "created_at": "2023-04-28T20:27:35.560Z",
-        "updated_at": "2023-04-29T19:00:27.091Z",
-        "category": "Misc"
-      },
-      {
+        "category": "Body-parts",
+        "xy": "16,2"
+        },
+        {
         "id": 190,
+        "abbr": "Kw",
+        "phrase": "Knock on wood",
+        "meaning": "To express a hope that some good fortune will continue or come true",
+        "usage": "by itself",
         "elNum": "138",
-        "abbr": "Hw",
-        "phrase": "Hw phrase",
-        "meaning": "Quis dolor similique officiis voluptatem velit et facilis autem alias.",
-        "usage": "This idiom can be used in many ways.",
-        "xy": "17,2",
-        "created_at": "2023-04-28T20:27:35.568Z",
-        "updated_at": "2023-04-29T19:00:27.099Z",
-        "category": "Misc"
-      },
-      {
+        "category": "Nature",
+        "xy": "17,2"
+        },
+        {
         "id": 191,
+        "abbr": "Ls",
+        "phrase": "Last straw",
+        "meaning": "The final problem in a series of problems that makes the situation unbearable",
+        "usage": "as part of a sentence",
         "elNum": "139",
-        "abbr": "Td",
-        "phrase": "Td phrase",
-        "meaning": "Magni sit ut molestiae id molestiae laboriosam quia veritatis odio.",
-        "usage": "This idiom can be used in many ways.",
-        "xy": "8,5",
-        "created_at": "2023-04-28T20:27:35.577Z",
-        "updated_at": "2023-04-29T19:00:27.106Z",
-        "category": "Misc"
-      },
-      {
+        "category": "Miscellaneous",
+        "xy": "0,3"
+        },
+        {
         "id": 192,
+        "abbr": "Sb",
+        "phrase": "Straw that broke the camel's back",
+        "meaning": "The final problem in a series of problems that makes the situation unbearable",
+        "usage": "as part of a sentence",
         "elNum": "140",
-        "abbr": "Xo",
-        "phrase": "Xo phrase",
-        "meaning": "Quia tenetur sapiente totam distinctio at vel nobis consequatur animi.",
-        "usage": "This idiom can be used in many ways.",
-        "xy": "8,6",
-        "created_at": "2023-04-28T20:27:35.584Z",
-        "updated_at": "2023-04-29T19:00:27.113Z",
-        "category": "Misc"
-      },
-      {
+        "category": "Animals",
+        "xy": "1,3"
+        },
+        {
         "id": 193,
+        "abbr": "Lc",
+        "phrase": "Let the cat out of the bag",
+        "meaning": "To reveal a secret",
+        "usage": "as part of a sentence",
         "elNum": "141",
-        "abbr": "Le",
-        "phrase": "Le phrase",
-        "meaning": "Eaque asperiores perspiciatis omnis nam illo aliquid iusto officiis autem.",
-        "usage": "This idiom can be used in many ways.",
-        "xy": "8,7",
-        "created_at": "2023-04-28T20:27:35.593Z",
-        "updated_at": "2023-04-29T19:00:27.120Z",
-        "category": "Misc"
-      },
-      {
+        "category": "Cats",
+        "xy": "2,3"
+        },
+        {
         "id": 194,
+        "abbr": "Mb",
+        "phrase": "Miss the boat",
+        "meaning": "It's too late",
+        "usage": "as part of a sentence",
         "elNum": "142",
-        "abbr": "Ni",
-        "phrase": "Ni phrase",
-        "meaning": "Rerum qui consequatur velit tempora atque enim quia et optio.",
-        "usage": "This idiom can be used in many ways.",
-        "xy": "7,7",
-        "created_at": "2023-04-28T20:27:35.602Z",
-        "updated_at": "2023-04-29T19:00:27.127Z",
-        "category": "Misc"
-      },
-      {
+        "category": "Action",
+        "xy": "3,3"
+        },
+        {
         "id": 195,
+        "abbr": "Np",
+        "phrase": "No pain, no gain",
+        "meaning": "You have to work for what you want",
+        "usage": "by itself",
         "elNum": "143",
-        "abbr": "Kr",
-        "phrase": "Kr phrase",
-        "meaning": "Doloribus inventore ipsam veritatis cupiditate corporis velit est ipsum impedit.",
-        "usage": "This idiom can be used in many ways.",
-        "xy": "6,7",
-        "created_at": "2023-04-28T20:27:35.612Z",
-        "updated_at": "2023-04-29T19:00:27.134Z",
-        "category": "Misc"
-      },
-      {
+        "category": "Advice",
+        "xy": "4,3"
+        },
+        {
         "id": 196,
+        "abbr": "Np",
+        "phrase": "Not playing with a full deck",
+        "meaning": "Someone who lacks intelligence",
+        "usage": "as part of a sentence",
         "elNum": "144",
-        "abbr": "Qb",
-        "phrase": "Qb phrase",
-        "meaning": "Doloribus aspernatur fugit corrupti eum rerum eum laborum qui enim.",
-        "usage": "This idiom can be used in many ways.",
-        "xy": "5,7",
-        "created_at": "2023-04-28T20:27:35.620Z",
-        "updated_at": "2023-04-29T19:00:27.140Z",
-        "category": "Misc"
-      },
-      {
+        "category": "Miscellaneous",
+        "xy": "5,3"
+        },
+        {
         "id": 197,
+        "abbr": "Oh",
+        "phrase": "Off the hook",
+        "meaning": "No longer have to deal with a tough situation",
+        "usage": "as part of a sentence",
         "elNum": "145",
-        "abbr": "St",
-        "phrase": "St phrase",
-        "meaning": "Cumque optio iste et sed sapiente numquam accusantium quos porro.",
-        "usage": "This idiom can be used in many ways.",
-        "xy": "4,7",
-        "created_at": "2023-04-28T20:27:35.635Z",
-        "updated_at": "2023-04-29T19:00:27.149Z",
-        "category": "Misc"
-      },
-      {
+        "category": "Miscellaneous",
+        "xy": "6,3"
+        },
+        {
         "id": 198,
+        "abbr": "Ot",
+        "phrase": "Out of the blue",
+        "meaning": "Suddenly and unexpectedly",
+        "usage": "as part of a sentence",
         "elNum": "146",
-        "abbr": "Ag",
-        "phrase": "Ag phrase",
-        "meaning": "Tempore eaque quia aperiam cum qui temporibus omnis debitis molestiae.",
-        "usage": "This idiom can be used in many ways.",
-        "xy": "3,7",
-        "created_at": "2023-04-28T20:27:35.643Z",
-        "updated_at": "2023-04-29T19:00:27.158Z",
-        "category": "Misc"
-      },
-      {
+        "category": "Nature",
+        "xy": "7,3"
+        },
+        {
         "id": 199,
+        "abbr": "Ps",
+        "phrase": "Put a sock in it",
+        "meaning": "To tell someone to be quiet",
+        "usage": "by itself",
         "elNum": "147",
-        "abbr": "We",
-        "phrase": "We phrase",
-        "meaning": "Est quo porro nihil aut unde aliquam voluptate possimus quibusdam.",
-        "usage": "This idiom can be used in many ways.",
-        "xy": "2,7",
-        "created_at": "2023-04-28T20:27:35.652Z",
-        "updated_at": "2023-04-29T19:00:27.165Z",
-        "category": "Misc"
-      },
-      {
+        "category": "Clothing",
+        "xy": "8,3"
+        },
+        {
         "id": 200,
+        "abbr": "Se",
+        "phrase": "See eye to eye",
+        "meaning": "This means to agree with someone or to share their opinion",
+        "usage": "as part of a sentence",
         "elNum": "148",
-        "abbr": "Fk",
-        "phrase": "Fk phrase",
-        "meaning": "Exercitationem rerum asperiores ullam iure officiis odit quis consectetur quidem.",
-        "usage": "This idiom can be used in many ways.",
-        "xy": "1,7",
-        "created_at": "2023-04-28T20:27:35.660Z",
-        "updated_at": "2023-04-29T19:00:27.172Z",
-        "category": "Misc"
-      },
-      {
+        "category": "Body-parts",
+        "xy": "9,3"
+        },
+        {
         "id": 201,
+        "abbr": "St",
+        "phrase": "Steal someone’s thunder",
+        "meaning": "To take the credit for something someone else did",
+        "usage": "as part of a sentence",
         "elNum": "149",
-        "abbr": "Kf",
-        "phrase": "Kf phrase",
-        "meaning": "Perferendis sed ducimus ea animi quia et sint alias consequatur.",
-        "usage": "This idiom can be used in many ways.",
-        "xy": "0,7",
-        "created_at": "2023-04-28T20:27:35.668Z",
-        "updated_at": "2023-04-29T19:00:27.179Z",
-        "category": "Misc"
-      },
-      {
+        "category": "Action",
+        "xy": "10,3"
+        },
+        {
         "id": 202,
+        "abbr": "Bs",
+        "phrase": "The best thing since sliced bread",
+        "meaning": "A good invention or innovation. A good idea or plan",
+        "usage": "as part of a sentence",
         "elNum": "150",
-        "abbr": "Sw",
-        "phrase": "Sw phrase",
-        "meaning": "Doloribus qui magnam consequuntur qui a quas ea consequatur quam.",
-        "usage": "This idiom can be used in many ways.",
-        "xy": "9,7",
-        "created_at": "2023-04-28T20:27:35.676Z",
-        "updated_at": "2023-04-29T19:00:27.186Z",
-        "category": "Misc"
-      },
-      {
+        "category": "Food",
+        "xy": "11,3"
+        },
+        {
         "id": 203,
+        "abbr": "Tt",
+        "phrase": "Throw in the towel",
+        "meaning": "To give up",
+        "usage": "as part of a sentence",
         "elNum": "151",
-        "abbr": "Nk",
-        "phrase": "Nk phrase",
-        "meaning": "Eum qui doloremque est officia aut animi consectetur aut quo.",
-        "usage": "This idiom can be used in many ways.",
-        "xy": "10,7",
-        "created_at": "2023-04-28T20:27:35.686Z",
-        "updated_at": "2023-04-29T19:00:27.194Z",
-        "category": "Misc"
-      },
-      {
+        "category": "Action",
+        "xy": "12,3"
+        },
+        {
         "id": 204,
+        "abbr": "Ua",
+        "phrase": "Up in the air",
+        "meaning": "Uncertain or unsure; not yet settled or resolved",
+        "usage": "as part of a sentence",
         "elNum": "152",
-        "abbr": "Yb",
-        "phrase": "Yb phrase",
-        "meaning": "Est accusamus rerum voluptatem quis nihil numquam et et aut.",
-        "usage": "This idiom can be used in many ways.",
-        "xy": "11,7",
-        "created_at": "2023-04-28T20:27:35.696Z",
-        "updated_at": "2023-04-29T19:00:27.201Z",
-        "category": "Misc"
-      },
-      {
+        "category": "Nature",
+        "xy": "13,3"
+        },
+        {
         "id": 205,
+        "abbr": "Wc",
+        "phrase": "We’ll cross that bridge when we come to it",
+        "meaning": "Let’s not talk about what might happen in the future today",
+        "usage": "as part of a sentence",
         "elNum": "153",
-        "abbr": "Tn",
-        "phrase": "Tn phrase",
-        "meaning": "Sunt quibusdam eos facere ab provident porro officia nemo impedit.",
-        "usage": "This idiom can be used in many ways.",
-        "xy": "12,7",
-        "created_at": "2023-04-28T20:27:35.705Z",
-        "updated_at": "2023-04-29T19:00:27.208Z",
-        "category": "Misc"
-      },
-      {
+        "category": "Advice",
+        "xy": "14,3"
+        },
+        {
         "id": 206,
+        "abbr": "We",
+        "phrase": "Wet behind the ears",
+        "meaning": "Inexperienced",
+        "usage": "as part of a sentence",
         "elNum": "154",
-        "abbr": "Ul",
-        "phrase": "Ul phrase",
-        "meaning": "Rerum officia et et qui consequuntur iure consequatur provident sint.",
-        "usage": "This idiom can be used in many ways.",
-        "xy": "13,7",
-        "created_at": "2023-04-28T20:27:35.713Z",
-        "updated_at": "2023-04-29T19:00:27.215Z",
-        "category": "Misc"
-      },
-      {
+        "category": "Body-parts",
+        "xy": "15,3"
+        },
+        {
         "id": 207,
+        "abbr": "Wd",
+        "phrase": "Wouldn’t be caught dead",
+        "meaning": "Would never like to or never want to",
+        "usage": "as part of a sentence",
         "elNum": "155",
-        "abbr": "Yr",
-        "phrase": "Yr phrase",
-        "meaning": "Vitae magni vel ad sint id in ea quam voluptatem.",
-        "usage": "This idiom can be used in many ways.",
-        "xy": "14,7",
-        "created_at": "2023-04-28T20:27:35.723Z",
-        "updated_at": "2023-04-29T19:00:27.222Z",
-        "category": "Misc"
-      },
-      {
+        "category": "Miscellaneous",
+        "xy": "16,3"
+        },
+        {
         "id": 208,
+        "abbr": "Bb",
+        "phrase": "Bend over backwards",
+        "meaning": "To do whatever it takes to help",
+        "usage": "as part of a sentence",
         "elNum": "156",
-        "abbr": "Uf",
-        "phrase": "Uf phrase",
-        "meaning": "Nemo eum eaque ut consequatur sapiente et et sed vitae.",
-        "usage": "This idiom can be used in many ways.",
-        "xy": "15,7",
-        "created_at": "2023-04-28T20:27:35.731Z",
-        "updated_at": "2023-04-29T19:00:27.231Z",
-        "category": "Misc"
-      },
-      {
+        "category": "Action",
+        "xy": "17,3"
+        },
+        {
         "id": 209,
+        "abbr": "Tt",
+        "phrase": "Through thick and thin",
+        "meaning": "Through good times and bad times",
+        "usage": "as part of a sentence",
         "elNum": "157",
-        "abbr": "Jq",
-        "phrase": "Jq phrase",
-        "meaning": "Consequatur quas qui consequatur quo id est quam iste necessitatibus.",
-        "usage": "This idiom can be used in many ways.",
-        "xy": "16,7",
-        "created_at": "2023-04-28T20:27:35.739Z",
-        "updated_at": "2023-04-29T19:00:27.238Z",
-        "category": "Misc"
-      },
-      {
+        "category": "Advice",
+        "xy": "0,4"
+        },
+        {
         "id": 210,
+        "abbr": "Cc",
+        "phrase": "Cut corners",
+        "meaning": "To do something in the easiest, quickest, or cheapest way, often harming the quality of your work",
+        "usage": "as part of a sentence",
         "elNum": "158",
-        "abbr": "Pd",
-        "phrase": "Pd phrase",
-        "meaning": "Eum occaecati nihil minima in iste consequatur laboriosam ducimus voluptatum.",
-        "usage": "This idiom can be used in many ways.",
-        "xy": "17,7",
-        "created_at": "2023-04-28T20:27:35.748Z",
-        "updated_at": "2023-04-29T19:00:27.246Z",
-        "category": "Misc"
-      },
-      {
+        "category": "Action",
+        "xy": "1,4"
+        },
+        {
         "id": 211,
+        "abbr": "Te",
+        "phrase": "The early bird catches the worm",
+        "meaning": "People who wake up early or who get to places early are more likely to succeed",
+        "usage": "by itself",
         "elNum": "159",
-        "abbr": "Ag",
-        "phrase": "Ag phrase",
-        "meaning": "Accusamus sit ut doloribus quasi itaque voluptates enim quod unde.",
-        "usage": "This idiom can be used in many ways.",
-        "xy": "7,4",
-        "created_at": "2023-04-28T20:27:35.756Z",
-        "updated_at": "2023-04-29T19:00:27.253Z",
-        "category": "Misc"
-      },
-      {
+        "category": "Advice",
+        "xy": "2,4"
+        },
+        {
         "id": 212,
+        "abbr": "Gt",
+        "phrase": "Get your act together",
+        "meaning": "Work better or leave",
+        "usage": "by itself",
         "elNum": "160",
-        "abbr": "Mm",
-        "phrase": "Mm phrase",
-        "meaning": "Sit modi maxime molestiae culpa animi non recusandae et molestias.",
-        "usage": "This idiom can be used in many ways.",
-        "xy": "6,4",
-        "created_at": "2023-04-28T20:27:35.764Z",
-        "updated_at": "2023-04-29T19:00:27.262Z",
-        "category": "Misc"
-      },
-      {
+        "category": "Advice",
+        "xy": "3,4"
+        },
+        {
         "id": 213,
+        "abbr": "Hi",
+        "phrase": "Hang in there",
+        "meaning": "Don't give up",
+        "usage": "by itself",
         "elNum": "161",
-        "abbr": "Nb",
-        "phrase": "Nb phrase",
-        "meaning": "Ut quaerat autem voluptatem qui reprehenderit dicta voluptatem aut dolor.",
-        "usage": "This idiom can be used in many ways.",
-        "xy": "5,4",
-        "created_at": "2023-04-28T20:27:35.772Z",
-        "updated_at": "2023-04-29T19:00:27.269Z",
-        "category": "Misc"
-      },
-      {
+        "category": "Advice",
+        "xy": "4,4"
+        },
+        {
         "id": 214,
+        "abbr": "Ob",
+        "phrase": "On the ball",
+        "meaning": "Aware of and able to deal with events or situations effectively",
+        "usage": "as part of a sentence",
         "elNum": "162",
-        "abbr": "Jt",
-        "phrase": "Jt phrase",
-        "meaning": "Voluptatem dolorem eum suscipit libero cum voluptate quisquam ut dolor.",
-        "usage": "This idiom can be used in many ways.",
-        "xy": "9,4",
-        "created_at": "2023-04-28T20:27:35.781Z",
-        "updated_at": "2023-04-29T19:00:27.276Z",
-        "category": "Misc"
-      },
-      {
+        "category": "Action",
+        "xy": "5,4"
+        },
+        {
         "id": 215,
+        "abbr": "St",
+        "phrase": "Sit tight",
+        "meaning": "To wait patiently",
+        "usage": "by itself",
         "elNum": "163",
-        "abbr": "Jt",
-        "phrase": "Jt phrase",
-        "meaning": "Voluptate expedita vitae sed ipsa dolores quia laborum alias consequatur.",
-        "usage": "This idiom can be used in many ways.",
-        "xy": "10,4",
-        "created_at": "2023-04-28T20:27:35.789Z",
-        "updated_at": "2023-04-29T19:00:27.283Z",
-        "category": "Misc"
-      },
-      {
+        "category": "Advice",
+        "xy": "6,4"
+        },
+        {
         "id": 216,
+        "abbr": "Tg",
+        "phrase": "Through the grapevine",
+        "meaning": "Through gossip",
+        "usage": "as part of a sentence",
         "elNum": "164",
-        "abbr": "Ca",
-        "phrase": "Ca phrase",
-        "meaning": "Eveniet eaque dicta harum molestias expedita molestiae libero omnis autem.",
-        "usage": "This idiom can be used in many ways.",
-        "xy": "11,4",
-        "created_at": "2023-04-28T20:27:35.797Z",
-        "updated_at": "2023-04-29T19:00:27.290Z",
-        "category": "Misc"
-      },
-      {
+        "category": "Miscellaneous",
+        "xy": "7,4"
+        },
+        {
         "id": 217,
+        "abbr": "Bb",
+        "phrase": "Break the bank",
+        "meaning": "To cost too much",
+        "usage": "as part of a sentence",
         "elNum": "165",
-        "abbr": "Ts",
-        "phrase": "Ts phrase",
-        "meaning": "Suscipit explicabo natus quod architecto rerum consequatur tempore eaque aut.",
-        "usage": "This idiom can be used in many ways.",
-        "xy": "7,5",
-        "created_at": "2023-04-28T20:27:35.805Z",
-        "updated_at": "2023-04-29T19:00:27.299Z",
-        "category": "Misc"
-      },
-      {
+        "category": "Money",
+        "xy": "8,4"
+        },
+        {
         "id": 218,
+        "abbr": "Bh",
+        "phrase": "Bury the hatchet",
+        "meaning": "To make peace; to settle one’s differences",
+        "usage": "as part of a sentence",
         "elNum": "166",
-        "abbr": "Pd",
-        "phrase": "Pd phrase",
-        "meaning": "Consequatur laudantium sed architecto dicta laborum qui doloremque et vero.",
-        "usage": "This idiom can be used in many ways.",
-        "xy": "6,5",
-        "created_at": "2023-04-28T20:27:35.814Z",
-        "updated_at": "2023-04-29T19:00:27.305Z",
-        "category": "Misc"
-      },
-      {
+        "category": "Action",
+        "xy": "9,4"
+        },
+        {
         "id": 219,
+        "abbr": "Ct",
+        "phrase": "Cut to the chase",
+        "meaning": "Leave out all the unnecessary details and just get to the point",
+        "usage": "as part of a sentence",
         "elNum": "167",
-        "abbr": "Ki",
-        "phrase": "Ki phrase",
-        "meaning": "Qui hic autem praesentium aliquam ut quia est sunt sunt.",
-        "usage": "This idiom can be used in many ways.",
-        "xy": "5,5",
-        "created_at": "2023-04-28T20:27:35.823Z",
-        "updated_at": "2023-04-29T19:00:27.313Z",
-        "category": "Misc"
-      },
+        "category": "Action",
+        "xy": "10,4"
+        },
       {
         "id": 220,
         "elNum": "168",
@@ -2011,7 +1917,7 @@
         "phrase": "Mo phrase",
         "meaning": "Et eveniet eius quasi voluptatem sequi enim enim dignissimos sit.",
         "usage": "This idiom can be used in many ways.",
-        "xy": "9,5",
+        "xy": null,
         "created_at": "2023-04-28T20:27:35.832Z",
         "updated_at": "2023-04-29T19:00:27.322Z",
         "category": "Misc"
