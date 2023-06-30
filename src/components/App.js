@@ -20,6 +20,14 @@ function App() {
   });
   
   // Define state variables
+  const [element_page, setElementPage] = useState(1); // Page number for pagination
+  const increasePage = () => {
+    setElementPage(2);
+  };
+  // Function to switch to the previous page.
+  const decreasePage = () => {
+    setElementPage(1);
+  };
   const categories = [...new Set(categoryList)]; 
   const [selectedCategory, setSelectedCategory] = useState(""); // Selected category in filter/search
   const [elementToEdit, setElementToEdit] = useState({}); // Used in a private branch for editing elements
@@ -70,6 +78,9 @@ function App() {
               renderSearchResults={renderSearchResults}
               elements={elements}
               key={0}
+              element_page={element_page}
+              increasePage={increasePage}
+              decreasePage={decreasePage}
             />,
             //Render the TableGrid component and pass required props
             <div className="tableContainer" key={15}>
@@ -77,6 +88,7 @@ function App() {
               searchResults={searchResults}
               elements={elements}
               key={1}
+              element_page={element_page}
             />
             </div>,
             

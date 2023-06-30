@@ -7,25 +7,20 @@ import IdiomCategoryKey from "./IdiomCategoryKey";
 //import constants from constants.js
 import { first_page, second_page, third_page } from "../../constants.js";
 
-export default function TableGrid({ elements, searchResults }) {
+export default function TableGrid({ elements, searchResults, element_page }) {
   // State to track which page of elements to display.
-  const [element_page, setElementPage] = useState(0);
+ 
   // State to control the visibility of the ElementModal.
   const [show, setShow] = useState(false);
 
   // Divide elements into pages.
+  const page0 = [1]
   const page1 = elements?.slice(0, 118);
   const page2 = elements?.slice(118, 172);
-  const pages = [page1, page2];
+  const pages = [page0, page1, page2];
 
   // Function to switch to the next page.
-  const increasePage = () => {
-    setElementPage(1);
-  };
-  // Function to switch to the previous page.
-  const decreasePage = () => {
-    setElementPage(0);
-  };
+ 
 
   // State to store the selected element.
   const [selectedElement, setSelectedElement] = useState([]);
@@ -111,16 +106,11 @@ export default function TableGrid({ elements, searchResults }) {
       <div
         className="tableGridContainer"
       >
-        {/* Arrow to switch to previous page */}
-        <p onClick={decreasePage}>
-          <i className={element_page === 1 ? "arrow left" : null}></i>
-        </p>
+        
         {/* Table Grid */}
         <div className="tableGrid">{render()}</div>
         {/* Arrow to switch to next page */}
-        <p onClick={increasePage}>
-          <i className={element_page === 0 ? "arrow right" : null}></i>
-        </p>
+        
       </div>
     </>
   );
