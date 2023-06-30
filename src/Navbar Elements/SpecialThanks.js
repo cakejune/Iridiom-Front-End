@@ -45,7 +45,7 @@ export default function SpecialThanks() {
       elNum: "1",
       abbr: "Gr",
       phrase: "Grant",
-      meaning: "A friend and teacher. Play his game at https://www.https://polygonle.com/",
+      meaning: 'A friend and teacher. Play his game <a href="https://polygonle.com">here</a>.',
       usage: "as part of a cohort",
       category: "Dedication Crew",
     },

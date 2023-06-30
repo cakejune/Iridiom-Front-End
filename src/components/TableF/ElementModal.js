@@ -5,11 +5,16 @@ import { useNavigate } from "react-router-dom";
 
 export default function ElementModal({ element, show, handleClose }) {
   const navigate = useNavigate(); // Hook from react-router-dom for navigation (not used in the component).
+  const renderMeaning = () => {
+    const html = { __html: `Meaning: ` + element.meaning };
+    return <div className="Meaning" dangerouslySetInnerHTML={html}></div>;
+  };
 
   // Don't render the modal if there is no element.
   if (!element) {
     return <></>;
   }
+
 
   return (
     <Modal
@@ -28,7 +33,7 @@ export default function ElementModal({ element, show, handleClose }) {
         {/* Content inside the body of the modal */}
         <div className="modalBodyContent">
           {/* Display the meaning of the element */}
-          <div className="Meaning">{`Meaning: ${element.meaning}`}</div>
+          {renderMeaning()}
           {/* Display the usage of the element */}
           <div className="Usage">{`Usage: ${element.usage}`}</div>
           {/* Display the category of the element */}
