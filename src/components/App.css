@@ -229,12 +229,6 @@ a:active {
   color: #61dafb;
 }
 
-.tableContainer {
-  width: 100%;
-  margin: 0 auto;
-  overflow-x: scroll;
-}
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -484,16 +478,38 @@ td {
   display: inline-block;
   pointer-events: none;
 }
-.tableGridContainer {
+
+.tableContainer {
+  width: 100%;
+  overflow-x: auto;
   display: flex;
-  align-items: center;
+  justify-content: center;
+  
+}
+
+.tableGridContainer::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, and Opera */
+}
+
+.tableGridContainer {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: flex-start;
+  overflow-x: auto;
+  margin: 0 auto;
+  max-width: 100%;
+  scrollbar-width: none;
 }
 
 .tableGrid {
   display: grid;
   grid-template-columns: repeat(18, 4em);
   justify-content: center;
+  flex-wrap: nowrap;
 }
+
+/* Rest of your existing styles... */
+
 
 /*SearchResults
 */
