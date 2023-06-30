@@ -1,5 +1,5 @@
 // Import required modules and dependencies
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./App.css";
 import Navbar from "../Navbar Elements/Navbar";
 import TableGrid from "./TableF/TableGrid";
@@ -39,10 +39,27 @@ function App() {
 
   }
 
+  useEffect(() => {
+    const handleWindowResize = () => {
+      const isMobile = window.innerWidth < 768;
+      // Perform additional actions based on device type
+      if (isMobile) {
+        // Code for mobile view
+      } else {
+        // Code for desktop view
+      }
+    };
+    window.addEventListener("resize", handleWindowResize);
+
+    return () => {
+      window.removeEventListener("resize", handleWindowResize);
+    };
+  }, []);
     // Return the JSX to render the App component
   return (
     <div className="appDiv">
       <Navbar /> {/* Render the Navbar component */}
+      <div className="appContainer">
       <Routes>
         {/* Define the main route (homepage) */}
         <Route
@@ -55,11 +72,14 @@ function App() {
               key={0}
             />,
             //Render the TableGrid component and pass required props
+            <div className="tableContainer" key={15}>
             <TableGrid
               searchResults={searchResults}
               elements={elements}
               key={1}
-            />,
+            />
+            </div>,
+            
             //Render the IdiomCategoryKey component and pass required props
             <IdiomCategoryKey
               key={9}
@@ -75,6 +95,7 @@ function App() {
           element={<SpecialThanks key={4} />}
         ></Route>
       </Routes>
+      </div>
     </div>
   );
 }

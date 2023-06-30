@@ -110,12 +110,6 @@ export default function TableGrid({ elements, searchResults }) {
       {/* Table Grid Container */}
       <div
         className="tableGridContainer"
-        style={{
-          display: "flex",
-          flexDirection: "row",
-          justifyContent: "space-evenly",
-          alignItems: "center",
-        }}
       >
         {/* Arrow to switch to previous page */}
         <p onClick={decreasePage}>

@@ -32,6 +32,13 @@ a:active {
   align-items: center;
 }
 
+.appDiv {
+  padding: 0;
+  margin: 0;
+}
+
+
+
 /*NavBar*/
 
 .navibar {
@@ -83,7 +90,7 @@ a:active {
   font-weight: 700;
   color: #fd0de2;
   border-style: double;
-  margin-top: -1em;
+  margin-top: 0em;
   margin-bottom: 1em;
   width: 20em;
 }
@@ -187,6 +194,11 @@ a:active {
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
 
+.appContainer {
+  overflow-x: auto;
+
+}
+
 .App {
   text-align: center;
 }
@@ -215,6 +227,12 @@ a:active {
 
 .App-link {
   color: #61dafb;
+}
+
+.tableContainer {
+  width: 100%;
+  margin: 0 auto;
+  overflow-x: scroll;
 }
 
 @keyframes App-logo-spin {
@@ -465,6 +483,10 @@ td {
   transition: all 0.2s ease-in-out;
   display: inline-block;
   pointer-events: none;
+}
+.tableGridContainer {
+  display: flex;
+  align-items: center;
 }
 
 .tableGrid {
