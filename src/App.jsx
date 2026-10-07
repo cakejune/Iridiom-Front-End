@@ -66,7 +66,10 @@ export default function App() {
       </main>
 
       <footer className="footer">
-        <span>Iridiom · 354 idioms in 3 tables</span>
+        <span>
+          Iridiom · 354 idioms in 3 tables · Created by{" "}
+          <a href="https://www.instagram.com/cake_june/" target="_blank" rel="noopener noreferrer">Cake June</a>
+        </span>
         <span>
           <a href="#/about">How it works</a> · <a href="#/thanks">Special thanks</a>
         </span>
