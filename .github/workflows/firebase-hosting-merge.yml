@@ -1,0 +1,21 @@
+# Deploys the live site to Firebase Hosting whenever changes land on the default branch.
+name: Deploy to Firebase Hosting on merge
+'on':
+  push:
+    branches:
+      - new-backend-to-json
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm ci && npm test && npm run build
+      - uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: '${{ secrets.GITHUB_TOKEN }}'
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_IRIDIOM_B80C9 }}'
+          channelId: live
+          projectId: iridiom-b80c9

@@ -32,9 +32,8 @@ Families fill the table column by column in the order listed in `src/data/catego
 
 ## Deploying
 
-Hosting is Firebase (`firebase.json` serves `dist/`):
+Hosting is Firebase (`firebase.json` serves `dist/`).
 
-```bash
-npm run build
-firebase deploy --only hosting
-```
+- **Automatic:** merging into `new-backend-to-json` runs `.github/workflows/firebase-hosting-merge.yml`, which tests, builds and deploys to the live site.
+- **Pull requests** get a temporary preview link posted as a comment.
+- **Manual:** `npm run build && firebase deploy --only hosting`
